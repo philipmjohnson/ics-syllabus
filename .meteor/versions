@@ -77,6 +77,7 @@ underscorestring:underscore.string@3.2.1
 url@1.0.4
 useraccounts:bootstrap@1.12.3
 useraccounts:core@1.12.3
+useraccounts:iron-routing@1.12.3
 webapp@1.2.0
 webapp-hashing@1.0.3
 yasinuslu:blaze-meta@0.3.1
