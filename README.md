@@ -38,7 +38,9 @@ A syllabus consists of the following fields:
 
 ## ICS Student Learning Outcomes
 
-  * (a) Students can apply knowledge of computing and mathematics appropriate to the discipline (b) Students can analyze a problem, and identify and define the computing requirements appropriate to its solution
+  * (a) Students can apply knowledge of computing and mathematics appropriate to the discipline
+
+  * (b) Students can analyze a problem, and identify and define the computing requirements appropriate to its solution
 
   * (c) Students can design, implement, and evaluate a computer-based system, process, component, or program to meet desired needs
 

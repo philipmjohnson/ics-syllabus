@@ -1,0 +1,3 @@
+To use session var to populate a form by selecting a value from another form:
+* http://autoform.meteor.com/updateaf
+
