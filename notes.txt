@@ -2,9 +2,24 @@ To use session var to populate a form by selecting a value from another form:
 * http://autoform.meteor.com/updateaf
 
 Next steps:
-* After saving an entry, should clear out session value so that display is blanked and user must press "Edit" again.
 * Add more course info.
-* Figure out how to output the JSON. (Syllabuses.find().fetch())
-* Login with UH CAS.
-* Get t-shirt.
+* Figure out workflow for updating app with new courses and archived info.
+* Update readme with user guide, publish with github pages.
+
+* Request t-shirt.
+
+* Nice to have
+- UH CAS authentication.
+- Real-time updates.
+- Instructor name
+
+User account options:
+https://github.com/meteor-useraccounts/core/blob/master/Guide.md#options
+
+Deploy:
+http://docs.meteor.com/#/full/meteordeploy
+
+To redeploy:
+meteor deploy test.meteor.com --delete
+meteor deploy test.meteor.com
 

@@ -17,6 +17,13 @@
         {{#if currentUser}}
           <ul class="nav navbar-nav navbar-right">
             <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="#">Export<b class="caret"></b></a>
+              <ul class="dropdown-menu" role="menu">
+                <li><a href="/exportJson">JSON</a></li>
+                <li><a href="/exportMarkdown">Markdown</a></li>
+              </ul>
+            </li>
+            <li class="dropdown">
               <a href="#" class="dropdown-toggle" data-toggle="dropdown">
                 <i class="fa fa-user"></i> {{ currentUser.profile.name }} <i class="fa fa-caret-down"></i>
               </a>

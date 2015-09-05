@@ -1,4 +1,4 @@
-ExportController = AppController.extend({
+ExportJsonController = AppController.extend({
   waitOn: function() {
     //return this.subscribe('items');
   },
@@ -6,11 +6,11 @@ ExportController = AppController.extend({
     items: Syllabuses.find({})
   },
   onAfterAction: function () {
-    Meta.setTitle('Export');
+    Meta.setTitle('Export JSON');
   }
 });
 
-ExportController.events({
+ExportJsonController.events({
   'click [data-action=doSomething]': function (event, template) {
     event.preventDefault();
   }

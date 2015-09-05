@@ -12,6 +12,10 @@ Template.home.helpers({
     return _.map(Syllabuses.find().fetch(), function(syllabus) {
       return {label: syllabus.alphaNumber + ": " + syllabus.title, value: syllabus._id};
     });
+  },
+
+  displayID: function () {
+    return Session.get("displaySyllabusID");
   }
 
 });
@@ -25,7 +29,14 @@ Template.home.events({
   'submit .syllabus-chooser': function (event) {
     // stop the form from submitting
     event.preventDefault();
-    console.log("Submit");
     Session.set("displaySyllabusID", Session.get("selectedSyllabusID"));
+  }
+});
+
+// Trying to get form to clear after submit event. Not happening.
+Autoform.addHooks(['insertSyllabusForm'], {
+  onSuccess: function() {
+    Session.set("displaySyllabusID", undefined);
+    Session.set("selectedSyllabusID", undefined);
   }
 });
