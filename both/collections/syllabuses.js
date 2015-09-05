@@ -31,7 +31,6 @@ Syllabuses.attachSchema(new SimpleSchema({
     type: [String],
     optional: true,
     label: "Student learning outcomes",
-    //allowedValues: ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n'],
     autoform: {
       type: "select-checkbox",
       options: function () {
@@ -48,10 +47,6 @@ Syllabuses.attachSchema(new SimpleSchema({
             label: 'understand professional, ethical, legal, security and social issues and responsibilities'
           },
           {value: 'f', label: 'communicate effectively with a range of audiences'},
-          {
-            value: 'g',
-            label: 'analyze the local and global impact of computing on individuals, organizations, and society'
-          },
           {
             value: 'g',
             label: 'analyze the local and global impact of computing on individuals, organizations, and society'
