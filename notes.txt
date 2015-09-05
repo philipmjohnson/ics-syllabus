@@ -1,12 +1,10 @@
 To use session var to populate a form by selecting a value from another form:
 * http://autoform.meteor.com/updateaf
 
-Next step:
-* Design a form with a pull-down menu and a select button labeled "Edit"
-* On submit, the selected element should be stored into a session variable.
-* This session variable should be used to determine the syllabus to be displayed.
-
-* Note that the formType is set dynamically based upon the session variable state. That's cool. And buttons are disabled.
-
-After saving an entry, should clear out session value so that display is blanked and user must press "Edit" again.
+Next steps:
+* After saving an entry, should clear out session value so that display is blanked and user must press "Edit" again.
+* Add more course info.
+* Figure out how to output the JSON. (Syllabuses.find().fetch())
+* Login with UH CAS.
+* Get t-shirt.
 
