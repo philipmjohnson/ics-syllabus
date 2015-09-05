@@ -1,7 +1,7 @@
 <template name="home">
   <div class="template-home">
 
-    {{#autoForm collection="Syllabuses" id="insertSyllabusForm" type="insert"}}
+    {{#autoForm collection="Syllabuses" doc=selectedSyllabusDoc id="insertSyllabusForm" type="update"}}
     <fieldset>
       <div class="row">
         <div class="col-sm-2">{{> afQuickField name='alphaNumber' placeholder="ICS 101"}}</div>
@@ -22,7 +22,7 @@
         <div class="col-sm-6">{{> afQuickField name='grading' rows=4 placeholder="5 homework assignments (10% each)\n1 midterm (15%)\n1 final exam (15%)\n1 final project (20%)"}}</div>
       </div>
       <div class="row">
-        <div class="col-sm-6">{{> afQuickField name='learningOutcomes'}}</div>
+        <div class="col-sm-6">{{> afFormGroup name='learningOutcomes' type="select-checkbox"}}</div>
         <div class="col-sm-6">{{> afQuickField name='schedule' rows=10 placeholder="Week 1: ...\nWeek 2: ...\nWeek 3: ..."}}</div>
       </div>
 

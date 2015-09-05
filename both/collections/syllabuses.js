@@ -1,28 +1,34 @@
 Syllabuses = new Mongo.Collection("syllabuses");
+
 Syllabuses.attachSchema(new SimpleSchema({
   alphaNumber: {
     type: String,
     label: "Course",
+    optional: true,
     max: 10
   },
   title: {
     type: String,
+    optional: true,
     label: "Title"
   },
   instructor: {
     type: String,
+    optional: true,
     label: "Instructor"
   },
   description: {
     type: String,
+    optional: true,
     label: "Description"
   },
   objectives: {
     type: String,
+    optional: true,
     label: "Objectives"
   },
   learningOutcomes: {
-    type: String,
+    type: [String],
     optional: true,
     label: "Student learning outcomes",
     //allowedValues: ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n'],
@@ -66,26 +72,32 @@ Syllabuses.attachSchema(new SimpleSchema({
   },
   creditHours: {
     type: Number,
+    optional: true,
     label: "Credit Hrs"
   },
   prerequisites: {
     type: String,
+    optional: true,
     label: "Prereqs"
   },
   textbooks: {
     type: String,
+    optional: true,
     label: "Textbooks"
   },
   grading: {
     type: String,
+    optional: true,
     label: "Grading and student evaluation"
   },
   policies: {
     type: String,
+    optional: true,
     label: "Classroom policies"
   },
   schedule: {
     type: String,
+    optional: true,
     label: "Weekly schedule of topics, including exams"
   }
 
