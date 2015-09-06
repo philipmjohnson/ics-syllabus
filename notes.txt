@@ -2,10 +2,17 @@ To use session var to populate a form by selecting a value from another form:
 * http://autoform.meteor.com/updateaf
 
 Next steps:
-* Create default ICS course syllabus data.
-* Add Instructor name to pull-down.
+* Provide default ICS course syllabus data.
+* Check to see what happens when concurrent editing, document.
 * Update readme with user guide, publish with github pages.
 * Circulate for internal review.
+* Create real-time edit status window
+  - bootstrap scrollable window.
+  - EditStatus collection.
+    - create document upon "Edit" (course, timestamp, false)
+    - update finished boolean to true upon save.
+    - display in scrollable window, sorted by timestamp, if true add "finished".
+    - code block, pre-scrollable: http://getbootstrap.com/css/#code-block
 * Request t-shirt.
 
 * Nice to have
@@ -21,4 +28,6 @@ http://docs.meteor.com/#/full/meteordeploy
 To redeploy:
   meteor deploy test.meteor.com --delete
   meteor deploy test.meteor.com
+
+
 

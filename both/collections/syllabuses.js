@@ -28,32 +28,33 @@ if (Meteor.isClient) {
 }
 
 ICSLearningOutcomes = [
-  {value: 'a', label: 'Students can apply knowledge of computing and mathematics appropriate to the discipline'},
-  {value: 'b', label: 'Students can analyze a problem, and identify and define the computing requirements appropriate to its solution'},
+  {value: 'a', label: 'a. Students can apply knowledge of computing and mathematics appropriate to the discipline'},
+
+  {value: 'b', label: 'b. Students can analyze a problem, and identify and define the computing requirements appropriate to its solution'},
   {
     value: 'c',
-    label: 'Students can design, implement, and evaluate a computer-based system, process, component, or program to meet desired needs'
+    label: 'c. Students can design, implement, and evaluate a computer-based system, process, component, or program to meet desired needs'
   },
-  {value: 'd', label: 'Students can function effectively on teams to accomplish a common goal'},
+  {value: 'd', label: 'd. Students can function effectively on teams to accomplish a common goal'},
   {
     value: 'e',
-    label: 'Students have an understanding of professional, ethical, legal, security and social issues and responsibilities'
+    label: 'e. Students have an understanding of professional, ethical, legal, security and social issues and responsibilities'
   },
-  {value: 'f', label: 'Students can communicate effectively with a range of audiences'},
+  {value: 'f', label: 'f. Students can communicate effectively with a range of audiences'},
   {
     value: 'g',
-    label: 'Students can analyze the local and global impact of computing on individuals, organizations, and society'
+    label: 'g. Students can analyze the local and global impact of computing on individuals, organizations, and society'
   },
-  {value: 'h', label: 'Students can recognize the need for and an ability to engage in continuing professional development'},
-  {value: 'i', label: 'Students can use current techniques, skills, and tools necessary for computing practice'},
+  {value: 'h', label: 'h. Students can recognize the need for and an ability to engage in continuing professional development'},
+  {value: 'i', label: 'i. Students can use current techniques, skills, and tools necessary for computing practice'},
   {
     value: 'j',
-    label: 'An ability to use and apply current technical concepts and practices in the core information technologies. [BA IT only]'
+    label: 'j. An ability to use and apply current technical concepts and practices in the core information technologies. [BA IT only]'
   },
-  {value: 'k', label: 'An ability to identify and analyze user needs and take them into account in the selection, creation, evaluation and administration of computer-based systems. [BA IT only]'},
-  {value: 'l', label: 'An ability to effectively integrate IT-based solutions into the user environment. [BA IT only]'},
-  {value: 'm', label: 'An understanding of best practices and standards and their application. [BA IT only]'},
-  {value: 'n', label: 'An ability to assist in the creation of an effective project plan. [BA IT only]'}
+  {value: 'k', label: 'k. An ability to identify and analyze user needs and take them into account in the selection, creation, evaluation and administration of computer-based systems. [BA IT only]'},
+  {value: 'l', label: 'l. An ability to effectively integrate IT-based solutions into the user environment. [BA IT only]'},
+  {value: 'm', label: 'm. An understanding of best practices and standards and their application. [BA IT only]'},
+  {value: 'n', label: 'n. An ability to assist in the creation of an effective project plan. [BA IT only]'}
     ];
 
 
