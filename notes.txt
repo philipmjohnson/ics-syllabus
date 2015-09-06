@@ -2,24 +2,23 @@ To use session var to populate a form by selecting a value from another form:
 * http://autoform.meteor.com/updateaf
 
 Next steps:
-* Add more course info.
-* Figure out workflow for updating app with new courses and archived info.
+* Create default ICS course syllabus data.
+* Add Instructor name to pull-down.
 * Update readme with user guide, publish with github pages.
-
+* Circulate for internal review.
 * Request t-shirt.
 
 * Nice to have
 - UH CAS authentication.
 - Real-time updates.
-- Instructor name
+- Don't display second form after save. Why is this so hard?
 
 User account options:
 https://github.com/meteor-useraccounts/core/blob/master/Guide.md#options
 
 Deploy:
 http://docs.meteor.com/#/full/meteordeploy
-
 To redeploy:
-meteor deploy test.meteor.com --delete
-meteor deploy test.meteor.com
+  meteor deploy test.meteor.com --delete
+  meteor deploy test.meteor.com
 

@@ -9,8 +9,27 @@ Template.home.helpers({
   },
 
   syllabusSelectors: function() {
-    return _.map(Syllabuses.find().fetch(), function(syllabus) {
-      return {label: syllabus.alphaNumber + ": " + syllabus.title, value: syllabus._id};
+    var makeLabel = function(syllabus) {
+      var alpha = syllabus.alphaNumber;
+      var title = syllabus.title;
+      var getInstructor = function (syllabus) {
+        if ((syllabus.instructor == undefined) || (syllabus.instructor.length ===0)) {
+          return "No instructor";
+        }
+        else {
+          var indexOfNewLine = syllabus.instructor.indexOf('\n');
+          if (indexOfNewLine == -1) {
+            return syllabus.instructor;
+          }
+          else {
+            return syllabus.instructor.substring(0, indexOfNewLine);
+          }
+        }
+      }
+      return alpha + ": " + title + " (" + getInstructor(syllabus) + ")";
+    };
+    return _.map(Syllabuses.find({}, {sort: {alphaNumber: 1}}).fetch(), function(syllabus) {
+      return {label: makeLabel(syllabus), value: syllabus._id};
     });
   },
 
@@ -34,9 +53,10 @@ Template.home.events({
 });
 
 // Trying to get form to clear after submit event. Not happening.
-Autoform.addHooks(['insertSyllabusForm'], {
+AutoForm.addHooks(['insertSyllabusForm'], {
   onSuccess: function() {
     Session.set("displaySyllabusID", undefined);
-    Session.set("selectedSyllabusID", undefined);
+    //Session.set("selectedSyllabusID", undefined);
+    //Session.keys = {};
   }
 });
