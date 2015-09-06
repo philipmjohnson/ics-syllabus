@@ -6,6 +6,9 @@ Next steps:
 * Check to see what happens when concurrent editing, document.
 * Update readme with user guide, publish with github pages.
 * Circulate for internal review.
+* Single page for export
+* Clean up code
+* There's an app for that
 * Create real-time edit status window
   - bootstrap scrollable window.
   - EditStatus collection.
