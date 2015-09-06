@@ -32,7 +32,9 @@ Template.exportMarkdown.helpers({
           "\n   " + syllabus.instructor +
           "\n## d. Course objectives." +
           "\n   " + syllabus.objectives +
-          "\n## e. Student Learning Outcomes." +
+          "\n## e.1. Student Learning Outcomes (Course-specific)." +
+          "\n  " + syllabus.courseLearningOutcomes +
+          "\n## e.2. Student Learning Outcomes (ICS Degree Program)" +
           "   " + sloToString(syllabus.learningOutcomes) +
           "\n## f. Number of credit hours." +
           "\n   " + syllabus.creditHours +
