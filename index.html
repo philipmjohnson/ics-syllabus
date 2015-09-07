@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="UTF-8">
+    <title>ICS Syllabus Manager by philipmjohnson</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="stylesheets/normalize.css" media="screen">
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="stylesheets/github-light.css" media="screen">
+  </head>
+  <body>
+    <section class="page-header">
+      <h1 class="project-name">ICS Syllabus Manager</h1>
+      <h2 class="project-tagline">Simple Meteor app to manage ICS course syllabuses</h2>
+      <a href="https://github.com/philipmjohnson/ics-syllabus" class="btn">View on GitHub</a>
+      <a href="https://github.com/philipmjohnson/ics-syllabus/zipball/master" class="btn">Download .zip</a>
+      <a href="https://github.com/philipmjohnson/ics-syllabus/tarball/master" class="btn">Download .tar.gz</a>
+    </section>
+
+    <section class="main-content">
+      <h2>
+<a id="logging-in" class="anchor" href="#logging-in" aria-hidden="true"><span class="octicon octicon-link"></span></a>Logging in</h2>
+
+<p>To use, retrieve the following page from <a href="http://icssyllabusmanager.meteor.com/">http://icssyllabusmanager.meteor.com/</a></p>
+
+<p><img src="https://raw.githubusercontent.com/philipmjohnson/ics-syllabus/master/public/documentation/home-page.png" alt=""></p>
+
+<p>Click the "Sign in" button to obtain the login screen:</p>
+
+<p><img src="https://raw.githubusercontent.com/philipmjohnson/ics-syllabus/master/public/documentation/login-screen.png" alt=""></p>
+
+<p>Login with the credentials that you have been supplied with, which will bring you to this screen:</p>
+
+<p><img src="https://raw.githubusercontent.com/philipmjohnson/ics-syllabus/master/public/documentation/after-login.png" alt=""></p>
+
+<p>This screen has the following features:</p>
+
+<ul>
+<li><p>An "Export" menu in the navbar, allowing access to all completed syllabuses in a variety of formats (see below).</p></li>
+<li><p>An "ICS" pull-down menu in the navbar, currently allowing you only to logout.</p></li>
+<li><p>A pull-down menu allowing you to select a syllabus to work on.</p></li>
+<li><p>A pane showing what syllabuses have been edited <strong>by any user</strong>, and whether they still appear to be edited.  Note that "ICS 435" appears to be currently edited by another user. There is no ability to "lock" a syllabus for editing, so this window (updated in real-time) lets you know of any concurrent edits underway.</p></li>
+</ul>
+
+<h2>
+<a id="editing-a-syllabus" class="anchor" href="#editing-a-syllabus" aria-hidden="true"><span class="octicon octicon-link"></span></a>Editing a syllabus</h2>
+
+<p>Clicking on the pull-down menu displays a list of all syllabuses available for editing:</p>
+
+<p><img src="https://raw.githubusercontent.com/philipmjohnson/ics-syllabus/master/public/documentation/pulldown-menu.png" alt=""></p>
+
+<p>At this time, only undergraduate courses are available.  If an undergrad course is missing, contact Philip and he will add it.</p>
+
+<p>If you select ICS 313 and press the "Edit" button, the following page will appear:</p>
+
+<p><img src="https://raw.githubusercontent.com/philipmjohnson/ics-syllabus/master/public/documentation/edit-syllabus.png" alt=""></p>
+
+<p>Some things to note:</p>
+
+<ul>
+<li><p>The "Objectives" field still needs to be filled in. Since there are detailed course-specific learning outcomes, it would be reasonable to have this field say: "(See course-specific learning outcomes)".</p></li>
+<li><p>The footer window now displays "Started editing ICS 313 a few seconds ago". This window is updated in real-time for all users.</p></li>
+<li><p>The user who was editing ICS 435 when we first logged in has now finished.</p></li>
+</ul>
+
+<p>After finishing your edits, you must press the "Save" button to save them to the database.  When you do that, the form disappears and the page displays something like this:</p>
+
+<p><img src="https://raw.githubusercontent.com/philipmjohnson/ics-syllabus/master/public/documentation/finished-editing.png" alt=""></p>
+
+<p>As you can see, the footer window now shows that you have finished editing the ICS 313 syllabus.</p>
+
+<h2>
+<a id="exporting-syllabus-data" class="anchor" href="#exporting-syllabus-data" aria-hidden="true"><span class="octicon octicon-link"></span></a>Exporting syllabus data</h2>
+
+<p>The ICS Syllabus Manager currently allows syllabus data to be exported in two formats: json and readme.</p>
+
+<p>Pulling down the "Export" menu from the navbar and selecting JSON retrieves a page containing the current database contents in JSON format:</p>
+
+<p><img src="https://raw.githubusercontent.com/philipmjohnson/ics-syllabus/master/public/documentation/export-json.png" alt=""></p>
+
+<p>You can click inside the textarea, press control-a to select the entire contents, control-c to copy, and then paste this data into another file using an editor of your choice.</p>
+
+<p>Note that if another user saves out data while this window is open, the contents will be automatically refreshed.</p>
+
+<p>JSON format is convenient if you wish to perform post-processing on the Syllabus data.</p>
+
+<p>The second supported export format is markdown.  Select the markdown item in the Export navbar menu to retrieve this page:</p>
+
+<p><img src="https://raw.githubusercontent.com/philipmjohnson/ics-syllabus/master/public/documentation/export-markdown.png" alt=""></p>
+
+<h2>
+<a id="about-concurrent-access" class="anchor" href="#about-concurrent-access" aria-hidden="true"><span class="octicon octicon-link"></span></a>About concurrent access</h2>
+
+<p>The ICS Syllabus Manager implements "optimistic" concurrency control.  This means the following:</p>
+
+<ul>
+<li><p>Two users can edit the same syllabus at the same time.  If User1 saves a syllabus while User2 is editing, then User2's browser will be immediately updated with the latest saved content on a field-by-field basis. If User1 and User2 edit different fields, then there is no problem.  However, if both User1 and User2 edit the same field (say, "Objectives"), then when User1 saves the syllabus, the system will update the Objectives field to contain those saved changes and the edits made by User2 will be lost.</p></li>
+<li><p>To prevent clobbering someone else's edits, please check the footer window that displays which syllabuses are being editing in real-time.  You probably shouldn't edit a syllabus if someone else is already editing it.</p></li>
+</ul>
+
+      <footer class="site-footer">
+        <span class="site-footer-owner"><a href="https://github.com/philipmjohnson/ics-syllabus">ICS Syllabus Manager</a> is maintained by <a href="https://github.com/philipmjohnson">philipmjohnson</a>.</span>
+
+        <span class="site-footer-credits">This page was generated by <a href="https://pages.github.com">GitHub Pages</a> using the <a href="https://github.com/jasonlong/cayman-theme">Cayman theme</a> by <a href="https://twitter.com/jasonlong">Jason Long</a>.</span>
+      </footer>
+
+    </section>
+
+  
+  </body>
+</html>
