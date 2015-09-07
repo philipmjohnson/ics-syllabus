@@ -160,64 +160,9 @@ var defaultSyllabuses = [
     "instructor": "Dusko Pavlovic"
   },
   {
-    "alphaNumber": "ICS 241",
-    "creditHours": 3,
-    "title": "Discrete Mathematics for Computer Science II",
-    "description": "Program correctness, recurrence relations and their solutions, divide and conquer relations, relations and their properties, graph theory, trees and their applications, Boolean algebra, introduction to formal languages and automata theory. Pre: 141 or consent. FS",
-    "instructor": "Kazuo Sugihara\nPOST 314H \nsugihara@hawaii.edu",
-    "prerequisites": "141 or consent.",
-    "textbooks": "Kenneth H. Rosen, Discrete Mathematics and Its Applications, 7th Edition, McGraw-Hill, 2012.",
-    "objectives": "* To introduce a variety of topics in discrete mathematics\n* To develop ability of modeling, reasoning, proving, analysis, and algorithmic problem solving\n* To present examples of applications of discrete mathematics to computer science\n\n* To have students learn mathematical writing as the basis of technical writing",
-    "grading": "10% in-class exercises\n90% midterms and final.",
-    "learningOutcomes": [
-      "a",
-      "b"
-    ],
-    "courseLearningOutcomes": "* Students can describe an idea in the language of mathematics clearly and rigorously.\n* Students can prove or disprove a given assertion by using proving techniques such as direct proof, indirect proof (proof by contradiction), proof by contrapositive, proof by induction, and proof by construction.\n* Students can solve problems on a variety of topics in discrete mathematics such as recurrence systems, relations, counting, graph theory, Boolean algebra, logic circuit design, formal language theory, automata theory, and theory of computation.\n* Students can read & write pseudocode of an algorithm in a given grammar expressed in BNF.\n* Students can describe a trace of given pseudocode's execution for a given input.",
-    "schedule": "Week 1: Boolean Algebra\nWeek 2: Logic Circuits\nWeek 3: Linear Algebra\nWeek 4: Relations\nWeek 5: Graphs, Midterm\nWeek 6: Graphs\nWeek 7: Graphs\nWeek 8: Trees\nWeek 9: Trees\nWeek 10: Recurrences\nWeek 11: Counting\nWeek 12: Formal Languages\nWeek 13: Regular expressions, Midterm\nWeek 14: Turing machines\nWeek 15: Predicate logic\nWeek 16: Review\nWeek 17: Final Exam"
-  },
-  {
-    "alphaNumber": "ICS 141",
-    "creditHours": 3,
-    "title": "Discrete Mathematics for Computer Science I",
-    "instructor": "Kyungim Baek\nOffice: POST 314F\nEmail: kyungim@hawaii.edu\nTel: (808) 956 8560",
-    "description": "Logic, sets, functions, matrices, algorithmic concepts, mathematical reasoning, recursion, counting techniques, probability theory. FS",
-    "objectives": "This course covers mathematical topics such as logic, set theory, algorithms, mathematical reasoning, counting, combinatorics, and probability theory. A strong understanding of these topics is essential for problem solving, computer programming, data structures, algorithms, language translation, networking, computer architecture, operating systems, database, and software engineering.",
-    "learningOutcomes": [
-      "a",
-      "b",
-      "c"
-    ],
-    "textbooks": "K. H. Rosen, Discrete Mathematics and Its Applications, 7th Edition, McGraw Hill",
-    "policies": "No makeup exams will be given unless the instructor is provided with official documented proof of an emergency that prevented you from attending the exam. In the case of an emergency, the instructor must be contacted within 48 hours after the absence.\nHomework assignment is due at the beginning of class on the assigned due date. If you hand in late work without approval of the instructor you may receive zero credit. Late submission may be accepted on a case by case basis for up to 24 hours after the due with 40% penalty for lateness without exception.\nCooperation on Assignments\nCheating and plagiarism as defined in the University Catalog will result with an F for the class and the incident will be reported to the ICS Department Chair for further action. This policy will be applied to those who copy other’s work and who allow their work to be copied.\nYou are allowed to discuss strategies for solving homework assignments with other students, however collaboration on solutions/codes, sharing or copying of solutions/codes is not allowed. This policy will be strictly enforced.\nYou may consult public literature (books, articles, etc.) for information, but you must cite each source of ideas you adopt.\nElectronic video and/or audio recording is not permitted during this class.",
-    "grading": "Homework assignments: 20% \nMidterm exam I, II: 45% (22.5% for each)\nFinal exam: 25%\nRecitation attendance: 10%",
-    "courseLearningOutcomes": "* Understand foundations of mathematics and symbolic techniques in the context of problem solving.\n* Apply formal methods of symbolic propositional and predicate logic.\n* Learn about the algebra of sets, functions, sequences, and summations.\n* Understand the formal metrics for measuring the growth of functions (big-O, Ω, and Ө) and apply these metrics to analyzing the complexity of algorithms (both iterative and recursive algorithms).\n* Learn how numbers are represented in binary and other bases, and as a product of primes.\n* Understand mathematical reasoning by understanding and exercising several proof techniques, such as direct proofs, proof by counterexample, proof by contraposition, proof by contradiction, mathematical induction, and strong induction.\n* Demonstrate basic counting principles, compute permutations and combinations, and interpret the meaning in the context of the particular application.\n* Understand discrete probability concepts – calculate probabilities of events and expectations of random variables, differentiate between dependent and independent events, understand and apply Bayes theorem to dependent events.",
-    "schedule": "* Week 1: Introduction, Propositional Logic\n* Week 2: Propositional Equivalences, Predicates and Quantifiers\n* Week 3: Nested Quantifiers, Rules of Inference\n* Week 4: Proofs, Sets \n* Week 5: Set Operators, Functions\n* Week 6: Exam I, Functions\n* Week 7: Sequences and Summations, Matrices\n* Week 8: Algorithms, Growth of Functions\n* Week 9: Complexity of Algorithms \n* Week 10: Divisibility, Integers and Algorithms, Primes and GCD\n* Week 11: Mathematical Induction, Exam II\n* Week 12: Recursive Definitions\n* Week 13: Recursive Algorithms, Basics of Counting\n* Week 14: Permutations and Combinations\n* Week 15: Discrete Probability, Bayes’ Theorem,\n* Week 16: Expected Value and Variances\n* Week 17: Final Exam"
-  },
-  {
     "alphaNumber": "ICS 210",
     "title": "Information Systems in Society",
     "description": "Lecture/discussion critically explores sociopolitical dimensions of Information and Communication Technology (ICT), and the information professions. A-F only. Pre: departmental approval. (Once a year)"
-  },
-  {
-    "alphaNumber": "ICS 211",
-    "prerequisites": "grade of \"B\" or higher in 111 or consent.",
-    "title": "Introduction to Computer Science II",
-    "instructor": "Carleton Moore\nPOST 307B\ncmoore@hawaii.edu\n956-6920",
-    "description": "Reinforce and strengthen problem-solving skills using abstract data types and introduce software development practices. Emphasize the use of searching and sorting algorithms and their complexity, recursion, object-oriented programming, and data structures.",
-    "creditHours": 4,
-    "textbooks": "Data Structures: Abstraction and Design Using Java, Second Edition, by Elliot B. Koffman and Paul A. T. Wolfgang, Wiley 2010.",
-    "objectives": "* Learn and implement standard data structures, including linked lists, stacks, queues, hash tables, and binary trees.\n* Learn and implement standard algorithms for sorting and searching and tree traversal\n* Learn and use the basics of algorithm analysis and complexity, including big-O notation\n* Be exposed to software engineering techniques such as: abstract data types, separation of definition and implementation, encapsulation, information hiding, testing and code reviews.\n* Learn and use object oriented programming in Java by designing, implementing, reviewing and testing solutions to problems\n* Learn to write algebraic equations in prefix, infix and postfix notation using preorder, inorder and postorder traversals\n* Learning to program in Java is only one of the goals for this course, but may be the most important: fluency in Java is needed to apply many of the other tools and information presented in this course as well as in subsequent ICS courses.",
-    "grading": "Grades are assigned based on your performance on:\n  * Two midterm exams and a final, each worth 10% of the grade for at total of 30% of the grade.\n  * Assignments, worth a total of 40% of the grade.\n  * Lecture quizzes, worth 15% of the grade.\n  * Lab attendance, worth 15% of the grade.\n  * There will also be up to 5% extra credit awarded by each TA.\n\nGrading will use the standard cutoffs of 97% (A+), 93% (A), 90% (A-), 87% (B+), 83% (B), 80% (B-), 77% (C+), 73% (C), 70% (C-), 67% (D+), 63% (D), 60% (D-).",
-    "learningOutcomes": [
-      "a",
-      "b",
-      "c",
-      "i",
-      "j"
-    ],
-    "courseLearningOutcomes": "* Use and implement abstract data types such as lists, stacks, queues, and trees.\n* Select the appropriate searching or sorting algorithm base on the algorithm’s behavior.\n* Develop recursive algorithms and programs.\n* Use standard libraries or packages as well as advanced object-oriented programming techniques (polymorphism, inheritance, and encapsulation).\n* Produce robust and secure programs using exception handling and extensive program testing.",
-    "schedule": "Week 1 - Java Review\nWeek 2 - Object Oriented Programming\nWeek 3 - Simple Sorting\nWeek 4 - Array Lists\nWeek 5 - Linked Lists\nWeek 6 - Iterators\nWeek 7 - Midterm 1\nWeek 8 - Stacks\nWeek 9 - Queues\nWeek 10 - Recursion\nWeek 11 - Trees\nWeek 12 - Binary Data\nWeek 13 - Midterm 2\nWeek 14 - Complex Sorting Algorithms\nWeek 15 - Hashtables\nWeek 16 - Course Review"
   },
   {
     "alphaNumber": "ICS 212",
@@ -240,6 +185,199 @@ var defaultSyllabuses = [
     "creditHours": 1,
     "title": "Computer Science Careers: An Exploration of the Specialties of Computer Science",
     "description": "Exploration of the specialties of computer science. Meets every two week for 2.5 hours to explore specific areas in computer science. CR/NC only. (Once a year)"
+  },
+  {
+    "alphaNumber": "ICS 331",
+    "creditHours": 4,
+    "title": "Logic Design and Microprocessors",
+    "instructor": "Peter-Michael Seidel",
+    "description": "Basic machine architecture, microprocessors, bus organization, circuit elements, logic circuit analysis and design, microcomputer system design. Pre: 212 and 241, or consent.",
+    "prerequisites": "212 and 241, or consent."
+  },
+  {
+    "alphaNumber": "ICS 390",
+    "creditHours": 3,
+    "title": "Computing Ethics for Lab Assistants",
+    "instructor": "Martha Crosby\ncrosby@hawaii.edu",
+    "description": "A lecture/discussion/internship on ethical issues and instructional techniques for students assisting a laboratory section of ICS 101. The class uses multiple significant writing and oral presentation activities to help students learn course content.",
+    "prerequisites": "101 (Alpha) and consent."
+  },
+  {
+    "alphaNumber": "ICS 415",
+    "creditHours": 3,
+    "title": "Introduction to Programming for the Web",
+    "instructor": "Carleton Moore\ncmoore@hawaii.edu",
+    "description": "Introduction to emerging technologies for construction of World Wide Web (WWW)-based software. Covers programming and scripting languages used for the creation of WWW sites and client-server programming. Students will complete a medium-sized software project that uses languages and concepts discussed in class.",
+    "prerequisites": "311 or consent"
+  },
+  {
+    "alphaNumber": "ICS 419",
+    "creditHours": 3,
+    "title": "The Science, Psychology and Philosophy of Systems Design",
+    "description": "Scientific, psychological and philosophical bases of systems design, including a survey of human-factors and ergonomic standards; the nature of innovation and creativity as it relates to systems design. Web-enhanced course.",
+    "instructor": "Dennis Streveler\nstrev@hawaii.edu",
+    "prerequisites": "two ICS 300-level courses with grade of B or better, or consent."
+  },
+  {
+    "alphaNumber": "ICS 421",
+    "creditHours": 3,
+    "title": "Database Systems",
+    "instructor": "Lipyeow Lim\nlipyeow@hawaii.edu",
+    "description": "Principles of database systems, data modeling, relational models, database design, query languages, query optimization, concurrency control data security.",
+    "prerequisites": "311 and 321, or consent."
+  },
+  {
+    "alphaNumber": "ICS 422",
+    "creditHours": 3,
+    "title": "Data Processing",
+    "instructor": "Lipyeow Lim\nlipyeow@hawaii.edu",
+    "description": "Role of data processing in organizations, programming practices, ethics, sequential and indexed file processing, report writing, online transaction processing",
+    "prerequisites": "321 or consent."
+  },
+  {
+    "alphaNumber": "ICS 423",
+    "creditHours": 3,
+    "title": "Computer Security",
+    "instructor": "Barbara Endicott-Popovsky\nendicott@uw.edu",
+    "description": "Legal, ethical and technology issues in computer access, confidentiality, authentication, privacy and intellectual property.",
+    "prerequisites": "both 311 and 312, or consent."
+  },
+  {
+    "alphaNumber": "ICS 431",
+    "creditHours": 3,
+    "prerequisites": "331 or EE 361/361L.",
+    "title": "Computer Architecture",
+    "instructor": "Peter-Michael Seidel",
+    "description": "Memory management, control flow, interrupt mechanisms, multiprocessor systems, special-purpose devices."
+  },
+  {
+    "alphaNumber": "ICS 435",
+    "creditHours": 3,
+    "title": "Machine Learning Fundamentals",
+    "instructor": "Susanne Still\nsstill@hawaii.edu",
+    "description": "Introduction to machine learning concepts with a focus on relevant ideas from computational neuroscience. Information processing and learning in the nervous system. Neural networks. Supervised and unsupervised learning. Basics of statistical learning theory.",
+    "prerequisites": "311 or consent. Recommended: MATH 307."
+  },
+  {
+    "alphaNumber": "ICS 441",
+    "creditHours": 3,
+    "prerequisites": "311 or consent",
+    "title": "Theory of Computation",
+    "instructor": "Kazuo Sugihara\nsugihara@hawaii.edu",
+    "description": "Grammars, sequential machines, equivalence, minimalization, analysis and synthesis, regular expressions, computability, unsolvability, Gödel's theorem, Turing machines."
+  },
+  {
+    "alphaNumber": "ICS 442",
+    "creditHours": 3,
+    "prerequisites": "311 or consent",
+    "title": "Analytical Models and Methods",
+    "description": "Applications of mathematical methods in computer science with emphasis on discrete mathematics, numerical computation, algebraic models, operations research."
+  },
+  {
+    "alphaNumber": "ICS 443",
+    "creditHours": 3,
+    "prerequisites": "311",
+    "title": "Parallel Algorithms",
+    "instructor": "Nodari Sitchinava",
+    "description": "Introduction to parallel models of computation and design and analysis of parallel algorithms."
+  },
+  {
+    "alphaNumber": "ICS 451",
+    "creditHours": 3,
+    "prerequisites": "212 and 311, or consent",
+    "title": "Data Networks",
+    "instructor": "Edo Biagioni\nesb@hawaii.edu",
+    "description": "Network analysis, architecture, digital signal analysis and design; circuit switching, packet switching, packet broadcasting; protocols and standards; local area networks; satellite networks; ALOHA channels; examples."
+  },
+  {
+    "alphaNumber": "ICS 452",
+    "creditHours": 3,
+    "prerequisites": "Two ICS 300-level courses or consent. Recommended: 312 and 313.",
+    "title": "Software Design for Robotics",
+    "description": "Sensors, actuators, signal processing, paradigms of robotic software design, introduction to machine learning, introduction to computer vision, and robot-to-human interaction."
+  },
+  {
+    "alphaNumber": "ICS 211",
+    "prerequisites": "grade of \"B\" or higher in 111 or consent.",
+    "title": "Introduction to Computer Science II",
+    "instructor": "Carleton Moore\nPOST 307B\ncmoore@hawaii.edu\n956-6920",
+    "description": "Reinforce and strengthen problem-solving skills using abstract data types and introduce software development practices. Emphasize the use of searching and sorting algorithms and their complexity, recursion, object-oriented programming, and data structures.",
+    "creditHours": 4,
+    "textbooks": "Data Structures: Abstraction and Design Using Java, Second Edition, by Elliot B. Koffman and Paul A. T. Wolfgang, Wiley 2010.",
+    "objectives": "* Learn and implement standard data structures, including linked lists, stacks, queues, hash tables, and binary trees.\n* Learn and implement standard algorithms for sorting and searching and tree traversal\n* Learn and use the basics of algorithm analysis and complexity, including big-O notation\n* Be exposed to software engineering techniques such as: abstract data types, separation of definition and implementation, encapsulation, information hiding, testing and code reviews.\n* Learn and use object oriented programming in Java by designing, implementing, reviewing and testing solutions to problems\n* Learn to write algebraic equations in prefix, infix and postfix notation using preorder, inorder and postorder traversals\n* Learning to program in Java is only one of the goals for this course, but may be the most important: fluency in Java is needed to apply many of the other tools and information presented in this course as well as in subsequent ICS courses.",
+    "grading": "Grades are assigned based on your performance on:\n  * Two midterm exams and a final, each worth 10% of the grade for at total of 30% of the grade.\n  * Assignments, worth a total of 40% of the grade.\n  * Lecture quizzes, worth 15% of the grade.\n  * Lab attendance, worth 15% of the grade.\n  * There will also be up to 5% extra credit awarded by each TA.\n\nGrading will use the standard cutoffs of 97% (A+), 93% (A), 90% (A-), 87% (B+), 83% (B), 80% (B-), 77% (C+), 73% (C), 70% (C-), 67% (D+), 63% (D), 60% (D-).",
+    "learningOutcomes": [
+      "a",
+      "b",
+      "c",
+      "i",
+      "j"
+    ],
+    "courseLearningOutcomes": "* Use and implement abstract data types such as lists, stacks, queues, and trees.\n* Select the appropriate searching or sorting algorithm base on the algorithm’s behavior.\n* Develop recursive algorithms and programs.\n* Use standard libraries or packages as well as advanced object-oriented programming techniques (polymorphism, inheritance, and encapsulation).\n* Produce robust and secure programs using exception handling and extensive program testing.",
+    "schedule": "Week 1 - Java Review\nWeek 2 - Object Oriented Programming\nWeek 3 - Simple Sorting\nWeek 4 - Array Lists\nWeek 5 - Linked Lists\nWeek 6 - Iterators\nWeek 7 - Midterm 1\nWeek 8 - Stacks\nWeek 9 - Queues\nWeek 10 - Recursion\nWeek 11 - Trees\nWeek 12 - Binary Data\nWeek 13 - Midterm 2\nWeek 14 - Complex Sorting Algorithms\nWeek 15 - Hashtables\nWeek 16 - Course Review"
+  },
+  {
+    "alphaNumber": "ICS 414",
+    "creditHours": 3,
+    "title": "Software Engineering II",
+    "instructor": "Philip Johnson\njohnson@hawaii.edu\nPOST 307",
+    "description": "Continuation of 314. Project management, quality, and productivity control, testing and validation, team management. Team-oriented software-implementation project.",
+    "prerequisites": "314",
+    "textbooks": "Course notes",
+    "objectives": "* Develop ability to design, manage, and implement a medium-scale software system.",
+    "grading": "Project (Intermediate deliverables) 80%\nFinal project 20%",
+    "learningOutcomes": [
+      "a",
+      "b",
+      "c",
+      "d",
+      "e",
+      "f",
+      "g",
+      "h",
+      "i",
+      "j",
+      "k",
+      "l",
+      "m",
+      "n"
+    ],
+    "schedule": "This is a project-based course. Students split into teams to design, implement, test, and evaluate a moderate-scale software system.  Classroom sessions are a mix of weekly team meetings, monthly milestone deliverables, and monthly formal reviews."
+  },
+  {
+    "alphaNumber": "ICS 141",
+    "creditHours": 3,
+    "title": "Discrete Mathematics for Computer Science I",
+    "instructor": "Kyungim Baek\nOffice: POST 314F\nEmail: kyungim@hawaii.edu\nTel: (808) 956 8560",
+    "description": "Logic, sets, functions, matrices, algorithmic concepts, mathematical reasoning, recursion, counting techniques, probability theory. FS",
+    "objectives": "This course covers mathematical topics such as logic, set theory, algorithms, mathematical reasoning, counting, combinatorics, and probability theory. A strong understanding of these topics is essential for problem solving, computer programming, data structures, algorithms, language translation, networking, computer architecture, operating systems, database, and software engineering.",
+    "learningOutcomes": [
+      "a",
+      "b",
+      "c"
+    ],
+    "textbooks": "K. H. Rosen, Discrete Mathematics and Its Applications, 7th Edition, McGraw Hill",
+    "policies": "No makeup exams will be given unless the instructor is provided with official documented proof of an emergency that prevented you from attending the exam. In the case of an emergency, the instructor must be contacted within 48 hours after the absence.\nHomework assignment is due at the beginning of class on the assigned due date. If you hand in late work without approval of the instructor you may receive zero credit. Late submission may be accepted on a case by case basis for up to 24 hours after the due with 40% penalty for lateness without exception.\nCooperation on Assignments\nCheating and plagiarism as defined in the University Catalog will result with an F for the class and the incident will be reported to the ICS Department Chair for further action. This policy will be applied to those who copy other’s work and who allow their work to be copied.\nYou are allowed to discuss strategies for solving homework assignments with other students, however collaboration on solutions/codes, sharing or copying of solutions/codes is not allowed. This policy will be strictly enforced.\nYou may consult public literature (books, articles, etc.) for information, but you must cite each source of ideas you adopt.\nElectronic video and/or audio recording is not permitted during this class.",
+    "grading": "Homework assignments: 20% \nMidterm exam I, II: 45% (22.5% for each)\nFinal exam: 25%\nRecitation attendance: 10%",
+    "courseLearningOutcomes": "* Understand foundations of mathematics and symbolic techniques in the context of problem solving.\n* Apply formal methods of symbolic propositional and predicate logic.\n* Learn about the algebra of sets, functions, sequences, and summations.\n* Understand the formal metrics for measuring the growth of functions (big-O, Ω, and Ө) and apply these metrics to analyzing the complexity of algorithms (both iterative and recursive algorithms).\n* Learn how numbers are represented in binary and other bases, and as a product of primes.\n* Understand mathematical reasoning by understanding and exercising several proof techniques, such as direct proofs, proof by counterexample, proof by contraposition, proof by contradiction, mathematical induction, and strong induction.\n* Demonstrate basic counting principles, compute permutations and combinations, and interpret the meaning in the context of the particular application.\n* Understand discrete probability concepts – calculate probabilities of events and expectations of random variables, differentiate between dependent and independent events, understand and apply Bayes theorem to dependent events.",
+    "schedule": "* Week 1: Introduction, Propositional Logic\n* Week 2: Propositional Equivalences, Predicates and Quantifiers\n* Week 3: Nested Quantifiers, Rules of Inference\n* Week 4: Proofs, Sets \n* Week 5: Set Operators, Functions\n* Week 6: Exam I, Functions\n* Week 7: Sequences and Summations, Matrices\n* Week 8: Algorithms, Growth of Functions\n* Week 9: Complexity of Algorithms \n* Week 10: Divisibility, Integers and Algorithms, Primes and GCD\n* Week 11: Mathematical Induction, Exam II\n* Week 12: Recursive Definitions\n* Week 13: Recursive Algorithms, Basics of Counting\n* Week 14: Permutations and Combinations\n* Week 15: Discrete Probability, Bayes’ Theorem,\n* Week 16: Expected Value and Variances\n* Week 17: Final Exam"
+  },
+  {
+    "alphaNumber": "ICS 241",
+    "creditHours": 3,
+    "title": "Discrete Mathematics for Computer Science II",
+    "description": "Program correctness, recurrence relations and their solutions, divide and conquer relations, relations and their properties, graph theory, trees and their applications, Boolean algebra, introduction to formal languages and automata theory. Pre: 141 or consent. FS",
+    "instructor": "Kazuo Sugihara\nPOST 314H \nsugihara@hawaii.edu",
+    "prerequisites": "141 or consent.",
+    "textbooks": "Kenneth H. Rosen, Discrete Mathematics and Its Applications, 7th Edition, McGraw-Hill, 2012.",
+    "objectives": "* To introduce a variety of topics in discrete mathematics\n* To develop ability of modeling, reasoning, proving, analysis, and algorithmic problem solving\n* To present examples of applications of discrete mathematics to computer science\n\n* To have students learn mathematical writing as the basis of technical writing",
+    "grading": "10% in-class exercises\n90% midterms and final.",
+    "learningOutcomes": [
+      "a",
+      "b"
+    ],
+    "courseLearningOutcomes": "* Students can describe an idea in the language of mathematics clearly and rigorously.\n* Students can prove or disprove a given assertion by using proving techniques such as direct proof, indirect proof (proof by contradiction), proof by contrapositive, proof by induction, and proof by construction.\n* Students can solve problems on a variety of topics in discrete mathematics such as recurrence systems, relations, counting, graph theory, Boolean algebra, logic circuit design, formal language theory, automata theory, and theory of computation.\n* Students can read & write pseudocode of an algorithm in a given grammar expressed in BNF.\n* Students can describe a trace of given pseudocode's execution for a given input.",
+    "schedule": "Week 1: Boolean Algebra\nWeek 2: Logic Circuits\nWeek 3: Linear Algebra\nWeek 4: Relations\nWeek 5: Graphs, Midterm\nWeek 6: Graphs\nWeek 7: Graphs\nWeek 8: Trees\nWeek 9: Trees\nWeek 10: Recurrences\nWeek 11: Counting\nWeek 12: Formal Languages\nWeek 13: Regular expressions, Midterm\nWeek 14: Turing machines\nWeek 15: Predicate logic\nWeek 16: Review\nWeek 17: Final Exam"
   },
   {
     "alphaNumber": "ICS 311",
@@ -342,14 +480,6 @@ var defaultSyllabuses = [
     "schedule": "Week 1: Introduction & Overview of Database Systems\nWeek 2: Relational Model of Data\nWeek 3: Algebraic & Logical Query Languages\nWeek 4, 5: The Database Language SQL \nWeek 6: SQL in a Server Environment\nWeek 7: Midterm Review and Exam\nWeek 8: High-level Database Models: ER models\nWeek 9: Design Theory for Relational Databases: Functional dependencies\nWeek 10: Design Theory for Relational Databases: Normal Forms\nWeek 11: Constraints, Triggers, Views & Indexing\nWeek 12: Overview of Transaction Processing\nWeek 13: Overview of Storage & Indexing\nWeek 14: Overview of Query Processing & Optimization\nWeek 15: XML & Semi-structured Data Models\nWeek 16: Project Presentation\nWeek 17: Final exam"
   },
   {
-    "alphaNumber": "ICS 331",
-    "creditHours": 4,
-    "title": "Logic Design and Microprocessors",
-    "instructor": "Peter-Michael Seidel",
-    "description": "Basic machine architecture, microprocessors, bus organization, circuit elements, logic circuit analysis and design, microcomputer system design. Pre: 212 and 241, or consent.",
-    "prerequisites": "212 and 241, or consent."
-  },
-  {
     "alphaNumber": "ICS 332",
     "creditHours": 3,
     "title": "Operating Systems",
@@ -439,82 +569,6 @@ var defaultSyllabuses = [
     "schedule": "* Week 1: Intro\n* Week 2: Predicate calculus\n* Week 3, 4, 5: Common Lisp, search\n* Week 6: Knowledge representation\n* Week 7: Semantic networks\n* Week 8: Reasoning under uncertainty\n* Week 9: Midterm\n* Week 10, 11, 12, 13:  Machine learning, Prolog\n* Week 14, 15: Natural languages processing\n* Week 16: Review\n* Week 17: Final exam"
   },
   {
-    "alphaNumber": "ICS 390",
-    "creditHours": 3,
-    "title": "Computing Ethics for Lab Assistants",
-    "instructor": "Martha Crosby\ncrosby@hawaii.edu",
-    "description": "A lecture/discussion/internship on ethical issues and instructional techniques for students assisting a laboratory section of ICS 101. The class uses multiple significant writing and oral presentation activities to help students learn course content.",
-    "prerequisites": "101 (Alpha) and consent."
-  },
-  {
-    "alphaNumber": "ICS 414",
-    "creditHours": 3,
-    "title": "Software Engineering II",
-    "instructor": "Philip Johnson\njohnson@hawaii.edu\nPOST 307",
-    "description": "Continuation of 314. Project management, quality, and productivity control, testing and validation, team management. Team-oriented software-implementation project.",
-    "prerequisites": "314",
-    "textbooks": "Course notes",
-    "objectives": "* Develop ability to design, manage, and implement a medium-scale software system.",
-    "grading": "Project (Intermediate deliverables) 80%\nFinal project 20%",
-    "learningOutcomes": [
-      "a",
-      "b",
-      "c",
-      "d",
-      "e",
-      "f",
-      "g",
-      "h",
-      "i",
-      "j",
-      "k",
-      "l",
-      "m",
-      "n"
-    ],
-    "schedule": "This is a project-based course. Students split into teams to design, implement, test, and evaluate a moderate-scale software system.  Classroom sessions are a mix of weekly team meetings, monthly milestone deliverables, and monthly formal reviews."
-  },
-  {
-    "alphaNumber": "ICS 415",
-    "creditHours": 3,
-    "title": "Introduction to Programming for the Web",
-    "instructor": "Carleton Moore\ncmoore@hawaii.edu",
-    "description": "Introduction to emerging technologies for construction of World Wide Web (WWW)-based software. Covers programming and scripting languages used for the creation of WWW sites and client-server programming. Students will complete a medium-sized software project that uses languages and concepts discussed in class.",
-    "prerequisites": "311 or consent"
-  },
-  {
-    "alphaNumber": "ICS 419",
-    "creditHours": 3,
-    "title": "The Science, Psychology and Philosophy of Systems Design",
-    "description": "Scientific, psychological and philosophical bases of systems design, including a survey of human-factors and ergonomic standards; the nature of innovation and creativity as it relates to systems design. Web-enhanced course.",
-    "instructor": "Dennis Streveler\nstrev@hawaii.edu",
-    "prerequisites": "two ICS 300-level courses with grade of B or better, or consent."
-  },
-  {
-    "alphaNumber": "ICS 421",
-    "creditHours": 3,
-    "title": "Database Systems",
-    "instructor": "Lipyeow Lim\nlipyeow@hawaii.edu",
-    "description": "Principles of database systems, data modeling, relational models, database design, query languages, query optimization, concurrency control data security.",
-    "prerequisites": "311 and 321, or consent."
-  },
-  {
-    "alphaNumber": "ICS 422",
-    "creditHours": 3,
-    "title": "Data Processing",
-    "instructor": "Lipyeow Lim\nlipyeow@hawaii.edu",
-    "description": "Role of data processing in organizations, programming practices, ethics, sequential and indexed file processing, report writing, online transaction processing",
-    "prerequisites": "321 or consent."
-  },
-  {
-    "alphaNumber": "ICS 423",
-    "creditHours": 3,
-    "title": "Computer Security",
-    "instructor": "Barbara Endicott-Popovsky\nendicott@uw.edu",
-    "description": "Legal, ethical and technology issues in computer access, confidentiality, authentication, privacy and intellectual property.",
-    "prerequisites": "both 311 and 312, or consent."
-  },
-  {
     "alphaNumber": "ICS 425",
     "title": "Computer Security and Ethics",
     "instructor": "Barbara Endicott-Popovsky\nendicott@hawaii.edu",
@@ -556,14 +610,6 @@ var defaultSyllabuses = [
     "schedule": "* Weeks 1, 2: Overview\n* Weeks 3, 4: Insider Threat\n* Weeks 5, 6: Data breach\n* Week 7: Midterm\n* Weeks 8, 9: Implementation Sins: Security Flaws\n* Weeks 10, 11: Cryptographic Sins\n* Weeks 12, 13: Networking Sins\n* Weeks 14, 15, 16: Final project\n* Week 17: Final exam"
   },
   {
-    "alphaNumber": "ICS 431",
-    "creditHours": 3,
-    "prerequisites": "331 or EE 361/361L.",
-    "title": "Computer Architecture",
-    "instructor": "Peter-Michael Seidel",
-    "description": "Memory management, control flow, interrupt mechanisms, multiprocessor systems, special-purpose devices."
-  },
-  {
     "alphaNumber": "ICS 432",
     "creditHours": 3,
     "title": "Concurrent and High-Performance Programming",
@@ -579,52 +625,6 @@ var defaultSyllabuses = [
     ],
     "courseLearningOutcomes": "(See objectives)",
     "schedule": "* Week 1: Review of processes and threads\n* Week 2: Java threads and thread safety\n* Week 3: Java Swing\n* Week 4: Thread Synchronization with Locks and Condition Variables\n* Week 5: Threads in C with Pthreads\n* Week 6: Semaphores and Monitors\n* Week 7: Classic Concurrency Problems\n* Week 8: Concurrency and Performance\n* Week 9: Shared Memory and Performance\n* Week 10: OpenMP\n* Weeks 11, 12: Programming for Performance\n* Weeks 13, 14: Hardware and Concurrency\n* Week 15: Distributed Computing\n* Week 16: Review\n* Week 17: Final exam"
-  },
-  {
-    "alphaNumber": "ICS 435",
-    "creditHours": 3,
-    "title": "Machine Learning Fundamentals",
-    "instructor": "Susanne Still\nsstill@hawaii.edu",
-    "description": "Introduction to machine learning concepts with a focus on relevant ideas from computational neuroscience. Information processing and learning in the nervous system. Neural networks. Supervised and unsupervised learning. Basics of statistical learning theory.",
-    "prerequisites": "311 or consent. Recommended: MATH 307."
-  },
-  {
-    "alphaNumber": "ICS 441",
-    "creditHours": 3,
-    "prerequisites": "311 or consent",
-    "title": "Theory of Computation",
-    "instructor": "Kazuo Sugihara\nsugihara@hawaii.edu",
-    "description": "Grammars, sequential machines, equivalence, minimalization, analysis and synthesis, regular expressions, computability, unsolvability, Gödel's theorem, Turing machines."
-  },
-  {
-    "alphaNumber": "ICS 442",
-    "creditHours": 3,
-    "prerequisites": "311 or consent",
-    "title": "Analytical Models and Methods",
-    "description": "Applications of mathematical methods in computer science with emphasis on discrete mathematics, numerical computation, algebraic models, operations research."
-  },
-  {
-    "alphaNumber": "ICS 443",
-    "creditHours": 3,
-    "prerequisites": "311",
-    "title": "Parallel Algorithms",
-    "instructor": "Nodari Sitchinava",
-    "description": "Introduction to parallel models of computation and design and analysis of parallel algorithms."
-  },
-  {
-    "alphaNumber": "ICS 451",
-    "creditHours": 3,
-    "prerequisites": "212 and 311, or consent",
-    "title": "Data Networks",
-    "instructor": "Edo Biagioni\nesb@hawaii.edu",
-    "description": "Network analysis, architecture, digital signal analysis and design; circuit switching, packet switching, packet broadcasting; protocols and standards; local area networks; satellite networks; ALOHA channels; examples."
-  },
-  {
-    "alphaNumber": "ICS 452",
-    "creditHours": 3,
-    "prerequisites": "Two ICS 300-level courses or consent. Recommended: 312 and 313.",
-    "title": "Software Design for Robotics",
-    "description": "Sensors, actuators, signal processing, paradigms of robotic software design, introduction to machine learning, introduction to computer vision, and robot-to-human interaction."
   },
   {
     "alphaNumber": "ICS 455",

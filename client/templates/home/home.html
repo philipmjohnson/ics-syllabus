@@ -9,7 +9,6 @@
             {{ #each syllabusSelectors }}
             <option value="{{ value }}">{{ label }}</option>
             {{ /each }}
-
           </select>
         </div>
         <button type="submit" id="syllabusChooserButton" class="btn btn-default">Edit</button>
@@ -58,5 +57,14 @@
       </div>
     {{ /if }}
     </div>
+
+    <div class="well" style="padding: 0; max-height: 100px; overflow-y: auto">
+      <ul>
+      {{ #each editStatusList }}
+          <li>Started editing {{ syllabusName }} {{ editTimestamp }}  {{ #if editFinished}} ... finished. {{ /if }} </li>
+        {{ /each }}
+      </ul>
+    </div>
+
     {{ /if }}
     </template>
