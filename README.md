@@ -30,7 +30,9 @@ Clicking on the pull-down menu displays a list of all syllabuses available for e
 
 ![](https://raw.githubusercontent.com/philipmjohnson/ics-syllabus/master/public/documentation/pulldown-menu.png)
 
-After selecting ICS 313 and pressing the "Edit" button, the following page appears that enables you to edit that syllabus:
+At this time, only undergraduate courses are available.  If an undergrad course is missing, contact Philip and he will add it.
+
+If you select ICS 313 and press the "Edit" button, the following page will appear:
 
 ![](https://raw.githubusercontent.com/philipmjohnson/ics-syllabus/master/public/documentation/edit-syllabus.png)
 
@@ -38,9 +40,9 @@ Some things to note:
 
   * The "Objectives" field still needs to be filled in. Since there are detailed course-specific learning outcomes, it would be reasonable to have this field say: "(See course-specific learning outcomes)".
 
-  * The footer window now displays "Started editing ICS 313 a few seconds ago". Every user's browser will be updated with this information immediately.
+  * The footer window now displays "Started editing ICS 313 a few seconds ago". This window is updated in real-time for all users.
 
-  * Note that the user who was editing ICS 435 has now finished.
+  * The user who was editing ICS 435 when we first logged in has now finished.
 
 After finishing your edits, you must press the "Save" button to save them to the database.  When you do that, the form disappears and the page displays something like this:
 
@@ -70,7 +72,7 @@ The second supported export format is markdown.  Select the markdown item in the
 
 The ICS Syllabus Manager implements "optimistic" concurrency control.  This means the following:
 
-  * Two users can edit the same syllabus at the same time.  If User1 saves a syllabus while User2 is editing, then all the fields in User2's browser will be immediately updated with the latest saved content. If User1 and User2 were editing different fields, then there is no problem.  However, if both User1 and User2 edited the same field (say, "Objectives"), then when User1 saves the syllabus, the system will update the Objectives field with those saved changes and the edits made by User2 will be lost.
+  * Two users can edit the same syllabus at the same time.  If User1 saves a syllabus while User2 is editing, then User2's browser will be immediately updated with the latest saved content on a field-by-field basis. If User1 and User2 edit different fields, then there is no problem.  However, if both User1 and User2 edit the same field (say, "Objectives"), then when User1 saves the syllabus, the system will update the Objectives field to contain those saved changes and the edits made by User2 will be lost.
 
   * To prevent clobbering someone else's edits, please check the footer window that displays which syllabuses are being editing in real-time.  You probably shouldn't edit a syllabus if someone else is already editing it.
 
