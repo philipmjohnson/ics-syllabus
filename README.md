@@ -120,14 +120,30 @@ In general, create a list of weeks with a one line summary of the topics each we
 * Week 17: Final exam
 ```
 
-In most cases, the PCC expects the syllabus to contain a week-by-week list of topics along with the readings. Dates or deadlines for various evaluation mechanisms (projects, quizzes, exams) should also be indicated.
+In most cases, UH expects the syllabus to contain a week-by-week list of topics along with the readings. Dates or deadlines for various evaluation mechanisms (projects, quizzes, exams) should also be indicated.
 
-They also indicate that a weekly schedule may not be appropriate for certain courses (research, seminars, project-based) courses, but that there must be a statement of the course objective(s), the procedures to be followed in the course, and a fairly specific statement on procedures for evaluating students.
+If the course follows a textbook, it may be appropriate to associate the chapter(s) with the week:
+
+```
+* Week 3: Nested Quantifiers, Rules of Inference (Chapter 3)
+* Week 4: Proofs, Sets (Chapter 4)
+```
+
+Otherwise, you can provide a separate paragraph describing the readings:
+
+<blockquote>
+Readings are taken from the recent literature and change from semester to semester.  Students should expect assigned readings of approximately 10-20 pages per week.
+</blockquote>
+
+
+A weekly schedule may not be appropriate for certain courses (research, seminars, project-based) courses, but all courses must include course objective(s), the procedures to be followed in the course, and a fairly specific statement on procedures for evaluating students.
 
 For example, ICS 414 is a project-based course. Here is the description of its schedule:
 
 <blockquote>
 This is a project-based course. Students split into teams to design, implement, test, and evaluate a moderate-scale software system.  Classroom sessions are a mix of weekly team meetings, monthly milestone deliverables, and monthly formal reviews. Individual evaluation of each team member occurs twice a month through meetings with the instructor to assess progress and group participation.  Evaluations of the progress of the entire group occur 4 times during the semester (once per month). The evaluations assess whether adequate progress on the project is being made, the quality of the artifacts being produced by the team, the efficiency of the group process, and the types of group communication in use and their effectiveness.
+
+Readings are primarily technical reference documentation and depend upon the project chosen by the group and its technology stack.  In general, students will need to read 20-30 pages of technical documentation per week on average.
 </blockquote>
 
 
