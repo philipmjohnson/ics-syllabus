@@ -1,69 +1,82 @@
-Provides support for managing ICS course syllabuses. Login at: http://icssyllabusmanager.meteor.com/
+Provides support for managing ICS course syllabuses.
+
+## Logging in
+
+To use, retrieve the following page from http://icssyllabusmanager.meteor.com/
+
+![](https://raw.githubusercontent.com/philipmjohnson/ics-syllabus/master/public/documentation/home-page.png)
+
+Click the "Sign in" button to obtain the login screen:
+
+![](https://raw.githubusercontent.com/philipmjohnson/ics-syllabus/master/public/documentation/login-screen.png)
+
+Login with the credentials that you have been supplied with, which will bring you to this screen:
+
+![](https://raw.githubusercontent.com/philipmjohnson/ics-syllabus/master/public/documentation/after-login.png)
+
+This screen has the following features:
+
+  * An "Export" menu in the navbar, allowing access to all completed syllabuses in a variety of formats (see below).
+
+  * An "ICS" pull-down menu in the navbar, currently allowing you only to logout.
+
+  * A pull-down menu allowing you to select a syllabus to work on.
+
+  * A pane showing what syllabuses have been edited **by any user**, and whether they still appear to be edited.  Note that "ICS 435" appears to be currently edited by another user. There is no ability to "lock" a syllabus for editing, so this window (updated in real-time) lets you know of any concurrent edits underway.
+
+## Editing a syllabus
+
+Clicking on the pull-down menu displays a list of all syllabuses available for editing:
+
+![](https://raw.githubusercontent.com/philipmjohnson/ics-syllabus/master/public/documentation/pulldown-menu.png)
+
+After selecting ICS 313 and pressing the "Edit" button, the following page appears that enables you to edit that syllabus:
+
+![](https://raw.githubusercontent.com/philipmjohnson/ics-syllabus/master/public/documentation/edit-syllabus.png)
+
+Some things to note:
+
+  * The "Objectives" field still needs to be filled in. Since there are detailed course-specific learning outcomes, it would be reasonable to have this field say: "(See course-specific learning outcomes)".
+
+  * The footer window now displays "Started editing ICS 313 a few seconds ago". Every user's browser will be updated with this information immediately.
+
+  * Note that the user who was editing ICS 435 has now finished.
+
+After finishing your edits, you must press the "Save" button to save them to the database.  When you do that, the form disappears and the page displays something like this:
+
+![](https://raw.githubusercontent.com/philipmjohnson/ics-syllabus/master/public/documentation/finished-editing.png)
+
+As you can see, the footer window now shows that you have finished editing the ICS 313 syllabus.
+
+## Exporting syllabus data
+
+The ICS Syllabus Manager currently allows syllabus data to be exported in two formats: json and readme.
+
+Pulling down the "Export" menu from the navbar and selecting JSON retrieves a page containing the current database contents in JSON format:
+
+![](https://raw.githubusercontent.com/philipmjohnson/ics-syllabus/master/public/documentation/export-json.png)
+
+You can click inside the textarea, press control-a to select the entire contents, control-c to copy, and then paste this data into another file using an editor of your choice.
+
+Note that if another user saves out data while this window is open, the contents will be automatically refreshed.
+
+JSON format is convenient if you wish to perform post-processing on the Syllabus data.
+
+The second supported export format is markdown.  Select the markdown item in the Export navbar menu to retrieve this page:
+
+![](https://raw.githubusercontent.com/philipmjohnson/ics-syllabus/master/public/documentation/export-markdown.png)
+
+## About concurrent access
+
+The ICS Syllabus Manager implements "optimistic" concurrency control.  This means the following:
+
+  * Two users can edit the same syllabus at the same time.  If User1 saves a syllabus while User2 is editing, then all the fields in User2's browser will be immediately updated with the latest saved content. If User1 and User2 were editing different fields, then there is no problem.  However, if both User1 and User2 edited the same field (say, "Objectives"), then when User1 saves the syllabus, the system will update the Objectives field with those saved changes and the edits made by User2 will be lost.
+
+  * To prevent clobbering someone else's edits, please check the footer window that displays which syllabuses are being editing in real-time.  You probably shouldn't edit a syllabus if someone else is already editing it.
 
 
 
-* Use of [Differential boilerplate](boilerplate.md)
-* Login using UH CAS, restricted to ICS faculty accounts.
-* Form-based editing of ICS syllabuses.
-* Real-time notification when others are editing the same syllabus.
-* Download of current syllabuses in JSON or Markdown format.
 
-## Syllabus structure
 
-A syllabus consists of the following fields:
-
-  * Course alpha and number
-
-  * Course title.
-
-  * Instructor name and contact information.
-
-  * Course description.
-
-  * Course objectives.
-
-  * Student learning outcomes. (To be selected from the ICS SLOs).
-
-  * Number of credit hours
-
-  * Prerequisites
-
-  * Textbooks, required readings
-
-  * Grading and Student Evaluation. (The assessment tools (exams, quizzes, projects, papers, journals, etc.) that will be used should be given, as well as the weight attributed to each. Note that the UH Catalog states explicitly that "final examinations are required in all undergraduate courses, except writing courses, directed reading, creative arts, research, seminars, internships, and field experiences) and must be taken during the scheduled examination period.")
-
-  * Classroom policies (If none, just put None).
-
-  * Weekly or daily schedule of topics and readings, including exam dates. (For most courses, PCC expects that the syllabus will include a day-by-day (or week-by-week, if appropriate) list of topics to be covered, accompanied by a list of readings that the students are expected to complete for each topic. Dates or deadlines for the various "devices" of evaluation (exams, papers, etc.) should be included. In rare cases where elements of an elaborate syllabus, such as the weekly schedule, are not appropriate (e.g., studio course in art, graduate seminars in subjects which rely heavily on recent articles from journals), then there can be some leeway in preparation of the syllabus.)
-
-## ICS Student Learning Outcomes
-
-  * (a) Students can apply knowledge of computing and mathematics appropriate to the discipline
-
-  * (b) Students can analyze a problem, and identify and define the computing requirements appropriate to its solution
-
-  * (c) Students can design, implement, and evaluate a computer-based system, process, component, or program to meet desired needs
-
-  * (d) Students can function effectively on teams to accomplish a common goal
-
-  * (e) Students have an understanding of professional, ethical, legal, security and social issues and responsibilities
-
-  * (f) Students can communicate effectively with a range of audiences
-
-  * (g) Students can analyze the local and global impact of computing on individuals, organizations, and society
-
-  * (h) Students can recognize the need for and an ability to engage in continuing professional development
-
-  * (i) Students can use current techniques, skills, and tools necessary for computing practice.
-
-  * (j) An ability to use and apply current technical concepts and practices in the core information technologies. [BA IT only]
-
-  * (k) An ability to identify and analyze user needs and take them into account in the selection, creation, evaluation and administration of computer-based systems. [BA IT only]
-
-  * (l) An ability to effectively integrate IT-based solutions into the user environment. [BA IT only]
-
-  * (m) An understanding of best practices and standards and their application. [BA IT only]
-
-  * (n) An ability to assist in the creation of an effective project plan. [BA IT only]
 
 
