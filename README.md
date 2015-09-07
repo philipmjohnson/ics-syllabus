@@ -127,7 +127,7 @@ They also indicate that a weekly schedule may not be appropriate for certain cou
 For example, ICS 414 is a project-based course. Here is the description of its schedule:
 
 <blockquote>
-_This is a project-based course. Students split into teams to design, implement, test, and evaluate a moderate-scale software system.  Classroom sessions are a mix of weekly team meetings, monthly milestone deliverables, and monthly formal reviews. Individual evaluation of each team member occurs twice a month through meetings with the instructor to assess progress and group participation.  Evaluations of the progress of the entire group occur 4 times during the semester (once per month). The evaluations assess whether adequate progress on the project is being made, the quality of the artifacts being produced by the team, the efficiency of the group process, and the types of group communication in use and their effectiveness._
+This is a project-based course. Students split into teams to design, implement, test, and evaluate a moderate-scale software system.  Classroom sessions are a mix of weekly team meetings, monthly milestone deliverables, and monthly formal reviews. Individual evaluation of each team member occurs twice a month through meetings with the instructor to assess progress and group participation.  Evaluations of the progress of the entire group occur 4 times during the semester (once per month). The evaluations assess whether adequate progress on the project is being made, the quality of the artifacts being produced by the team, the efficiency of the group process, and the types of group communication in use and their effectiveness.
 </blockquote>
 
 
