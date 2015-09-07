@@ -1,13 +1,10 @@
-To use session var to populate a form by selecting a value from another form:
-* http://autoform.meteor.com/updateaf
-
 Next steps:
-* Update readme with user guide, publish with github pages.
-* Circulate for internal review.
 * Single page for export
 * Clean up code
-* There's an app for that
-* Request t-shirt.
+- Create vars for session strings. Too darn difficult to type correctly.
+- Delete vestigial code from boilerplate.
+- Run jshint
+- Create JSDocs.
 
 * Nice to have
 - UH CAS authentication.
@@ -16,16 +13,10 @@ User account options:
 https://github.com/meteor-useraccounts/core/blob/master/Guide.md#options
 
 Deploy:
-http://docs.meteor.com/#/full/meteordeploy
 To redeploy:
   meteor deploy test.meteor.com --delete
   meteor deploy test.meteor.com
 
-* Code cleanup
-- Create vars for session strings. Too darn difficult to type correctly.
-- Delete vestigial code from boilerplate.
-- Run jshint
-- Create JSDocs.
 
 
 
