@@ -74,9 +74,61 @@ The ICS Syllabus Manager implements "optimistic" concurrency control.  This mean
 
   * To prevent clobbering someone else's edits, please check the footer window that displays which syllabuses are being editing in real-time.  You probably shouldn't edit a syllabus if someone else is already editing it.
 
-## Login credentials
+## Syllabus specification review hints
 
-This system should really use UH CAS authentication.  I have started the process to obtain authorization for that authentication.
+Every syllabus has been "assigned" to a faculty member for review and completion.  The name of the assigned faculty member appears in the menu of syllabuses. In addition, we will email out the list of faculty members and the course syllabuses they have been assigned to review.  When reviewing a syllabus, please keep the following hints in mind:
+
+### Use "markdown" format
+
+Markdown is an extremely simple format.  To indicate bullet lists, start the list item with "*".
+
+### Description
+
+This is taken from the course catalog and generally does not need to be changed.
+
+### Course objectives, Student learning outcomes
+
+These two categories can overlap. For example, you might include various learning outcomes as part of the course objectives.  If you feel that the course objectives also specify the student learning outcomes, then you can write "See course objectives" as the entry for Student learning outcomes.
+
+### Textbooks
+
+If the course does not involve a textbook, you can state "Course notes".
+
+### Grading and student evaluation
+
+According to UH guidelines, the assessment tools (exams, quizzes, projects, papers, etc.) that will be used should be given, as well as the weight attributed to each (such as a percentage of the final grade).
+
+Also note that UH requires a final exam (except in writing courses, directed reading, creative arts, research, seminars, internships, and field experiences) and must be taken during the scheduled examination period.
+
+### Classroom policies
+
+All UH policies are implied and do not need to be included.  Only include policies special to this course. In most cases, you can just state "None".
+
+### Weekly schedule of topics and readings, including exam dates.
+
+In general, create a list of weeks with a one line summary of the topics each week.  If the same topic is covered for multiple weeks, you can combine. Here is an example of a week-by-week schedule
+
+```
+* Week 1: Java compiler, flow of program
+* Week 2: Variables, conditionals, loops
+* Week 3: Variables and operators, conditionals, loops
+* Weeks 4,5: Classes
+* Weeks 6,7,8: Classes, loops, conditionals, arrays
+* Weeks 9, 10, 11: Classes, file I/O, loops, conditionals
+* Weeks 12, 13, 14, 15: Recursion, 2D arrays,
+* Week 16: Inheritance
+* Week 17: Final exam
+```
+
+In most cases, the PCC expects the syllabus to contain a week-by-week list of topics along with the readings. Dates or deadlines for various evaluation mechanisms (projects, quizzes, exams) should also be indicated.
+
+They also indicate that a weekly schedule may not be appropriate for certain courses (research, seminars, project-based) courses, but that there must be a statement of the course objective(s), the procedures to be followed in the course, and a fairly specific statement on procedures for evaluating students.
+
+For example, ICS 414 is a project-based course. Here is the description of its schedule:
+
+```
+This is a project-based course. Students split into teams to design, implement, test, and evaluate a moderate-scale software system.  Classroom sessions are a mix of weekly team meetings, monthly milestone deliverables, and monthly formal reviews. Individual evaluation of each team member occurs twice a month through meetings with the instructor to assess progress and group participation.  Evaluations of the progress of the entire group occur 4 times during the semester (once per month). The evaluations assess whether adequate progress on the project is being made, the quality of the artifacts being produced by the team, the efficiency of the group process, and the types of group communication in use and their effectiveness.
+```
 
 
 
