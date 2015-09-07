@@ -1,6 +1,6 @@
-# ICS Syllabus Manager
+Provides support for managing ICS course syllabuses. Login at: http://icssyllabusmanager.meteor.com/
 
-A simple Meteor app for managing ICS syllabuses, including:
+
 
 * Use of [Differential boilerplate](boilerplate.md)
 * Login using UH CAS, restricted to ICS faculty accounts.

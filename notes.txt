@@ -7,19 +7,10 @@ Next steps:
 * Single page for export
 * Clean up code
 * There's an app for that
-* Create real-time edit status window
-  - bootstrap scrollable window.
-  - EditStatus collection.
-    - create document upon "Edit" (course, timestamp, false)
-    - update finished boolean to true upon save.
-    - display in scrollable window, sorted by timestamp, if true add "finished".
-    - code block, pre-scrollable: http://getbootstrap.com/css/#code-block
 * Request t-shirt.
 
 * Nice to have
 - UH CAS authentication.
-- Real-time updates.
-- Don't display second form after save. Why is this so hard?
 
 User account options:
 https://github.com/meteor-useraccounts/core/blob/master/Guide.md#options
@@ -29,6 +20,12 @@ http://docs.meteor.com/#/full/meteordeploy
 To redeploy:
   meteor deploy test.meteor.com --delete
   meteor deploy test.meteor.com
+
+* Code cleanup
+- Create vars for session strings. Too darn difficult to type correctly.
+- Delete vestigial code from boilerplate.
+- Run jshint
+- Create JSDocs.
 
 
 
