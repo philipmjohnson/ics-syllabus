@@ -74,6 +74,10 @@ The ICS Syllabus Manager implements "optimistic" concurrency control.  This mean
 
   * To prevent clobbering someone else's edits, please check the footer window that displays which syllabuses are being editing in real-time.  You probably shouldn't edit a syllabus if someone else is already editing it.
 
+## Login credentials
+
+This system should really use UH CAS authentication.  I have started the process to obtain authorization for that authentication.
+
 
 
 
