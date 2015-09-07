@@ -1,5 +1,3 @@
-Provides support for managing ICS course syllabuses.
-
 ## Logging in
 
 To use, retrieve the following page from http://icssyllabusmanager.meteor.com/
