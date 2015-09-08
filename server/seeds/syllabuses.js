@@ -24,39 +24,11 @@ var defaultSyllabuses = [
     "instructor": "Guylaine Poisson"
   },
   {
-    "alphaNumber": "ICS 111",
-    "courseLearningOutcomes": "* Be able to deconstruct problems to develop algorithms and eventually program code.\n* Be able to develop simple data structures in object oriented form.\n* Be able to develop running software that involves the reading of data, storage of data, and depiction of data using graphics, sound and interactivity.",
-    "creditHours": 4,
-    "description": "An overview of the fundamentals of computer science emphasizing problem solving, algorithm development, implementation, and debugging/testing using an object­-oriented programming language.",
-    "grading": "Competency Quizzes: (45% of grade)\nFinal: (10% of grade)\nAssignments: (50% of grade)",
-    "instructor": "Jason Leigh",
-    "learningOutcomes": [
-      "a",
-      "b",
-      "c",
-      "d",
-      "k"
-    ],
-    "objectives": "* Learn how to translate problems to algorithms to code.\n* Learn basics of programming with a modern programming language, such as Java, Python, etc.\n* Apply principles to development of running program codes that involve the use of computer graphics, interaction and sound.\n* Provide projects that require the development of codes relevant to modern use of computers- ability to parse data, store data, construct finite state automata, develop capability to control graphics, sound and interactivity.",
-    "policies": "Students are expected to participate in lectures, and laboratory sessions.",
-    "schedule": "Each week a demonstrational problem is used to teach relevant computer science concepts, and to give students multiple instances in the use of programming language constructs.\n\nDemonstrational problem is translated into an algorithm and then program code. This code is then modified/enhanced in the lab sessions which are held twice a week to give students hands-on experience with watching how the behavior of the program changes when modified to encourage exploration.\n\nQuizzes are held once a week during lab sections. Students review quiz answers immediately after quiz is completed.\n\n* Week 1: Java compiler, flow of program\n* Week 2: Variables, conditionals, loops\n* Week 3: Variables and operators, conditionals, loops\n* Weeks 4,5: Classes\n* Weeks 6,7,8: Classes, loops, conditionals, arrays\n* Weeks 9, 10, 11: Classes, file I/O, loops, conditionals\n* Weeks 12, 13, 14, 15: Recursion, 2D arrays, \n* Week 16: Inheritance\n* Week 17: FInal exam",
-    "textbooks": "Course notes.",
-    "title": "Introduction to Computer Science I"
-  },
-  {
     "alphaNumber": "ICS 315",
     "creditHours": 3,
     "title": "Web Design and Management",
     "instructor": "Jan Stelovsky\njanst@hawaii.edu",
     "prerequisites": "215 or consent."
-  },
-  {
-    "alphaNumber": "ICS 461",
-    "creditHours": 3,
-    "prerequisites": "311 or consent.",
-    "title": "Artificial Intelligence",
-    "instructor": "Kim Binsted\nbinsted@hawaii.edu",
-    "description": "Survey of artificial intelligence: natural language processing, vision and robotics, expert systems. Emphasis on fundamental concepts: search, planning, and problem solving, logic, knowledge representation."
   },
   {
     "alphaNumber": "ICS 462",
@@ -115,30 +87,6 @@ var defaultSyllabuses = [
     "description": "Fundamentals of computer graphics including graphics hardware, representation, manipulation, and display of two- and three-dimensional objects, use of commercial software."
   },
   {
-    "alphaNumber": "ICS 483",
-    "creditHours": 3,
-    "prerequisites": "212 and 311, or consent.",
-    "title": "Computer Vision",
-    "instructor": "Kyungim Baek\nkyungim@hawaii.edu",
-    "description": "Introductory course in computer vision. Topics include image formation, image processing and filtering, edge detection, texture analysis and synthesis, binocular stereo, segmentation, tracking, object recognition and applications."
-  },
-  {
-    "alphaNumber": "ICS 484",
-    "creditHours": 3,
-    "prerequisites": "two ICS 300-level courses.",
-    "title": "Data Visualization",
-    "instructor": "Jason Leigh\nleighj@hawaii.edu",
-    "description": "Introduction to data visualization through practical techniques for turning data into images to produce insight. Topics include: information visualization, geospatial visualization, scientific visualization, social network visualization, and medical visualization."
-  },
-  {
-    "alphaNumber": "ICS 485",
-    "creditHours": 3,
-    "prerequisites": "two ICS 300-level courses.",
-    "title": "Video Game Design and Development",
-    "instructor": "Jason Leigh\nleighj@hawaii.edu",
-    "description": "Students will team design, build, and demonstrate video games or related interactive entertainment environments and applications. Topics will include emerging computer science techniques relevant to the development of these types of environments."
-  },
-  {
     "alphaNumber": "ICS 222",
     "creditHours": 3,
     "title": "Introduction to computation",
@@ -156,14 +104,6 @@ var defaultSyllabuses = [
     "description": "Program organization paradigms, programming environments, implementation of a module from specifications, the C and C++ programming languages. Pre: 211 or consent.",
     "instructor": "Ravi Narayan\nrnarayan@hawaii.edu",
     "prerequisites": "211 or consent."
-  },
-  {
-    "alphaNumber": "ICS 215",
-    "creditHours": 3,
-    "title": "Introduction to Scripting",
-    "description": "Introduction to scripting languages for the integration of applications and systems. Scripting in operating systems, web pages, server-side application integration, regular expressions, event handling, input validation, selection, repetition, parameter passing, Perl, JavaScript, and PHP. A-F only. Pre: 211 (or concurrent), or consent. (Once a year)",
-    "instructor": "Carleton Moore\ncmoore@hawaii.edu",
-    "prerequisites": "211 (or concurrent), or consent."
   },
   {
     "alphaNumber": "ICS 290",
@@ -188,14 +128,6 @@ var defaultSyllabuses = [
     "prerequisites": "101 (Alpha) and consent."
   },
   {
-    "alphaNumber": "ICS 415",
-    "creditHours": 3,
-    "title": "Introduction to Programming for the Web",
-    "instructor": "Carleton Moore\ncmoore@hawaii.edu",
-    "description": "Introduction to emerging technologies for construction of World Wide Web (WWW)-based software. Covers programming and scripting languages used for the creation of WWW sites and client-server programming. Students will complete a medium-sized software project that uses languages and concepts discussed in class.",
-    "prerequisites": "311 or consent"
-  },
-  {
     "alphaNumber": "ICS 419",
     "creditHours": 3,
     "title": "The Science, Psychology and Philosophy of Systems Design",
@@ -214,10 +146,10 @@ var defaultSyllabuses = [
   {
     "alphaNumber": "ICS 423",
     "creditHours": 3,
-    "title": "Computer Security",
-    "instructor": "Barbara Endicott-Popovsky\nendicott@uw.edu",
     "description": "Legal, ethical and technology issues in computer access, confidentiality, authentication, privacy and intellectual property.",
-    "prerequisites": "both 311 and 312, or consent."
+    "instructor": "Dusko Pavlovic\ndusko@hawaii.edu",
+    "prerequisites": "both 311 and 312, or consent.",
+    "title": "Computer Security"
   },
   {
     "alphaNumber": "ICS 431",
@@ -309,6 +241,26 @@ var defaultSyllabuses = [
     "instructor": "Philip Johnson\njohnson@hawaii.edu",
     "prerequisites": "212, 311, and 313; or consent.",
     "title": "Application Frameworks"
+  },
+  {
+    "alphaNumber": "ICS 483",
+    "courseLearningOutcomes": "* Students understand basic concepts, terminology, principles, models and methods in computer vision and image understanding.\n* Students have a broad knowledge for understanding advanced topics and scientific literature in the field of computer vision.\n* Students can describe the problems and basic methods of edge detection, texture analysis, stereo analysis, image segmentation, tracking, image retrieval, object recognition.\n* Students can implement and systematically test fundamental methods/algorithms of computer vision, image processing, and image analysis.\n* Students can design a computer vision system for a specific problem.\n* Students can present applications of computer vision systems and identify the limitations of current vision systems.",
+    "creditHours": 3,
+    "description": "Introductory course in computer vision. Topics include image formation, image processing and filtering, edge detection, texture analysis and synthesis, binocular stereo, segmentation, tracking, object recognition and applications.",
+    "grading": "Homework Assignments (25%)\nCourse Project (30%)\nMidterm Exam (20%)\nFinal Exam (25%)",
+    "instructor": "Kyungim Baek\nkyungim@hawaii.edu",
+    "learningOutcomes": [
+      "a",
+      "c",
+      "i",
+      "j"
+    ],
+    "objectives": "See course-specific learning outcomes.",
+    "policies": "Late policy: If you hand in late work without approval of the instructor you may receive zero credit.",
+    "prerequisites": "212 and 311, or consent.",
+    "schedule": "Week 1. Introduction\nWeek 2. Local Shading Models\nWeek 3. Color: Physics, Color Perception, Color Spaces\nWeek 4. Linear Filters and Convolution\nWeek 5. Edge Detection\nWeek 6. Texture\nWeek 7. Basic Multi-view Geometry, Stereo\nWeek 8. Segmentation: Clustering, Midterm Exam\nWeek 9. Segmentation: Model Fitting\nWeek 10. Segmentation: Probabilistic Methods\nWeek 11. Tracking\nWeek 12. Template Matching using Classifiers\nWeek 13. Object Recognition\nWeek 14. Image Retrieval\nWeek 15. Image-based Rendering\nWeek 16. Project Presentation\nWeek 17. Final Exam",
+    "textbooks": "Computer Vision: A Modern Approach, Second Edition, byDavid A. Forsyth and Jean Ponce, Publisher: Pearson, ISBN-13: 978-0136085928",
+    "title": "Computer Vision"
   },
   {
     "alphaNumber": "ICS 141",
@@ -691,6 +643,146 @@ var defaultSyllabuses = [
     "schedule": "Part 1\t20-Feb\nPart 2\t20-Mar\nPart 3\t24-Apr\nResubmit\t8-May",
     "textbooks": "none",
     "title": "Design for Mobile Devices"
+  },
+  {
+    "alphaNumber": "ICS 111",
+    "courseLearningOutcomes": "* Be able to deconstruct problems to develop algorithms and eventually program code.\n* Be able to develop simple data structures in object oriented form.\n* Be able to develop running software that involves the reading of data, storage of data, and depiction of data using graphics, sound and interactivity.\n* Be able to present their work to an audience.",
+    "creditHours": 4,
+    "description": "An overview of the fundamentals of computer science emphasizing problem solving, algorithm development, implementation, and debugging/testing using an object­-oriented programming language.",
+    "grading": "Competency Quizzes: (38% of grade)\nFinal: (5% of grade)\nProjects: (30% of grade)\nLab Assignments: (27% of grade)",
+    "instructor": "Jason Leigh",
+    "learningOutcomes": [
+      "a",
+      "b",
+      "c",
+      "d",
+      "f",
+      "h",
+      "i",
+      "k"
+    ],
+    "objectives": "* Learn how to translate problems to algorithms to code.\n* Learn basics of programming with a modern programming language, such as Java, Python, etc.\n* Apply principles to development of running program codes that involve the use of computer graphics, interaction and sound.\n* Provide projects that require the development of codes relevant to modern use of computers- ability to parse data, store data, construct finite state automata, develop capability to control graphics, sound and interactivity.",
+    "policies": "Students are expected to participate in lectures, and laboratory sessions.",
+    "schedule": "Each week a demonstrational problem is used to teach relevant computer science concepts, and to give students multiple instances in the use of programming language constructs.\n\nDemonstrational problem is translated into an algorithm and then program code. This code is then modified/enhanced in the lab sessions which are held twice a week to give students hands-on experience with watching how the behavior of the program changes when modified to encourage exploration.\n\nQuizzes are held once a week during lab sections. Students review quiz answers immediately after quiz is completed.\n\n* Week 1: Java compiler, flow of program\n* Week 2: Variables, conditionals, loops\n* Week 3: Variables and operators, conditionals, loops\n* Weeks 4,5: Classes\n* Weeks 6,7,8: Classes, loops, conditionals, arrays\n* Weeks 9, 10, 11: Classes, file I/O, loops, conditionals\n* Weeks 12, 13, 14, 15: Recursion, 2D arrays, \n* Week 16: Inheritance\n* Week 17: FInal exam",
+    "textbooks": "Course notes.",
+    "title": "Introduction to Computer Science I"
+  },
+  {
+    "alphaNumber": "ICS 484",
+    "courseLearningOutcomes": "1. Students develop software programs for producing data visualizations.\n2. Students learn about the nuances in the different types of data visualizations- including information visualization, geospatial visualization, scientific visualization, social network visualization, medical visualization,\n3. Students can evaluate data visualization approaches critically.\n4. Students can present and explain their data visualizations.\n5. Students can learn to work in teams to co-develop data visualizations.",
+    "creditHours": 3,
+    "description": "Introduction to data visualization through practical techniques for turning data into images to produce insight. Topics include: information visualization, geospatial visualization, scientific visualization, social network visualization, and medical visualization.",
+    "grading": "Project 1, 2, 3 - each 30% of grade\nClass participation: 10% of grade",
+    "instructor": "Jason Leigh\nleighj@hawaii.edu",
+    "learningOutcomes": [
+      "a",
+      "b",
+      "c",
+      "d",
+      "e",
+      "f",
+      "g",
+      "h",
+      "i",
+      "j",
+      "l",
+      "m",
+      "n"
+    ],
+    "objectives": "Program Learning Objective:\n\nThe objective is to introduce students about the broad field of data visualization, and relevant software tools, so that they are able to obtain basic mastery of the skills needed to: 1. turn raw data into effective visualizations of the data, 2. evaluate the efficacy of visualizations.\n\nInstitutional Learning Objective:\n\n1. Know- Breadth and Depth of Knowledge\n\nStudents will develop their understanding of the world with emphasis on Hawai’i by the use of geospatial data sets in the class, producing visualizations and therefore potentially hidden insights into regions of the world in relation to each other. Data may be about the economy, energy use, climate, for example.\n\n2. Do - Intellectual and Practical Skills\n\nStudents improve their abilities to think critically and creatively through designing, questioning and critiquing the visualizations produced by experts as well as their peers. Students conduct research by examining visualizations approaches used frequently online and described in conference and journal articles. Students improve their communication and reporting skills by having to give an oral presentation and demonstration of their visualization.\n\n3. Value - Personal and Social Responsibility\n\nStudents demonstrate excellence, integrity, and engagement through team-based collaborative projects that require them to learn how to work with differences in cultures and personal identities. Students will gain a better understanding of issues relating to the stewardship of he natural environment and civic participation in their communities through the data sets they will attempt to interpret and visualize.!",
+    "prerequisites": "two ICS 300-level courses.",
+    "schedule": "Week 1\nIntroduction to Data Visualization, History of Visualization, Examples of Visualizations\n\nWeek 2\nIntroduction to tools for interactive data visualization on the Web such as Javascript, D3.js, Kinetic.js, Xmdv\n\nWeek 3\nFundamentals for creating effective tables and charts.\n\nWeek 4\nIntroduction to Information Visualization & Human Perception with Examples\n\nweek 5\nProject 1 presentations\n\nWeek 6\nProject 1 presentations\n\nWeek 7\nIntroduction to Geospatial Visualization\n\nWeek 8\nIntroduction to Privacy Issues in Data Visualization\n\nWeek 9\nIntroduction to Social Network Visualization\nProject 2 presentations\n\nWeek 10\nProject 2 presentations\n\nWeek 11\nSPRING BREAK\n\nWeek 12\nIntroduction to Scientific and Medical Visualization\n\nWeek 13\nIntroduction to Dynamic Data Visualization\n\nWeek 14\nVisual Analytics\n\nWeek 15\nIntroduction to Big Data Visualization!\n\nWeek 16!\nProject 3 presentations",
+    "textbooks": "Matthew O. Ward, Interactive Data Visualization: Foundations, Techniques, and Applications, A K Peters/CRC Press.\n\nSelected Papers from IEEE Visualization Conference Proceedings",
+    "title": "Data Visualization"
+  },
+  {
+    "alphaNumber": "ICS 485",
+    "courseLearningOutcomes": "1. Students will remember key rules of thumb in video game design.\n2. Students will understand how video game design decisions are made.\n3. Students will apply video game design rules toward the development of video games.\n4. Students will analyze algorithms for constructing games.\n5. Student will evaluate effective and ineffective video game design rules.\n6. Students will create an entire vertical slice of a video game from concept to implementation.",
+    "creditHours": 3,
+    "description": "Students will team design, build, and demonstrate video games or related interactive entertainment environments and applications. Topics will include emerging computer science techniques relevant to the development of these types of environments.",
+    "grading": "Project 1 - 20%\nProject 2 - 80%",
+    "instructor": "Jason Leigh\nleighj@hawaii.edu",
+    "learningOutcomes": [
+      "a",
+      "b",
+      "c",
+      "d",
+      "f",
+      "h",
+      "i",
+      "j",
+      "k"
+    ],
+    "objectives": "To teach students:\n1. to conceptualize effective game play.\n2. to develop storyboards exemplifying game play.\n3. how to apply techniques to implement game play. These include: Artificial Intelligence,\nComputer Graphics, User Interface Design, Psycho Acoustics, Human Perception.\n4. how to manage a multi-disciplinary game development team.\n5. how to evaluate game play.",
+    "policies": "none",
+    "prerequisites": "two ICS 300-level courses.",
+    "schedule": "Week 1\no History and Taxonomy of video games\n• Week2\no Brainstorming and Designing the gameplay o Project planning\n• Week3\no Presentation of game play designs\n• Week4\no Introduction to game development tools\n• Week5\no Introduction to 3D computer graphics and stereoscopic computer graphics o Presentation of project planning timelines\n• Week6\no Software structure of a video game / real-time game loop design o In class review of project progress\n• Week7\no Deconstructing a game\no In class review of project progress • Week8\no Sound and psychoacoustics\no In class review of project progress • Week9\no Physical and perceptual limits of game players o User interfaces for gaming\no In class review of project progress\n• Week 10\no Mid-Semester Project Presentation\n• Week 11\no SPRING BREAK\n• Week 12\no Artificial Intelligence for games\no In class review of project progress\n• Week 13\no Game physics\no Techniques for special visual effects in gaming (e.g. motion blur, lens flare, real time shadows, reflections)\no In class review of project progress\n• Week 15\no Issues in multiplayer and networked game development o Hardware architectures of video game platforms\no In class review of project progress\n• Week 16\no Final Project Presentation\no Final project document due",
+    "textbooks": "Course notes",
+    "title": "Video Game Design and Development"
+  },
+  {
+    "alphaNumber": "ICS 461",
+    "courseLearningOutcomes": "* To understand the historical, cultural and philosophical underpinnings of AI.\n* To be familiar with the wide range of goals and approaches that define the field of AI.\n* To understand the importance of representation and search in AI and in computer science in general, and to be able to describe key representation strategies and search algorithms.\n* To understand and be able to describe in some detail some of the sub-fields of AI, including planning, machine learning, robotics, natural language processing and autonomous agents.\n* To be familiar with the key algorithms associated with these sub-fields, and to be able to describe their strengths and weaknesses.\n* Given a real-world problem, to be able to suggest AI approaches that might be appropriate for that problem.\n* To be able to read and think critically about articles on current AI research and development.",
+    "creditHours": 3,
+    "description": "Survey of artificial intelligence: natural language processing, vision and robotics, expert systems. Emphasis on fundamental concepts: search, planning, and problem solving, logic, knowledge representation.",
+    "grading": "Assignments (6): 15% each, 90% total\nOnline contributions: 10%  \n\nAssignments are strictly due at midnight on the due date. After that, assignments will lose 10% per day for each day late, up to five. After five days, the assignment will be graded out of 50%. All assignments must be completed satisfactorily to pass the course with a D grade or better.",
+    "instructor": "Kim Binsted\nbinsted@hawaii.edu",
+    "learningOutcomes": [
+      "a",
+      "b",
+      "c",
+      "f",
+      "i"
+    ],
+    "objectives": "See learning outcomes.",
+    "policies": "Plagiarism and cheating are not tolerated in this course. If a student is caught cheating or plagiarizing, s/he will fail the course, and further disciplinary action may be taken.",
+    "prerequisites": "311 or consent.",
+    "schedule": "Week 1: History and philosophy of AI \nWeek 2: Intelligent agents\nWeek 3 & 4: Search and heuristics\nWeek 5 & 6: Logic and planning \nWeek 7 & 8: Machine learning\nWeek 9: Evolutionary computation\nWeek 10 & 11: Natural language processing \nWeek 12: Perception\nWeek 13: Robotics\nWeek 14: Review",
+    "textbooks": "Artificial Intelligence: A Modern Approach, by Stuart Russell and Peter Norvig",
+    "title": "Artificial Intelligence"
+  },
+  {
+    "alphaNumber": "ICS 215",
+    "courseLearningOutcomes": "1. Use regular expressions to solve different problems.\n\n2. Produce robust client and server side scripts in a variety of scripting languages using software engineering techniques such as review and extensive program testing.\n\n3. Handle user and system generated events using various scripting languages.\n\n4. Validate user input using various scripting languages for security purposes.",
+    "creditHours": 3,
+    "description": "Introduction to scripting languages for the integration of applications and systems. Scripting in operating systems, web pages, server-side application integration, regular expressions, event handling, input validation, selection, repetition, parameter passing, Perl, JavaScript, and PHP. A-F only. Pre: 211 (or concurrent), or consent. (Once a year)",
+    "grading": "In class quizzes (100%)",
+    "instructor": "Carleton Moore\ncmoore@hawaii.edu",
+    "learningOutcomes": [
+      "b",
+      "c",
+      "d",
+      "f",
+      "i"
+    ],
+    "objectives": "1. Use regular expressions to solve different problems.\n2. Produce robust client and server side scripts in a variety of scripting languages using software engineering techniques such as review and extensive program testing.\n3. Handle user and system generated events using various scripting languages.\n4. Validate user input using various scripting languages for security purposes.",
+    "prerequisites": "211 (or concurrent), or consent.",
+    "schedule": "Week 1: Introduction, course description and rules\nWeeks 2 - 4: Regular Expressions\nWeeks 5 - 7: JavaScript\nWeeks 8 - 10: PHP\nWeeks 11 - 13: Perl\nWeeks 14 - 16: Python",
+    "textbooks": "none, Class Notes.",
+    "title": "Introduction to Scripting"
+  },
+  {
+    "alphaNumber": "ICS 415",
+    "courseLearningOutcomes": "The student will:\nCreate valid Web pages using HTML(5).\nStyle HTML pages using CSS.\nBe able to develop their own style sheets.\nCreate web sites that work across many different display devices.\nUnderstand the basics of the JavaScript language.\nCreate and use JavaScript programs.\nLearn about a modern web technology.\nCreate an 8 to 10 minute presentation about the technology.\nDevelop a responsive web site.",
+    "creditHours": 3,
+    "description": "Introduction to emerging technologies for construction of World Wide Web (WWW)-based software. Covers programming and scripting languages used for the creation of WWW sites and client-server programming. Students will complete a medium-sized software project that uses languages and concepts discussed in class.",
+    "grading": "10 Assignments, 30%\nIn class quizzes, 30%\nTechnology presentation 15%\nFinal Project 25%",
+    "instructor": "Carleton Moore\ncmoore@hawaii.edu",
+    "learningOutcomes": [
+      "a",
+      "b",
+      "c",
+      "d",
+      "e",
+      "f",
+      "i"
+    ],
+    "objectives": "The student will:\nCreate valid Web pages using HTML(5).\nStyle HTML pages using CSS.\nBe able to develop their own style sheets.\nCreate web sites that work across many different display devices.\nUnderstand the basics of the JavaScript language.\nCreate and use JavaScript programs.\nLearn about a modern web technology.\nCreate an 8 to 10 minute presentation about the technology.\nDevelop a responsive web site.",
+    "policies": "Watch screen casts out side of class. In class work on exercises, practicing web development skills.",
+    "prerequisites": "311 or consent",
+    "schedule": "Week 1: Introduction to the course\nWeek 2: HTML(5) and CSS\nWeek 3: Responsive Web Design and Bootstrap\nWeeks 4, 5: JavaScript and jQuery\nWeeks 6, 7: Meteor\nWeeks 8 - 11: Technology Presentations\nWeeks 12 - 16: Final Project",
+    "textbooks": "Course Notes",
+    "title": "Introduction to Programming for the Web"
   }
 ];
 
