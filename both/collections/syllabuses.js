@@ -144,7 +144,3 @@ Syllabuses.attachSchema(new SimpleSchema({
   }
 
 }));
-
-//Items.before.insert(function (userId, doc) {
-//  doc.createdAt = moment().toDate();
-//});

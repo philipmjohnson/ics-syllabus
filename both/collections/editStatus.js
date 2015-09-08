@@ -26,8 +26,3 @@ if (Meteor.isClient) {
   // This code only runs on the client
   Meteor.subscribe("editStatus");
 }
-
-
-//Items.before.insert(function (userId, doc) {
-//  doc.createdAt = moment().toDate();
-//});

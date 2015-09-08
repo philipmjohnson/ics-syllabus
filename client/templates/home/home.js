@@ -1,6 +1,15 @@
-Template.home.rendered = function() {
+var displaySyllabusID = "displaySyllabusID";
+var selectedSyllabusID = "selectedSyllabusID";
 
+var getSessionID = function(id) {
+  return Session.get(id);
 };
+
+var setSessionID = function(id) {
+  Session.set(id);
+}
+
+
 
 Template.home.helpers({
 

@@ -74,6 +74,8 @@ The ICS Syllabus Manager implements "optimistic" concurrency control.  This mean
 
   * To prevent clobbering someone else's edits, please check the footer window that displays which syllabuses are being editing in real-time.  You probably shouldn't edit a syllabus if someone else is already editing it.
 
+  * The detection of a "finished" editing session is not perfect.  If an editing session is listed as open for several hours or more, then it's probably actually finished and the system did not detect it.
+
 ## Syllabus specification review hints
 
 Every syllabus has been "assigned" to a faculty member for review and completion.  The name of the assigned faculty member appears in the menu of syllabuses. In addition, we will email out the list of faculty members and the course syllabuses they have been assigned to review.  When reviewing a syllabus, please keep the following hints in mind:
@@ -135,6 +137,7 @@ Otherwise, you can provide a separate paragraph describing the readings:
 Readings are taken from the recent literature and change from semester to semester.  Students should expect assigned readings of approximately 10-20 pages per week.
 </blockquote>
 
+Basically, you should provide at least a general indication of the readings "workload" for a course, such as the number of pages typically assigned in a week.
 
 A weekly schedule may not be appropriate for certain courses (research, seminars, project-based) courses, but all courses must include course objective(s), the procedures to be followed in the course, and a fairly specific statement on procedures for evaluating students.
 
