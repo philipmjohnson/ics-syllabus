@@ -25,10 +25,11 @@ var defaultSyllabuses = [
   },
   {
     "alphaNumber": "ICS 111",
+    "courseLearningOutcomes": "* Be able to deconstruct problems to develop algorithms and eventually program code.\n* Be able to develop simple data structures in object oriented form.\n* Be able to develop running software that involves the reading of data, storage of data, and depiction of data using graphics, sound and interactivity.",
     "creditHours": 4,
-    "title": "Introduction to Computer Science I",
-    "policies": "Students are expected to participate in lectures, and laboratory sessions.",
     "description": "An overview of the fundamentals of computer science emphasizing problem solving, algorithm development, implementation, and debugging/testing using an object­-oriented programming language.",
+    "grading": "Competency Quizzes: (45% of grade)\nFinal: (10% of grade)\nAssignments: (50% of grade)",
+    "instructor": "Jason Leigh",
     "learningOutcomes": [
       "a",
       "b",
@@ -36,12 +37,11 @@ var defaultSyllabuses = [
       "d",
       "k"
     ],
-    "instructor": "Jason Leigh",
-    "textbooks": "Course notes.",
     "objectives": "* Learn how to translate problems to algorithms to code.\n* Learn basics of programming with a modern programming language, such as Java, Python, etc.\n* Apply principles to development of running program codes that involve the use of computer graphics, interaction and sound.\n* Provide projects that require the development of codes relevant to modern use of computers- ability to parse data, store data, construct finite state automata, develop capability to control graphics, sound and interactivity.",
-    "grading": "Competency Quizzes: (45% of grade)\nFinal: (10% of grade)\nAssignments: (50% of grade)",
-    "schedule": "Each week a demonstrational problem is used to teach relevant computer science concepts, and to give students multiple instances in the use of programming language constructs.\n\nDemonstrational problem is translated into an algorithm and then program code. This code is then modified/enhanced in the lab sessions which are held twice a week to give students hands-on experience with watching how the behavior of the program changes when modified to encourage exploration.\n\nQuizzes are held once a week during lab sections. Students review quiz answers immediately after quiz is completed.\n\n* Week 1: Java compiler, flow of program\n* Week 2: Variables, conditionals, loops\n* Week 3: Variables and operators, conditionals, loops\n* Week 4,5: Classes\n* Week 6,7,8: Classes, loops, conditionals, arrays\n* Week 9, 10, 11: Classes, file I/O, loops, conditionals\n* Week 12, 13, 14, 15: Recursion, 2D arrays, \n* Week 16: Inheritance\n* Week 17: FInal exam",
-    "courseLearningOutcomes": "* Be able to deconstruct problems to develop algorithms and eventually program code.\n* Be able to develop simple data structures in object oriented form.\n* Be able to develop running software that involves the reading of data, storage of data, and depiction of data using graphics, sound and interactivity."
+    "policies": "Students are expected to participate in lectures, and laboratory sessions.",
+    "schedule": "Each week a demonstrational problem is used to teach relevant computer science concepts, and to give students multiple instances in the use of programming language constructs.\n\nDemonstrational problem is translated into an algorithm and then program code. This code is then modified/enhanced in the lab sessions which are held twice a week to give students hands-on experience with watching how the behavior of the program changes when modified to encourage exploration.\n\nQuizzes are held once a week during lab sections. Students review quiz answers immediately after quiz is completed.\n\n* Week 1: Java compiler, flow of program\n* Week 2: Variables, conditionals, loops\n* Week 3: Variables and operators, conditionals, loops\n* Weeks 4,5: Classes\n* Weeks 6,7,8: Classes, loops, conditionals, arrays\n* Weeks 9, 10, 11: Classes, file I/O, loops, conditionals\n* Weeks 12, 13, 14, 15: Recursion, 2D arrays, \n* Week 16: Inheritance\n* Week 17: FInal exam",
+    "textbooks": "Course notes.",
+    "title": "Introduction to Computer Science I"
   },
   {
     "alphaNumber": "ICS 315",
@@ -83,14 +83,6 @@ var defaultSyllabuses = [
     "description": "Basic issues of interactive access to information in various formats on computers. Available hardware and software: editing, integration, programming. Implementation of a sample information system."
   },
   {
-    "alphaNumber": "ICS 466",
-    "creditHours": 3,
-    "prerequisites": "314 or consent.",
-    "title": "Design for Mobile Devices",
-    "instructor": "Kim Binsted\nbinsted@hawaii.edu",
-    "description": "Lecture introducing design issues, programming languages, operating systems and mark-up languages for internet-enabled mobile devices, such as cell phones and PDAs."
-  },
-  {
     "alphaNumber": "ICS 471",
     "creditHours": 3,
     "prerequisites": "241 and 311, or consent.",
@@ -129,13 +121,6 @@ var defaultSyllabuses = [
     "title": "Computer Vision",
     "instructor": "Kyungim Baek\nkyungim@hawaii.edu",
     "description": "Introductory course in computer vision. Topics include image formation, image processing and filtering, edge detection, texture analysis and synthesis, binocular stereo, segmentation, tracking, object recognition and applications."
-  },
-  {
-    "alphaNumber": "ICS 424",
-    "creditHours": 3,
-    "title": "Application Frameworks",
-    "description": "Experience producing applications with at least two different applications frameworks.",
-    "prerequisites": "212, 311, and 313; or consent."
   },
   {
     "alphaNumber": "ICS 484",
@@ -219,14 +204,6 @@ var defaultSyllabuses = [
     "prerequisites": "two ICS 300-level courses with grade of B or better, or consent."
   },
   {
-    "alphaNumber": "ICS 421",
-    "creditHours": 3,
-    "title": "Database Systems",
-    "instructor": "Lipyeow Lim\nlipyeow@hawaii.edu",
-    "description": "Principles of database systems, data modeling, relational models, database design, query languages, query optimization, concurrency control data security.",
-    "prerequisites": "311 and 321, or consent."
-  },
-  {
     "alphaNumber": "ICS 422",
     "creditHours": 3,
     "title": "Data Processing",
@@ -274,14 +251,6 @@ var defaultSyllabuses = [
     "description": "Applications of mathematical methods in computer science with emphasis on discrete mathematics, numerical computation, algebraic models, operations research."
   },
   {
-    "alphaNumber": "ICS 443",
-    "creditHours": 3,
-    "prerequisites": "311",
-    "title": "Parallel Algorithms",
-    "instructor": "Nodari Sitchinava",
-    "description": "Introduction to parallel models of computation and design and analysis of parallel algorithms."
-  },
-  {
     "alphaNumber": "ICS 451",
     "creditHours": 3,
     "prerequisites": "212 and 311, or consent",
@@ -317,32 +286,29 @@ var defaultSyllabuses = [
     "schedule": "Week 1 - Java Review\nWeek 2 - Object Oriented Programming\nWeek 3 - Simple Sorting\nWeek 4 - Array Lists\nWeek 5 - Linked Lists\nWeek 6 - Iterators\nWeek 7 - Midterm 1\nWeek 8 - Stacks\nWeek 9 - Queues\nWeek 10 - Recursion\nWeek 11 - Trees\nWeek 12 - Binary Data\nWeek 13 - Midterm 2\nWeek 14 - Complex Sorting Algorithms\nWeek 15 - Hashtables\nWeek 16 - Course Review"
   },
   {
-    "alphaNumber": "ICS 414",
+    "alphaNumber": "ICS 241",
     "creditHours": 3,
-    "title": "Software Engineering II",
-    "instructor": "Philip Johnson\njohnson@hawaii.edu\nPOST 307",
-    "description": "Continuation of 314. Project management, quality, and productivity control, testing and validation, team management. Team-oriented software-implementation project.",
-    "prerequisites": "314",
-    "textbooks": "Course notes",
-    "objectives": "* Develop ability to design, manage, and implement a medium-scale software system.",
-    "grading": "Project (Intermediate deliverables) 80%\nFinal project 20%",
+    "title": "Discrete Mathematics for Computer Science II",
+    "description": "Program correctness, recurrence relations and their solutions, divide and conquer relations, relations and their properties, graph theory, trees and their applications, Boolean algebra, introduction to formal languages and automata theory. Pre: 141 or consent. FS",
+    "instructor": "Kazuo Sugihara\nPOST 314H \nsugihara@hawaii.edu",
+    "prerequisites": "141 or consent.",
+    "textbooks": "Kenneth H. Rosen, Discrete Mathematics and Its Applications, 7th Edition, McGraw-Hill, 2012.",
+    "objectives": "* To introduce a variety of topics in discrete mathematics\n* To develop ability of modeling, reasoning, proving, analysis, and algorithmic problem solving\n* To present examples of applications of discrete mathematics to computer science\n\n* To have students learn mathematical writing as the basis of technical writing",
+    "grading": "10% in-class exercises\n90% midterms and final.",
     "learningOutcomes": [
       "a",
-      "b",
-      "c",
-      "d",
-      "e",
-      "f",
-      "g",
-      "h",
-      "i",
-      "j",
-      "k",
-      "l",
-      "m",
-      "n"
+      "b"
     ],
-    "schedule": "This is a project-based course. Students split into teams to design, implement, test, and evaluate a moderate-scale software system.  Classroom sessions are a mix of weekly team meetings, monthly milestone deliverables, and monthly formal reviews."
+    "courseLearningOutcomes": "* Students can describe an idea in the language of mathematics clearly and rigorously.\n* Students can prove or disprove a given assertion by using proving techniques such as direct proof, indirect proof (proof by contradiction), proof by contrapositive, proof by induction, and proof by construction.\n* Students can solve problems on a variety of topics in discrete mathematics such as recurrence systems, relations, counting, graph theory, Boolean algebra, logic circuit design, formal language theory, automata theory, and theory of computation.\n* Students can read & write pseudocode of an algorithm in a given grammar expressed in BNF.\n* Students can describe a trace of given pseudocode's execution for a given input.",
+    "schedule": "Week 1: Boolean Algebra\nWeek 2: Logic Circuits\nWeek 3: Linear Algebra\nWeek 4: Relations\nWeek 5: Graphs, Midterm\nWeek 6: Graphs\nWeek 7: Graphs\nWeek 8: Trees\nWeek 9: Trees\nWeek 10: Recurrences\nWeek 11: Counting\nWeek 12: Formal Languages\nWeek 13: Regular expressions, Midterm\nWeek 14: Turing machines\nWeek 15: Predicate logic\nWeek 16: Review\nWeek 17: Final Exam"
+  },
+  {
+    "alphaNumber": "ICS 424",
+    "creditHours": 3,
+    "description": "Experience producing applications with at least two different applications frameworks.",
+    "instructor": "Philip Johnson\njohnson@hawaii.edu",
+    "prerequisites": "212, 311, and 313; or consent.",
+    "title": "Application Frameworks"
   },
   {
     "alphaNumber": "ICS 141",
@@ -361,23 +327,6 @@ var defaultSyllabuses = [
     "grading": "Homework assignments: 20% \nMidterm exam I, II: 45% (22.5% for each)\nFinal exam: 25%\nRecitation attendance: 10%",
     "courseLearningOutcomes": "* Understand foundations of mathematics and symbolic techniques in the context of problem solving.\n* Apply formal methods of symbolic propositional and predicate logic.\n* Learn about the algebra of sets, functions, sequences, and summations.\n* Understand the formal metrics for measuring the growth of functions (big-O, Ω, and Ө) and apply these metrics to analyzing the complexity of algorithms (both iterative and recursive algorithms).\n* Learn how numbers are represented in binary and other bases, and as a product of primes.\n* Understand mathematical reasoning by understanding and exercising several proof techniques, such as direct proofs, proof by counterexample, proof by contraposition, proof by contradiction, mathematical induction, and strong induction.\n* Demonstrate basic counting principles, compute permutations and combinations, and interpret the meaning in the context of the particular application.\n* Understand discrete probability concepts – calculate probabilities of events and expectations of random variables, differentiate between dependent and independent events, understand and apply Bayes theorem to dependent events.",
     "schedule": "* Week 1: Introduction, Propositional Logic\n* Week 2: Propositional Equivalences, Predicates and Quantifiers\n* Week 3: Nested Quantifiers, Rules of Inference\n* Week 4: Proofs, Sets \n* Week 5: Set Operators, Functions\n* Week 6: Exam I, Functions\n* Week 7: Sequences and Summations, Matrices\n* Week 8: Algorithms, Growth of Functions\n* Week 9: Complexity of Algorithms \n* Week 10: Divisibility, Integers and Algorithms, Primes and GCD\n* Week 11: Mathematical Induction, Exam II\n* Week 12: Recursive Definitions\n* Week 13: Recursive Algorithms, Basics of Counting\n* Week 14: Permutations and Combinations\n* Week 15: Discrete Probability, Bayes’ Theorem,\n* Week 16: Expected Value and Variances\n* Week 17: Final Exam"
-  },
-  {
-    "alphaNumber": "ICS 241",
-    "creditHours": 3,
-    "title": "Discrete Mathematics for Computer Science II",
-    "description": "Program correctness, recurrence relations and their solutions, divide and conquer relations, relations and their properties, graph theory, trees and their applications, Boolean algebra, introduction to formal languages and automata theory. Pre: 141 or consent. FS",
-    "instructor": "Kazuo Sugihara\nPOST 314H \nsugihara@hawaii.edu",
-    "prerequisites": "141 or consent.",
-    "textbooks": "Kenneth H. Rosen, Discrete Mathematics and Its Applications, 7th Edition, McGraw-Hill, 2012.",
-    "objectives": "* To introduce a variety of topics in discrete mathematics\n* To develop ability of modeling, reasoning, proving, analysis, and algorithmic problem solving\n* To present examples of applications of discrete mathematics to computer science\n\n* To have students learn mathematical writing as the basis of technical writing",
-    "grading": "10% in-class exercises\n90% midterms and final.",
-    "learningOutcomes": [
-      "a",
-      "b"
-    ],
-    "courseLearningOutcomes": "* Students can describe an idea in the language of mathematics clearly and rigorously.\n* Students can prove or disprove a given assertion by using proving techniques such as direct proof, indirect proof (proof by contradiction), proof by contrapositive, proof by induction, and proof by construction.\n* Students can solve problems on a variety of topics in discrete mathematics such as recurrence systems, relations, counting, graph theory, Boolean algebra, logic circuit design, formal language theory, automata theory, and theory of computation.\n* Students can read & write pseudocode of an algorithm in a given grammar expressed in BNF.\n* Students can describe a trace of given pseudocode's execution for a given input.",
-    "schedule": "Week 1: Boolean Algebra\nWeek 2: Logic Circuits\nWeek 3: Linear Algebra\nWeek 4: Relations\nWeek 5: Graphs, Midterm\nWeek 6: Graphs\nWeek 7: Graphs\nWeek 8: Trees\nWeek 9: Trees\nWeek 10: Recurrences\nWeek 11: Counting\nWeek 12: Formal Languages\nWeek 13: Regular expressions, Midterm\nWeek 14: Turing machines\nWeek 15: Predicate logic\nWeek 16: Review\nWeek 17: Final Exam"
   },
   {
     "alphaNumber": "ICS 311",
@@ -399,29 +348,29 @@ var defaultSyllabuses = [
   },
   {
     "alphaNumber": "ICS 312",
-    "title": "Machine-Level and Systems Programming",
-    "instructor": "Henri Casanova\nhenric@hawaii.edu",
+    "courseLearningOutcomes": "(See objectives.)",
+    "creditHours": 3,
     "description": "Machine organization, machine instructions, addressing modes, assembler language, subroutine linkage, linking to higher-level languages, interface to operating systems, introduction to assemblers, loaders and compilers. Pre: 212 (or concurrent), or consent.",
-    "prerequisites": "212 (or concurrent), or consent.",
-    "textbooks": "PC Assembly Language, A. Carter (http://www.drpaulcarter.com/pcasm/)\nNASM User Manual (http://www.nasm.us/doc/)",
-    "objectives": "* Students understand the underlying principle behind machine-level data representations, computing, and programming\n* Students are proficient with assembly programming for the x86 architecture, including register operations, control structures, bitwise operations, and subprograms\n* Students understand the underlying principles behind compiling, linking, loading, and debugging\n* Students gain some hands-on experience with developing a small compiler",
     "grading": "In-class quizzes (always on Tuesdays, for each Module): 10%\nHomework and programming assignments: 55%\nMidterm: 15%\nFinal: 20%",
+    "instructor": "Henri Casanova\nhenric@hawaii.edu\nPOST 310",
     "learningOutcomes": [
       "a",
       "b",
       "c",
       "i"
     ],
-    "courseLearningOutcomes": "(See objectives.)"
+    "objectives": "* Students understand the underlying principle behind machine-level data representations, computing, and programming\n* Students are proficient with assembly programming for the x86 architecture, including register operations, control structures, bitwise operations, and subprograms\n* Students understand the underlying principles behind compiling, linking, loading, and debugging\n* Students gain some hands-on experience with developing a small compiler",
+    "prerequisites": "212 (or concurrent), or consent.",
+    "textbooks": "PC Assembly Language, A. Carter (http://www.drpaulcarter.com/pcasm/)\nNASM User Manual (http://www.nasm.us/doc/)",
+    "title": "Machine-Level and Systems Programming"
   },
   {
     "alphaNumber": "ICS 313",
-    "title": "Programming Language Theory",
-    "instructor": "David N. Chin\nchin@hawaii.edu\nPOST 317",
+    "courseLearningOutcomes": "* Understand the differences among programming languages and paradigms as well as how these differences impact the development and maintenance of programs, such as development ease (time and effort), program correctness (including errors), code maintenance (understandability and extensibility), code execution (speed and image size), and code portability (hardware and compilers/interpreters).\n* Have the ability to program in different programming paradigms/styles, including functional and logic languages like Common Lisp or Scheme and Prolog.\n* Understand scripting languages such as Pearl or JavaScript and their use.\n* Have the ability to represent and solve problems at an abstract level before coding them in a particular language.\n* Have the ability to understand new programming language concepts, and assess the ease with which these features may be implemented in a programming language.\n* Be able to choose the best programming language(s) for a project. Justify the choice with well-reasoned arguments based on language characteristics and the development environment such as the expertise of the programmer(s), resources and workplace politics.",
+    "creditHours": 3,
     "description": "Syntax, semantics, control structures, variable binding and scopes, data and control abstractions. Programming in functional (LISP) and logic (Prolog) programming styles. Pre: 212 and 241, or consent.",
-    "prerequisites": "212 and 241, or consent.",
-    "textbooks": "Programming Language Pragmatics, Third Edition, by Michael L. Scott, publisher: Morgan Kaufmann, ISBN: 978-0123745149.",
     "grading": "40% on assignments, 10% on quizzes, 20% on the Midterm exam, 30% on the Final exam.",
+    "instructor": "David N. Chin\nchin@hawaii.edu\nPOST 317",
     "learningOutcomes": [
       "b",
       "c",
@@ -429,8 +378,10 @@ var defaultSyllabuses = [
       "h",
       "i"
     ],
-    "courseLearningOutcomes": "* Understand the differences among programming languages and paradigms as well as how these differences impact the development and maintenance of programs, such as development ease (time and effort), program correctness (including errors), code maintenance (understandability and extensibility), code execution (speed and image size), and code portability (hardware and compilers/interpreters).\n* Have the ability to program in different programming paradigms/styles, including functional and logic languages like Common Lisp or Scheme and Prolog.\n* Understand scripting languages such as Pearl or JavaScript and their use.\n* Have the ability to represent and solve problems at an abstract level before coding them in a particular language.\n* Have the ability to understand new programming language concepts, and assess the ease with which these features may be implemented in a programming language.\n* Be able to choose the best programming language(s) for a project. Justify the choice with well-reasoned arguments based on language characteristics and the development environment such as the expertise of the programmer(s), resources and workplace politics.",
-    "schedule": "Week 1: Intro\nWeek 2: Functional languages, Prolog\nWeek 3: Syntax, Prolog\nWeek 4: Scope, Prolog\nWeek 5: Semantics, Prolog\nWeek 6: Functional languages, Lisp\nWeek 7: Control flow, Lisp\nWeek 8: Review, Lisp \nWeek 9: Midterm\nWeek 10:  Data types, Lips\nWeek 11: Scripting, Python\nWeek 12: Subroutines, Python\nWeek 13, 14, 15: Concurrency, Python\nWeek 16: Review\nWeek 17: Final exam"
+    "prerequisites": "212 and 241, or consent.",
+    "schedule": "Week 1: Intro\nWeek 2: Functional languages, Prolog\nWeek 3: Syntax, Prolog\nWeek 4: Scope, Prolog\nWeek 5: Semantics, Prolog\nWeek 6: Functional languages, Lisp\nWeek 7: Control flow, Lisp\nWeek 8: Review, Lisp \nWeek 9: Midterm\nWeek 10:  Data types, Lips\nWeek 11: Scripting, Python\nWeek 12: Subroutines, Python\nWeek 13, 14, 15: Concurrency, Python\nWeek 16: Review\nWeek 17: Final exam",
+    "textbooks": "Programming Language Pragmatics, Third Edition, by Michael L. Scott, publisher: Morgan Kaufmann, ISBN: 978-0123745149.",
+    "title": "Programming Language Theory"
   },
   {
     "alphaNumber": "ICS 314",
@@ -459,25 +410,6 @@ var defaultSyllabuses = [
     ],
     "courseLearningOutcomes": "(See course objectives.)",
     "schedule": "ICS 314 consists of the following modules. The number of weeks devoted to each is indicated in parentheses:\n* Introduction to the course (1)\n* Professional persona (1)\n* Open Source Software (1)\n* Coding (1)\n* Configuration Management (1)\n* Development Environments (1)\n* Quality Assurance (2)\n* User Interface Design (2)\n* Application Design (3)\n* Data Design (2)\n* Requirements Design (1)"
-  },
-  {
-    "alphaNumber": "ICS 321",
-    "title": "Data Storage and Retrieval",
-    "instructor": "Lipyeow Lim\nPOST 303E\nlipyeow@hawaii.edu",
-    "description": "Data storage devices, timing and capacity, programming for files, hashed and indexed files, introduction to relational database systems. Pre: 211 or consent.",
-    "prerequisites": "211 or consent.",
-    "textbooks": "Database Systems: The Complete Book (2nd Edition).  Hector Garcia-Molina, Jeff Ullman, and Jennifer Widom.  ISBN-13: 978-0-13-187325-4.",
-    "objectives": "* Students have a broad understanding of database concepts and database management system software\n* Students have a high-level understanding of major DBMS components and their function\n* Students can model an application's data requirements using conceptual modeling tools like ER diagrams and design database schemas based on the conceptual model.\n* Students can write SQL commands to create tables and indexes, insert/update/delete data, and query data in a relational DBMS.\n* Students can develop a data-intensive application using DBMS APIs.",
-    "grading": "Quizzes before every lecture/class (15%)\nAssignment 1: Searching large files (10%)\nAssignment 2: SQL queries (10%)\nAssignment 3: Java Web Application (5%)\nAssignment 4: ER Modeling (10%)\nAssignment 5: DBMS Application Project (10%)\nMidterm Exam (20%)\nFinal Exam (20%)",
-    "learningOutcomes": [
-      "a",
-      "c",
-      "i",
-      "j",
-      "k"
-    ],
-    "courseLearningOutcomes": "* Students have a broad understanding of database concepts and database management system software\n* Students have a high-level understanding of major DBMS components and their function\n* Students can model an application's data requirements using conceptual modeling tools like ER diagrams and design database schemas based on the conceptual model.\n* Students can write SQL commands to create tables and indexes, insert/update/delete data, and query data in a relational DBMS.\n* Students can develop a data-intensive application using DBMS APIs.",
-    "schedule": "Week 1: Introduction & Overview of Database Systems\nWeek 2: Relational Model of Data\nWeek 3: Algebraic & Logical Query Languages\nWeek 4, 5: The Database Language SQL \nWeek 6: SQL in a Server Environment\nWeek 7: Midterm Review and Exam\nWeek 8: High-level Database Models: ER models\nWeek 9: Design Theory for Relational Databases: Functional dependencies\nWeek 10: Design Theory for Relational Databases: Normal Forms\nWeek 11: Constraints, Triggers, Views & Indexing\nWeek 12: Overview of Transaction Processing\nWeek 13: Overview of Storage & Indexing\nWeek 14: Overview of Query Processing & Optimization\nWeek 15: XML & Semi-structured Data Models\nWeek 16: Project Presentation\nWeek 17: Final exam"
   },
   {
     "alphaNumber": "ICS 332",
@@ -642,6 +574,123 @@ var defaultSyllabuses = [
       "g"
     ],
     "schedule": "1. Introduction: Private communication in a public world\n2. Information, channel and noninterference\n3. Encryption and cryptanalysis\n4. Modes of operation and stream cipher\n5. Key establishment\n6. Authentication\n7. Challenge-Response and Matching Conversation\n8. Protocol Derivations\n9. Man-in-the-Middle and Impersonation\n10. Pervasive security and multi-channel authentication\n11. Review"
+  },
+  {
+    "alphaNumber": "ICS 414",
+    "creditHours": 3,
+    "description": "Continuation of 314. Project management, quality, and productivity control, testing and validation, team management. Team-oriented software-implementation project.",
+    "grading": "Project (Intermediate deliverables) 80%\nFinal project 20%",
+    "instructor": "Philip Johnson\njohnson@hawaii.edu\nPOST 307",
+    "learningOutcomes": [
+      "a",
+      "b",
+      "c",
+      "d",
+      "e",
+      "f",
+      "g",
+      "h",
+      "i",
+      "j",
+      "k",
+      "l",
+      "m",
+      "n"
+    ],
+    "objectives": "* Develop ability to design, manage, and implement a medium-scale software system.",
+    "prerequisites": "314",
+    "schedule": "This is a project-based course. Students split into teams to design, implement, test, and evaluate a moderate-scale software system.  Classroom sessions are a mix of weekly team meetings, monthly milestone deliverables, and monthly formal reviews. Individual evaluation of each team member occurs twice a month through meetings with the instructor to assess progress and group participation.  Evaluations of the progress of the entire group occur 4 times during the semester (once per month). The evaluations assess whether adequate progress on the project is being made, the quality of the artifacts being produced by the team, the efficiency of the group process, and the types of group communication in use and their effectiveness.",
+    "textbooks": "Course notes",
+    "title": "Software Engineering II"
+  },
+  {
+    "alphaNumber": "ICS 321",
+    "courseLearningOutcomes": "* Students have a broad understanding of database concepts and database management system software\n* Students have a high-level understanding of major DBMS components and their function\n* Students can model an application's data requirements using conceptual modeling tools like ER diagrams and design database schemas based on the conceptual model.\n* Students can write SQL commands to create tables and indexes, insert/update/delete data, and query data in a relational DBMS.\n* Students can develop a data-intensive application using DBMS APIs.",
+    "description": "Data storage devices, timing and capacity, programming for files, hashed and indexed files, introduction to relational database systems. Pre: 211 or consent.",
+    "grading": "Quizzes before every lecture/class (15%)\nAssignment 1: Searching large files (10%)\nAssignment 2: SQL queries (10%)\nAssignment 3: Java Web Application (5%)\nAssignment 4: ER Modeling (10%)\nAssignment 5: DBMS Application Project (10%)\nMidterm Exam (20%)\nFinal Exam (20%)",
+    "instructor": "Lipyeow Lim\nPOST 303E\nlipyeow@hawaii.edu",
+    "learningOutcomes": [
+      "a",
+      "c",
+      "i",
+      "j",
+      "k"
+    ],
+    "objectives": "* Students have a broad understanding of database concepts and database management system software\n* Students have a high-level understanding of major DBMS components and their function\n* Students can model an application's data requirements using conceptual modeling tools like ER diagrams and design database schemas based on the conceptual model.\n* Students can write SQL commands to create tables and indexes, insert/update/delete data, and query data in a relational DBMS.\n* Students can develop a data-intensive application using DBMS APIs.",
+    "policies": "None.",
+    "prerequisites": "211 or consent.",
+    "schedule": "* Week 1: Introduction & Overview of Database Systems (Ch.1)\n* Week 2: Relational Model of Data (Ch. 2)\n* Week 3: Algebraic & Logical Query Languages (Ch. 5)\n* Week 4, 5: The Database Language SQL (Ch. 6)\n* Week 6: SQL in a Server Environment (Ch. 9)\n* Week 7: Midterm Review and Exam\n* Week 8: High-level Database Models: ER models (Ch. 4)\n* Week 9: Design Theory for Relational Databases: Functional dependencies (Ch. 3)\n* Week 10: Design Theory for Relational Databases: Normal Forms (Ch. 3)\n* Week 11: Constraints, Triggers, Views & Indexing (Ch. 7,8)\n* Week 12: Overview of Transaction Processing (Ch. 17,18)\n* Week 13: Overview of Storage & Indexing (Ch. 13,14)\n* Week 14: Overview of Query Processing & Optimization (Ch 15,16)\n* Week 15: XML & Semi-structured Data Models (Ch 11,12)\n* Week 16: Project Presentation\n* Week 17: Final exam",
+    "textbooks": "Database Systems: The Complete Book (2nd Edition).  Hector Garcia-Molina, Jeff Ullman, and Jennifer Widom.  ISBN-13: 978-0-13-187325-4.",
+    "title": "Data Storage and Retrieval"
+  },
+  {
+    "alphaNumber": "ICS 421",
+    "courseLearningOutcomes": "See course objectives.",
+    "creditHours": 3,
+    "description": "Principles of database systems, data modeling, relational models, database design, query languages, query optimization, concurrency control data security.",
+    "grading": "15% Quizzes\n40% Homework (Programming) Assignments\n20% Project\n15% Mid-term exam\n10% Final Exam",
+    "instructor": "Lipyeow Lim\nlipyeow@hawaii.edu",
+    "learningOutcomes": [
+      "a",
+      "b",
+      "c",
+      "d",
+      "i",
+      "j",
+      "k"
+    ],
+    "objectives": "* Students have a deeper understanding of advanced database technologies including performance tuning, data warehousing, parallel and distributed databases.\n* Students are able to install and deploy DBMS software for large data sets\n* Students are able to program big data applications using database APIs",
+    "policies": "None.",
+    "prerequisites": "311 and 321, or consent.",
+    "schedule": "* Week 1: Introduction & Database Design (Ch. 2)\n* Week 2: Relational Model & Normal Forms (Ch. 3,19)\n* Week 3: Relational Algebra, SQL, Application Programming (Ch. 4,5,6)\n* Week 4: Parallel & Distributed DBs (Ch.22)\n* Week 5: Query Evaluation (Ch. 12,13,14,22)\n* Week 6: Storage, Tree-based Indexes (Ch. 8,9,10)\n* Week 7: Hash Indexes, Query Optimization (Ch. 11,15)\n* Week 8: Transaction Management (Ch 16,17,18)\n* Week 9: Midterm Review & Exam\n* Week 10: Distributed Transactions, Data Warehousing (Ch 22, 25)\n* Week 11: Data Warehousing (Ch. 25)\n* Week 12: Data Mining (Ch. 26)\n* Week 13: Performance Tuning (Ch. 20)\n* Week 14: Security, Other Types of Databases (Ch. 21)\n* Week 15: Project Presentations\n* Week 16: Final review and exam",
+    "textbooks": "Database Management Systems, Third Edition. Raghu Ramakrishnan and Johannes Gehrke. ISBN: 0-07-246563-8.",
+    "title": "Database Systems"
+  },
+  {
+    "alphaNumber": "ICS 443",
+    "courseLearningOutcomes": "* Students will be able to identify various models of parallel computation\n* Students will be able to list fundamental parallel algorithms \n* Students will be able to use learned techniques to implement parallel algorithms on modern many-core architectures\n* Students will be able to carry out analysis of parallel algorithms\n* Students will be able to differentiate between efficient and inefficient parallel algorithms\n* Students will be able to design efficient parallel algorithms\n * Students will be able to check parallel algorithms for correctness \n * Students will be able to analyze the runtime and efficiency of parallel algorithms.",
+    "creditHours": 3,
+    "description": "Introduction to parallel models of computation and design and analysis of parallel algorithms.",
+    "grading": "The students will be graded on class participation (20\\%), homeworks (40\\%), and the final exam (40\\%).",
+    "instructor": "Nodari Sitchinava, Henri Casanova",
+    "learningOutcomes": [
+      "a",
+      "b",
+      "c",
+      "d",
+      "f",
+      "h",
+      "i"
+    ],
+    "objectives": "* The students will be aware of current models of parallel computation\n* The students will be proficient with algorithmic techniques for  designing parallel algorithms\n* The students will be able to apply these techniques to design new parallel algorithm\n* The students will be able to analyze the efficiency of parallel algorithms",
+    "policies": "Late homework policy: Homeworks are due on Thursday at 1:30pm (the beginning of the lecture). Late homeworks can be emailed to the instructor. Penalty for late homeworks is a letter grade reduction (e.g. from A to B) for within each 24 hours that it is late. For example, submission of homework that deserves a letter grade A will be graded B if submitted between Thursday 1:30pm and Friday 1:30pm; will be graded C if submitted before Saturday 1:30pm; and will be graded D if submitted before Sunday 1:30pm. Extenuating circumstances do arise, therefore, a single homework will be accepted up to 72 hours late without any reduction in grade.",
+    "prerequisites": "311, 314",
+    "schedule": "* Week 1: Introduction, models of parallel computation, Brent's scheduling principle\n* Week 2: Parallel scan, prefix sums\n* Week 3: Searching, selection, basic sorting\n* Week 4: Sorting networks, 0-1 principle\n* Week 5: List ranking, pointer jumping, symmetry breaking\n* Week 6: Tree algorithms\n* Week 7: Lowest common ancestors, range minima queries\n* Week 8, 9: Graph algorithms: Connected and biconnected components, minimum spanning trees, shortest paths\n* Week 10,11:Computational Geometry: convex hull, half-plane intersection, planesweep \n* Week 12-13: Linear algebra: matrix-matrix and matrix-vector multiplication\n* Week 14: Numerical algorithms\n* Week 15: String algorithms\n* Week 16: Advanced models of computation, limits of parallelism, P-completeness",
+    "textbooks": "Joseph Jaja, Introduction to Parallel Algorithms, Addison Wesley, 1992.",
+    "title": "Parallel Algorithms"
+  },
+  {
+    "alphaNumber": "ICS 466",
+    "courseLearningOutcomes": "Students have: \n* An understanding of the current state of the mobile industry, and its likely near future. \n* An understanding of the history of mobile devices, platforms, software, carriers, infrastructure and markets.\n* An understanding of the principles of design for mobile devices, and of how those principles are applied on currently available mobile platforms. \n* The ability to plan, design and implement a mobile application, site or service.\n* The ability to give a clear and concise verbal description of a mobile application, site or service (i.e. an “elevator pitch”).\n* The ability to storyboard, film, narrate and edit a short video on a mobile application, site or service. \n* The ability to write clearly, professionally and effectively.",
+    "creditHours": 3,
+    "description": "Lecture introducing design issues, programming languages, operating systems and mark-up languages for internet-enabled mobile devices, such as cell phones and PDAs.",
+    "grading": "* Postings: 2.5% (1% for the original post, 1% for the review, and 0.5% for the response to the review) per week x 14 weeks = 35%\n* Project (60%). Each team project part will be evaluated based on the written work and the video presentation.\ni. Project proposal/design (15%): Teams will submit a description (~5 pages) of the proposed project, and will also give a short video presentation.\nii. Project design/implementation (15%): A partial or full (depending on the scale of the proposal) implementation of the project described in the proposal. Teams will submit documentation (~5 pages) of the implementation, and will present the implementation to the class in a short video.\niii. Project evaluation (15%): An evaluation of the implemented project, using real users (probably classmates) and sound evaluation techniques. (10% on own evaluation / 5% evaluation of other team, for a total of ~5 pages)\niv. Final project submission (15%): Teams will resubmit stages I-III as described above, incorporating feedback from the professor and from other students, and will present their full project in a short video.\nv.\tOther activities (5%): TBD. For example, Hackathon participation.",
+    "instructor": "Kim Binsted\nbinsted@hawaii.edu",
+    "learningOutcomes": [
+      "a",
+      "b",
+      "c",
+      "d",
+      "f",
+      "h",
+      "i"
+    ],
+    "objectives": "Internet-enabled mobile devices, such as cell phones, e-readers and tablet computers, are increasingly common. This course helps students understand the relevant issues in designing for such devices, and teaches them about current and future standards, practices, programming languages and operating systems for mobile devices. It also encourages students to think about how non-technical issues – business models, cultural attitudes, and so on – can affect mobile design. The course is organized around a term project, in which students design, implement and test a mobile-oriented service or site. Students are encouraged to adopt an entrepreneurial attitude towards their projects, and should consider target markets, revenue streams etc., as well as technical and design issues.",
+    "policies": "Students must adequately complete all writing and oral assignments to pass the course with a D grade or better. Students who do not complete all writing and oral assignments will get a D- or an F and will not earn W or O Focus credit.\n\nLate project documents/videos lose 10%/day, starting at 5pm on due date. Documents/videos over 5 days late will be graded out of 50%. All documents/videos must be handed in by May 8. Weekly Laulima postings will not be graded if posted after the due date. \n\nFor all evaluated work, students may hand in a draft at least one week before the due date, for detailed feedback.\n\nAn occurrence of academic dishonesty will result in a grade of 0 for the assignment or exam and a memo in your ICS department file describing the incident.  Should there already be a memo of this type in your file, you will receive an F for the course, and the incident will be referred to the Dean of Students.",
+    "prerequisites": "314 or consent.",
+    "schedule": "Part 1\t20-Feb\nPart 2\t20-Mar\nPart 3\t24-Apr\nResubmit\t8-May",
+    "textbooks": "none",
+    "title": "Design for Mobile Devices"
   }
 ];
 
