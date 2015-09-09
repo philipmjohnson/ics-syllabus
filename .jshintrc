@@ -131,15 +131,19 @@
     "_"           : false, // Underscore
     "$"           : false, // JQuery
     "Router"      : false,  // iron-router
+    "RouteController" : false,
     "AutoForm"    : false,
+    "Meta"        : false,
     "SimpleSchema": false,
     "AccountsTemplates": false,
+    "moment"      : false,
 
     // Define Collections and Globals used in this application.
     // True because they can be manipulated globally.
     "EditStatus"  : true,
     "Syllabuses"  : true,
-    "ICSLearningOutcomes": true
+    "ICSLearningOutcomes": true,
+    "AppController" : true
 
   }
 }

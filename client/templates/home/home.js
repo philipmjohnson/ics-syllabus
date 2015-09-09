@@ -52,19 +52,19 @@ Template.home.helpers({
       var alpha = syllabus.alphaNumber;
       var title = syllabus.title;
       var getInstructor = function (syllabus) {
-        if ((syllabus.instructor == undefined) || (syllabus.instructor.length ===0)) {
+        if ((syllabus.instructor === undefined) || (syllabus.instructor.length ===0)) {
           return "No instructor";
         }
         else {
           var indexOfNewLine = syllabus.instructor.indexOf('\n');
-          if (indexOfNewLine == -1) {
+          if (indexOfNewLine === -1) {
             return syllabus.instructor;
           }
           else {
             return syllabus.instructor.substring(0, indexOfNewLine);
           }
         }
-      }
+      };
       return alpha + ": " + title + " (" + getInstructor(syllabus) + ")";
     };
     return _.map(Syllabuses.find({}, {sort: {alphaNumber: 1}}).fetch(), function(syllabus) {

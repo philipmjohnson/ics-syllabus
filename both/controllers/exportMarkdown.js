@@ -11,7 +11,7 @@ ExportMarkdownController = AppController.extend({
 });
 
 ExportJsonController.events({
-  'click [data-action=doSomething]': function (event, template) {
+  'click [data-action=doSomething]': function (event) {
     event.preventDefault();
   }
 });

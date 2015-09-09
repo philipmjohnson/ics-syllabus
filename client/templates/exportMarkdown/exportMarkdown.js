@@ -7,9 +7,9 @@ Template.exportMarkdown.helpers({
     // Helper function: Return the text corresponding to a SLO identifier ("a", "b", "c"...)
     var lookupSlo = function (slo) {
       return _.find(ICSLearningOutcomes, function (record) {
-        return record.value === slo
+        return record.value === slo;
       }).label;
-    }
+    };
     // Helper function: Given an array of SLO identifiers, return a string containing their textual definitions.
     var sloToString = function (sloArray) {
       var sloString = "";
@@ -17,11 +17,11 @@ Template.exportMarkdown.helpers({
         sloString += "\n   * " + lookupSlo(slo);
       });
       return sloString;
-    }
+    };
 
     // Now generate the markdown string.
     var markdownString = "";
-    var filtered = _.each(allSyllabuses, function (syllabus) {
+    _.each(allSyllabuses, function (syllabus) {
       markdownString +=
           "\n\n# Course syllabus for: " + syllabus.alphaNumber +
           "\n## a. Course alpha and number, and course title." +

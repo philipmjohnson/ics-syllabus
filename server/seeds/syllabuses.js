@@ -648,7 +648,7 @@ var defaultSyllabuses = [
     "alphaNumber": "ICS 111",
     "courseLearningOutcomes": "* Be able to deconstruct problems to develop algorithms and eventually program code.\n* Be able to develop simple data structures in object oriented form.\n* Be able to develop running software that involves the reading of data, storage of data, and depiction of data using graphics, sound and interactivity.\n* Be able to present their work to an audience.",
     "creditHours": 4,
-    "description": "An overview of the fundamentals of computer science emphasizing problem solving, algorithm development, implementation, and debugging/testing using an object­-oriented programming language.",
+    "description": "An overview of the fundamentals of computer science emphasizing problem solving, algorithm development, implementation, and debugging/testing using an object-oriented programming language.",
     "grading": "Competency Quizzes: (38% of grade)\nFinal: (5% of grade)\nProjects: (30% of grade)\nLab Assignments: (27% of grade)",
     "instructor": "Jason Leigh",
     "learningOutcomes": [
@@ -805,8 +805,8 @@ if (Meteor.users.find().count() === 0) {
   _.each(users, function (user) {
     Accounts.createUser({
       email: user.email,
+      username: user.username,
       password: "knuth",
-      profile: {username: user.username},
       profile: {name: user.name},
       roles: user.roles
     });
