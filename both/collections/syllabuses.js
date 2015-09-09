@@ -1,5 +1,12 @@
 Syllabuses = new Mongo.Collection("syllabuses");
 
+Meteor.methods({
+  updateSyllabus: function(doc, docID) {
+    check(doc, Syllabuses.simpleSchema());
+    Syllabuses.update({_id: docID}, doc);
+  }
+});
+
 Syllabuses.allow({
   insert: function () {
     // only allow posting if you are logged in

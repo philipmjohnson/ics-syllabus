@@ -1,9 +1,7 @@
 Next steps:
+* Fill out the "unassigned" syllabuses.
+* Use methods, not allow/deny
 * Single page for export
-* Clean up code:
-  - Delete vestigial code from boilerplate.
-  - Run jshint
-  - Create JSDocs.
 
 * Nice to have
 - UH CAS authentication.
