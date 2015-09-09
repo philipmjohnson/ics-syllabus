@@ -4,18 +4,6 @@
 
 var defaultSyllabuses = [
   {
-    "alphaNumber": "ICS 101",
-    "creditHours": 4,
-    "title": "Tools for the Information Age",
-    "policies": "None.",
-    "description": "Fundamental concepts and terms of computer technology, application software for problem solving, computer technology trends and impact on individuals and society.",
-    "instructor": "Martha Crosby",
-    "learningOutcomes": [
-      "a",
-      "b"
-    ]
-  },
-  {
     "alphaNumber": "ICS 110",
     "creditHours": 3,
     "title": "Introduction to Computer Programming",
@@ -84,18 +72,25 @@ var defaultSyllabuses = [
     "prerequisites": "311 and either MATH 216, MATH 242, or MATH 252A; or consent.",
     "title": "Introduction to Computer Graphics",
     "instructor": "Stephen Itoga\nitoga@hawaii.edu",
-    "description": "Fundamentals of computer graphics including graphics hardware, representation, manipulation, and display of two- and three-dimensional objects, use of commercial software."
+    "description": "Fundamentals of computer graphics including graphics hardware, representation, manipulation, and display of two- and three-dimensional objects, use of commercial software.",
+    "courseLearningOutcomes": "See objectives.",
+    "grading": "* Required projects (4 ): 40% \n* Term project: 30%\n* Midterm 15%\n* Final (15%)",
+    "learningOutcomes": [
+      "a",
+      "b",
+      "c",
+      "i"
+    ],
+    "objectives": "* Introduce students to all aspects of computer graphics: hardware, software, applications \n* Understand the basic concepts underlying computer graphics \n* Gain experience with at least one graphical application programming interface (OpenGL) \n* Carry out a large programming project of your choice \n* Become well versed in the basic procedures for developing graphical software",
+    "policies": "None.",
+    "schedule": "Weeks 1, 2: Introduction\nWeeks 3, 4: Drawing geometric objects\nWeeks 5, 6, 7, 8: Viewing objects\nWeek 9: Color\nWeek 10: Lighting\nWeek 11: Display lists\nWeek 12: Frame buffers\nWeeks 13, 14: Advanced topics\nWeeks 15, 16: Presentations\nWeek 17: Final exam",
+    "textbooks": "OpenGL Programming Guide, Addison-Wesley."
   },
   {
     "alphaNumber": "ICS 222",
     "creditHours": 3,
     "title": "Introduction to computation",
     "instructor": "Dusko Pavlovic"
-  },
-  {
-    "alphaNumber": "ICS 210",
-    "title": "Information Systems in Society",
-    "description": "Lecture/discussion critically explores sociopolitical dimensions of Information and Communication Technology (ICT), and the information professions. A-F only. Pre: departmental approval. (Once a year)"
   },
   {
     "alphaNumber": "ICS 212",
@@ -106,26 +101,12 @@ var defaultSyllabuses = [
     "prerequisites": "211 or consent."
   },
   {
-    "alphaNumber": "ICS 290",
-    "creditHours": 1,
-    "title": "Computer Science Careers: An Exploration of the Specialties of Computer Science",
-    "description": "Exploration of the specialties of computer science. Meets every two week for 2.5 hours to explore specific areas in computer science. CR/NC only. (Once a year)"
-  },
-  {
     "alphaNumber": "ICS 331",
     "creditHours": 4,
     "title": "Logic Design and Microprocessors",
     "instructor": "Peter-Michael Seidel",
     "description": "Basic machine architecture, microprocessors, bus organization, circuit elements, logic circuit analysis and design, microcomputer system design. Pre: 212 and 241, or consent.",
     "prerequisites": "212 and 241, or consent."
-  },
-  {
-    "alphaNumber": "ICS 390",
-    "creditHours": 3,
-    "title": "Computing Ethics for Lab Assistants",
-    "instructor": "Martha Crosby\ncrosby@hawaii.edu",
-    "description": "A lecture/discussion/internship on ethical issues and instructional techniques for students assisting a laboratory section of ICS 101. The class uses multiple significant writing and oral presentation activities to help students learn course content.",
-    "prerequisites": "101 (Alpha) and consent."
   },
   {
     "alphaNumber": "ICS 419",
@@ -168,34 +149,25 @@ var defaultSyllabuses = [
     "prerequisites": "311 or consent. Recommended: MATH 307."
   },
   {
-    "alphaNumber": "ICS 441",
-    "creditHours": 3,
-    "prerequisites": "311 or consent",
-    "title": "Theory of Computation",
-    "instructor": "Kazuo Sugihara\nsugihara@hawaii.edu",
-    "description": "Grammars, sequential machines, equivalence, minimalization, analysis and synthesis, regular expressions, computability, unsolvability, Gödel's theorem, Turing machines."
-  },
-  {
-    "alphaNumber": "ICS 442",
-    "creditHours": 3,
-    "prerequisites": "311 or consent",
-    "title": "Analytical Models and Methods",
-    "description": "Applications of mathematical methods in computer science with emphasis on discrete mathematics, numerical computation, algebraic models, operations research."
-  },
-  {
-    "alphaNumber": "ICS 451",
-    "creditHours": 3,
-    "prerequisites": "212 and 311, or consent",
-    "title": "Data Networks",
-    "instructor": "Edo Biagioni\nesb@hawaii.edu",
-    "description": "Network analysis, architecture, digital signal analysis and design; circuit switching, packet switching, packet broadcasting; protocols and standards; local area networks; satellite networks; ALOHA channels; examples."
-  },
-  {
     "alphaNumber": "ICS 452",
     "creditHours": 3,
     "prerequisites": "Two ICS 300-level courses or consent. Recommended: 312 and 313.",
     "title": "Software Design for Robotics",
-    "description": "Sensors, actuators, signal processing, paradigms of robotic software design, introduction to machine learning, introduction to computer vision, and robot-to-human interaction."
+    "description": "Sensors, actuators, signal processing, paradigms of robotic software design, introduction to machine learning, introduction to computer vision, and robot-to-human interaction.",
+    "courseLearningOutcomes": "See objectives.",
+    "instructor": "Curtis Ikehara\ncikehara@hawaii.edu",
+    "learningOutcomes": [
+      "a",
+      "b",
+      "c",
+      "g",
+      "i"
+    ],
+    "objectives": "* Students will have completed several programming assignments and will also\nhave implemented a project so that they can acquire experience in software\ndesign for robotics.\n* Students will understand basic hardware aspects of robotics and how\nprogramming is influences by robotic hardware issues.\n* Students will understand the design principles and implement dataflow\nprogramming for robotics.\n* Students will understand the programming issues of robotic programming for\nindividual robots as well as multiple cooperating robots.\n* Students will be proficient at programming both semi-autonomous and\nautonomous robotic systems.\n* Students will learn to add robustness to their software to compensate for sensor and actuator problems.",
+    "policies": "None.",
+    "schedule": "Week 1: Introduction\nWeeks 2, 3 Robotics hardware\nWeek 4, 5: Movement planning\nWeek 6: Robust software\nWeek 7: Signal processing algorithms\nWeeks 8, 9: Computer vision\nWeeks 10, 11: Machine learning\nWeeks 12-15: Advance robotics topics\nWeek 16: Project presentations\nWeek 17: Final exam",
+    "textbooks": "Computational Principles of Mobile Robotics, 2nd Edition, Gregory\nDudek & Michael Jenkin, Paperback, ISBN:9780521692120, July 2010",
+    "grading": "3 homework assignments (30%)\nFinal project (40%)\nFinal exam (20%)\nInclass participation (10%)"
   },
   {
     "alphaNumber": "ICS 211",
@@ -235,14 +207,6 @@ var defaultSyllabuses = [
     "schedule": "Week 1: Boolean Algebra\nWeek 2: Logic Circuits\nWeek 3: Linear Algebra\nWeek 4: Relations\nWeek 5: Graphs, Midterm\nWeek 6: Graphs\nWeek 7: Graphs\nWeek 8: Trees\nWeek 9: Trees\nWeek 10: Recurrences\nWeek 11: Counting\nWeek 12: Formal Languages\nWeek 13: Regular expressions, Midterm\nWeek 14: Turing machines\nWeek 15: Predicate logic\nWeek 16: Review\nWeek 17: Final Exam"
   },
   {
-    "alphaNumber": "ICS 424",
-    "creditHours": 3,
-    "description": "Experience producing applications with at least two different applications frameworks.",
-    "instructor": "Philip Johnson\njohnson@hawaii.edu",
-    "prerequisites": "212, 311, and 313; or consent.",
-    "title": "Application Frameworks"
-  },
-  {
     "alphaNumber": "ICS 483",
     "courseLearningOutcomes": "* Students understand basic concepts, terminology, principles, models and methods in computer vision and image understanding.\n* Students have a broad knowledge for understanding advanced topics and scientific literature in the field of computer vision.\n* Students can describe the problems and basic methods of edge detection, texture analysis, stereo analysis, image segmentation, tracking, image retrieval, object recognition.\n* Students can implement and systematically test fundamental methods/algorithms of computer vision, image processing, and image analysis.\n* Students can design a computer vision system for a specific problem.\n* Students can present applications of computer vision systems and identify the limitations of current vision systems.",
     "creditHours": 3,
@@ -279,42 +243,6 @@ var defaultSyllabuses = [
     "grading": "Homework assignments: 20% \nMidterm exam I, II: 45% (22.5% for each)\nFinal exam: 25%\nRecitation attendance: 10%",
     "courseLearningOutcomes": "* Understand foundations of mathematics and symbolic techniques in the context of problem solving.\n* Apply formal methods of symbolic propositional and predicate logic.\n* Learn about the algebra of sets, functions, sequences, and summations.\n* Understand the formal metrics for measuring the growth of functions (big-O, Ω, and Ө) and apply these metrics to analyzing the complexity of algorithms (both iterative and recursive algorithms).\n* Learn how numbers are represented in binary and other bases, and as a product of primes.\n* Understand mathematical reasoning by understanding and exercising several proof techniques, such as direct proofs, proof by counterexample, proof by contraposition, proof by contradiction, mathematical induction, and strong induction.\n* Demonstrate basic counting principles, compute permutations and combinations, and interpret the meaning in the context of the particular application.\n* Understand discrete probability concepts – calculate probabilities of events and expectations of random variables, differentiate between dependent and independent events, understand and apply Bayes theorem to dependent events.",
     "schedule": "* Week 1: Introduction, Propositional Logic\n* Week 2: Propositional Equivalences, Predicates and Quantifiers\n* Week 3: Nested Quantifiers, Rules of Inference\n* Week 4: Proofs, Sets \n* Week 5: Set Operators, Functions\n* Week 6: Exam I, Functions\n* Week 7: Sequences and Summations, Matrices\n* Week 8: Algorithms, Growth of Functions\n* Week 9: Complexity of Algorithms \n* Week 10: Divisibility, Integers and Algorithms, Primes and GCD\n* Week 11: Mathematical Induction, Exam II\n* Week 12: Recursive Definitions\n* Week 13: Recursive Algorithms, Basics of Counting\n* Week 14: Permutations and Combinations\n* Week 15: Discrete Probability, Bayes’ Theorem,\n* Week 16: Expected Value and Variances\n* Week 17: Final Exam"
-  },
-  {
-    "alphaNumber": "ICS 311",
-    "creditHours": 4,
-    "title": "Algorithms",
-    "description": "Design and correctness of algorithms, including divide-and-conquer, greedy and dynamic programming methods. Complexity analyses using recurrence relations, probabilistic methods, and NP-completeness. Applications to order statistics, disjoint sets, B-trees and balanced trees, graphs, network flows, and string matching.",
-    "instructor": "Kazuo Sugihara\nPOST 314H\nsugihara@hawaii.edu",
-    "prerequisites": "211 and 241, or consent.",
-    "textbooks": "Thomas H. Cormen, Charles E. Leiserson, Ronald L. Rivest and Clifford Stein, Introduction to Algorithms, Third Edition, The MIT Press, 2009.",
-    "objectives": "* To introduce a variety of topics in discrete mathematics\n* To develop ability of modeling, reasoning, proving, analysis, and algorithmic problem solving\n* To present examples of applications of discrete mathematics to computer science\n* To have students learn mathematical writing as the basis of technical writing",
-    "policies": "10% in-class\n90% midterms and final",
-    "learningOutcomes": [
-      "a",
-      "b",
-      "c",
-      "f"
-    ],
-    "courseLearningOutcomes": "* Students are aware of fundamental algorithms of computer science, and their associated data structures and problem solving techniques.\n* Students can compose a problem formulation of a real-world problem mathematically.\n* Students can decide whether given pseudocode is correct for a given problem formulation; construct a counterexample if the given pseudocode is incorrect; and outline a proof for its correctness otherwise.\n* Students can design a correct algorithm for a given problem and describe the algorithm as pseudocode in a given pseudocode syntax.\n* Students can analyze the worst-case and best-case space and time complexities of a given algorithm.\n* Students can create a software program for accurately implementing an algorithm specified in pseudocode. Students can implement software objects meeting Abstract Data Type specifications.\n* Students can produce a software product including documentation for given requirements & design specifications."
-  },
-  {
-    "alphaNumber": "ICS 312",
-    "courseLearningOutcomes": "(See objectives.)",
-    "creditHours": 3,
-    "description": "Machine organization, machine instructions, addressing modes, assembler language, subroutine linkage, linking to higher-level languages, interface to operating systems, introduction to assemblers, loaders and compilers. Pre: 212 (or concurrent), or consent.",
-    "grading": "In-class quizzes (always on Tuesdays, for each Module): 10%\nHomework and programming assignments: 55%\nMidterm: 15%\nFinal: 20%",
-    "instructor": "Henri Casanova\nhenric@hawaii.edu\nPOST 310",
-    "learningOutcomes": [
-      "a",
-      "b",
-      "c",
-      "i"
-    ],
-    "objectives": "* Students understand the underlying principle behind machine-level data representations, computing, and programming\n* Students are proficient with assembly programming for the x86 architecture, including register operations, control structures, bitwise operations, and subprograms\n* Students understand the underlying principles behind compiling, linking, loading, and debugging\n* Students gain some hands-on experience with developing a small compiler",
-    "prerequisites": "212 (or concurrent), or consent.",
-    "textbooks": "PC Assembly Language, A. Carter (http://www.drpaulcarter.com/pcasm/)\nNASM User Manual (http://www.nasm.us/doc/)",
-    "title": "Machine-Level and Systems Programming"
   },
   {
     "alphaNumber": "ICS 313",
@@ -384,31 +312,6 @@ var defaultSyllabuses = [
       "n"
     ],
     "schedule": "Week 1: \nWeek 2: \nWeek 3: \nWeek 4: \nWeek 5: \nWeek 6: \nWeek 7: \nWeek 8: \nWeek 9: \nWeek 10: \nWeek 11: \nWeek 12: \nWeek 13: \nWeek 14: \nWeek 15: \nWeek 16:\nWeek 17: Final exam"
-  },
-  {
-    "alphaNumber": "ICS 351",
-    "creditHours": 3,
-    "title": "Network Design and Management",
-    "instructor": "Edo Biagioni\nesb@hawaii.edu",
-    "description": "Overview of the internet and its capabilities; introduction to HTTP, TCP/IP, ethernet, and wireless 802.11; routers, switches, and NAT; network and wireless security; practical experience in designing and implementing networks.",
-    "prerequisites": "141 and 211, or consent.",
-    "textbooks": "Mastering Networks -- An Internet Lab Manual 5.0\", by Jörg Liebeherr and Magda el Zarki, 2004.",
-    "objectives": "* Design and build networks using routers and switches \n* Manage, monitor, and find problems with networks \n* Learn elements of the TCP/IP protocol suite \n* Become familiar with network configuration of routers and hosts \n* Learn about routing protocols in use in the Internet \n* Learn elements of network security, including firewalls and NAT",
-    "grading": "Labs (60%)\nQuizzes (30%)\nFinal exam (10%)",
-    "learningOutcomes": [
-      "a",
-      "b",
-      "c",
-      "d",
-      "e",
-      "h",
-      "i",
-      "j",
-      "l",
-      "m",
-      "n"
-    ],
-    "schedule": "* Week 1: Intro\n* Week 2: Commands, network monitoring, protocols\n* Week 3: Addressing, masks, routing\n* Week 4: Masks, networks, subnetworks\n* Week 5: Routing, OSPF, BGP\n* Week 6: Routing, multi-casting\n* Week 7: TCP\n* Week 8: NAT, network configuration\n* Week 9: DNS\n* Week 10: 802.11, IPv6, HTTP\n* Week 11: HTTPS, SNMP\n* Week 12: Wireless ad-hoc networks\n* Week 13: Security, \n* Week 14: Review\n* Week 15: Networking problems and solutions\n* Week 16: Networking problems and solutions\n* Week 17: Final exam"
   },
   {
     "alphaNumber": "ICS 355",
@@ -492,23 +395,6 @@ var defaultSyllabuses = [
       "e"
     ],
     "schedule": "* Weeks 1, 2: Overview\n* Weeks 3, 4: Insider Threat\n* Weeks 5, 6: Data breach\n* Week 7: Midterm\n* Weeks 8, 9: Implementation Sins: Security Flaws\n* Weeks 10, 11: Cryptographic Sins\n* Weeks 12, 13: Networking Sins\n* Weeks 14, 15, 16: Final project\n* Week 17: Final exam"
-  },
-  {
-    "alphaNumber": "ICS 432",
-    "creditHours": 3,
-    "title": "Concurrent and High-Performance Programming",
-    "instructor": "Henri Casanova\nhenric@hawaii.edu",
-    "description": "Principles of concurrent and high performance programming. Multi-threading in C and Java for shared-memory programming. Distributed memory programming with Java. Introduction to cluster computing. A-F only.",
-    "prerequisites": "212 or consent.",
-    "textbooks": "Course notes.",
-    "objectives": "* Master concepts of program performance optimization, of multi-core architectures, and of concurrent programming. \n* Become proficient in performance tuning of non-concurrent C programs.\t\t\n* Become proficient in multi-threaded programming in C and in Java.\t\n* Gain hands-on experience in debugging and performance tuning of multi-threaded programs on multi-core architectures.\n* Gain exposure to advanced high-performance computing topics such as cluster computing and GPU programming.\t\t\t\t\t\t \n* Be engaged in a final project in which all the knowledge acquired in the course is applied to optimizing the performance of real-world software.",
-    "grading": "Homework and programming assignments (60%)\nMidterm (15%)\nFinal (25%)",
-    "learningOutcomes": [
-      "b",
-      "c"
-    ],
-    "courseLearningOutcomes": "(See objectives)",
-    "schedule": "* Week 1: Review of processes and threads\n* Week 2: Java threads and thread safety\n* Week 3: Java Swing\n* Week 4: Thread Synchronization with Locks and Condition Variables\n* Week 5: Threads in C with Pthreads\n* Week 6: Semaphores and Monitors\n* Week 7: Classic Concurrency Problems\n* Week 8: Concurrency and Performance\n* Week 9: Shared Memory and Performance\n* Week 10: OpenMP\n* Weeks 11, 12: Programming for Performance\n* Weeks 13, 14: Hardware and Concurrency\n* Week 15: Distributed Computing\n* Week 16: Review\n* Week 17: Final exam"
   },
   {
     "alphaNumber": "ICS 455",
@@ -604,7 +490,7 @@ var defaultSyllabuses = [
     "creditHours": 3,
     "description": "Introduction to parallel models of computation and design and analysis of parallel algorithms.",
     "grading": "The students will be graded on class participation (20\\%), homeworks (40\\%), and the final exam (40\\%).",
-    "instructor": "Nodari Sitchinava, Henri Casanova",
+    "instructor": "Nodari Sitchinava",
     "learningOutcomes": [
       "a",
       "b",
@@ -616,7 +502,7 @@ var defaultSyllabuses = [
     ],
     "objectives": "* The students will be aware of current models of parallel computation\n* The students will be proficient with algorithmic techniques for  designing parallel algorithms\n* The students will be able to apply these techniques to design new parallel algorithm\n* The students will be able to analyze the efficiency of parallel algorithms",
     "policies": "Late homework policy: Homeworks are due on Thursday at 1:30pm (the beginning of the lecture). Late homeworks can be emailed to the instructor. Penalty for late homeworks is a letter grade reduction (e.g. from A to B) for within each 24 hours that it is late. For example, submission of homework that deserves a letter grade A will be graded B if submitted between Thursday 1:30pm and Friday 1:30pm; will be graded C if submitted before Saturday 1:30pm; and will be graded D if submitted before Sunday 1:30pm. Extenuating circumstances do arise, therefore, a single homework will be accepted up to 72 hours late without any reduction in grade.",
-    "prerequisites": "311, 314",
+    "prerequisites": "311 with C or better",
     "schedule": "* Week 1: Introduction, models of parallel computation, Brent's scheduling principle\n* Week 2: Parallel scan, prefix sums\n* Week 3: Searching, selection, basic sorting\n* Week 4: Sorting networks, 0-1 principle\n* Week 5: List ranking, pointer jumping, symmetry breaking\n* Week 6: Tree algorithms\n* Week 7: Lowest common ancestors, range minima queries\n* Week 8, 9: Graph algorithms: Connected and biconnected components, minimum spanning trees, shortest paths\n* Week 10,11:Computational Geometry: convex hull, half-plane intersection, planesweep \n* Week 12-13: Linear algebra: matrix-matrix and matrix-vector multiplication\n* Week 14: Numerical algorithms\n* Week 15: String algorithms\n* Week 16: Advanced models of computation, limits of parallelism, P-completeness",
     "textbooks": "Joseph Jaja, Introduction to Parallel Algorithms, Addison Wesley, 1992.",
     "title": "Parallel Algorithms"
@@ -648,7 +534,7 @@ var defaultSyllabuses = [
     "alphaNumber": "ICS 111",
     "courseLearningOutcomes": "* Be able to deconstruct problems to develop algorithms and eventually program code.\n* Be able to develop simple data structures in object oriented form.\n* Be able to develop running software that involves the reading of data, storage of data, and depiction of data using graphics, sound and interactivity.\n* Be able to present their work to an audience.",
     "creditHours": 4,
-    "description": "An overview of the fundamentals of computer science emphasizing problem solving, algorithm development, implementation, and debugging/testing using an object-oriented programming language.",
+    "description": "An overview of the fundamentals of computer science emphasizing problem solving, algorithm development, implementation, and debugging/testing using an object­-oriented programming language.",
     "grading": "Competency Quizzes: (38% of grade)\nFinal: (5% of grade)\nProjects: (30% of grade)\nLab Assignments: (27% of grade)",
     "instructor": "Jason Leigh",
     "learningOutcomes": [
@@ -783,6 +669,257 @@ var defaultSyllabuses = [
     "schedule": "Week 1: Introduction to the course\nWeek 2: HTML(5) and CSS\nWeek 3: Responsive Web Design and Bootstrap\nWeeks 4, 5: JavaScript and jQuery\nWeeks 6, 7: Meteor\nWeeks 8 - 11: Technology Presentations\nWeeks 12 - 16: Final Project",
     "textbooks": "Course Notes",
     "title": "Introduction to Programming for the Web"
+  },
+  {
+    "alphaNumber": "ICS 390",
+    "courseLearningOutcomes": "Students can explain different ethical schools of thought.\nStudents can apply ethical reasoning skills to situations.\nStudents can plan, develop, and implement lesson plans.\nStudents can effectively communicate with others in instructional, public presentation, and group facilitation sessions. \nStudents can explain current technology concepts to those enrolled in courses they assist. \nStudents can explain legal, moral, and ethical issues concerning technology both orally and in writing. \nStudents can explain the impact of computers in society, locally, and globally both orally and in writing.",
+    "creditHours": 3,
+    "description": "The course concentrates on the theory and practice of computer and information ethics. It covers the basics of ethical decision‐making, and emphasizes group work and presentations. Topics studied in the course include risk and reliability, privacy, info‐war, crime, access, business ethics, copyright, patents, and other relevant, timely issues. The class uses writing (term papers, weekly on-line written discussions and reviews, and critiques) to promote the learning of course materials. The class uses oral presentations and activities (presentations, class discussions, critiques, lab sessions, contact hours, and teaching) to promote learning courses materials.",
+    "grading": "2 essays (8% each), on-line discussion (27%), in-class discussion and facilitation (15%), presentation (8%), lab and open lab support (14%), teaching (18%), instructional critique (2%).",
+    "instructor": "Martha Crosby\ncrosby@hawaii.edu",
+    "learningOutcomes": [
+      "d",
+      "e",
+      "f",
+      "g",
+      "h",
+      "i",
+      "j",
+      "n"
+    ],
+    "objectives": "Students can explain different ethical schools of thought.\nStudents can apply ethical reasoning skills to situations.\nStudents can develop and implement lesson plans.\nStudents can effectively communicate in various situations.\nStudents can explain legal, moral, and ethical issues concerning technology.\nStudents can explain the impact of computers in society, locally, and globally.",
+    "policies": "-\tPlagiarism will not be tolerated. All sources must be cited. Instruction on how to correctly cite a source will be given before the first paper is due. An assignment including plagiarized material will receive an F. \n-\tLate assignments will lose 10% for each day late (starting immediately after the time the assignment is due). The final essay and on-line discussions will not be accepted for credit if they are submitted late.  All assignments are required, even if they are too late to be worth anything.  \n-\tAttendance is required at all course sessions. If a student would like to make-up missed work due to a valid excused absence, the student must contact the instructor and provide documentation for the excused absence on the day the student returns to class.",
+    "prerequisites": "101 (Alpha) and consent.",
+    "schedule": "Week 1: Class Orientation, Week 2: Discussion leader and mediation techniques, academic honesty, and time management, Week 3: Catalysts for Change, Week 4: Intro to Ethics, Week 5: Networking, Week 6: Intellectual Property, Week 7: Information Privacy, Week 8: Privacy and the Government, Week 9: Computer and Network Security, Week 10: Computer Reliability, Week 11: Professional Ethics, Week 12: Work and Wealth, Week 13-Week16: Final Presentations",
+    "textbooks": "Ethics for the Information Age, 6th Edition, Michael J. Quinn",
+    "title": "Computing Ethics for Lab Assistants"
+  },
+  {
+    "alphaNumber": "ICS 101",
+    "courseLearningOutcomes": "Students will develop a broad understanding of various areas of computer science.\nStudents will learn how to search for information using Boolean operators.\nStudents will learn how data is transferred on the Internet. \nStudents will learn to select and use software to solve problems.\nStudents will use productivity and multimedia software in their areas of interest.\nStudents will understand the importance of learning core skills and keeping their skills up-to-date. \nStudents will learn how to use text-based and GUI-based operating systems.\nStudents will work in teams to present information.",
+    "creditHours": 4,
+    "description": "Fundamental concepts and terms of computer technology, application software for problem solving, computer technology trends and impact on individuals and society.",
+    "grading": "* lecture activities (11.5%), \n* on-line lectures (12%), \n* 3 exams/tests (17%), \n* 4 practical quizzes (15%), \n* simulation assignments (18%), \n* projects (26.5%)",
+    "instructor": "Martha Crosby\ncrosby@hawaii.edu",
+    "learningOutcomes": [
+      "a",
+      "b",
+      "d",
+      "e",
+      "f",
+      "h",
+      "i",
+      "j",
+      "m",
+      "n"
+    ],
+    "objectives": "Students will develop a broad overview of various areas of computer science.\nStudents will learn to select and use software to solve problems.\nStudents will develop an understanding of productivity.\nStudents will develop an understanding of multimedia.\nStudents will understand the importance of learning core skills and keeping their skills up-to-date. \nStudents will learn how to use different types of operating systems.\nStudents will work in teams to present information.",
+    "policies": "None.",
+    "schedule": "* Week 1: Orientation, OS basics, boolean searching, email\n* Week 2: Information assurance, file management, file compression, word processing, \n* Week 3: Networking, word processing, \n* Week 4: Number systems, presentations, \n* Week 5: presentations skills, presentation development, \n* Week 6: Databases, spreadsheets, \n* Week 7: exam, spreadsheets, \n* Week 8: Conditional logic, spreadsheets, \n* Week 9: Computer visualization, spreadsheets, \n* Week 10: History and anatomy of computer games, vector graphics, \n* Week 11: Computer graphics, bitmap graphics, \n* Week 12: Social computing, text-based operating systems, \n* Week 13: Interface design, Web development, \n* Week 14: algorithms, Web development, \n* Week 15: introduction to programming, \n* Week 16: Review, \n* Week 17: final exam",
+    "textbooks": "ICS 101 Workbook (Department of Information and Computer Sciences, SimNet software (McGraw-Hill), iClicker",
+    "title": "Tools for the Information Age"
+  },
+  {
+    "alphaNumber": "ICS 311",
+    "courseLearningOutcomes": "* Students are aware of fundamental algorithms of computer science, and their associated data structures and problem solving techniques.\n* Students can compose a problem formulation of a real-world problem mathematically.\n* Students can decide whether given pseudocode is correct for a given problem formulation; construct a counterexample if the given pseudocode is incorrect; and outline a proof for its correctness otherwise.\n* Students can design a correct algorithm for a given problem and describe the algorithm as pseudocode in a given pseudocode syntax.\n* Students can analyze the worst-case and best-case space and time complexities of a given algorithm.\n* Students can create a software program for accurately implementing an algorithm specified in pseudocode. Students can implement software objects meeting Abstract Data Type specifications.\n* Students can produce a software product including documentation for given requirements & design specifications.",
+    "creditHours": 4,
+    "description": "Design and correctness of algorithms, including divide-and-conquer, greedy and dynamic programming methods. Complexity analyses using recurrence relations, probabilistic methods, and NP-completeness. Applications to order statistics, disjoint sets, B-trees and balanced trees, graphs, network flows, and string matching.",
+    "grading": "3 projects (worth 10% each)\n3 midterms (worth 10% each)\nin-class assignments (worth 20% total)\nfinal exam (worth 20%)",
+    "instructor": "Kazuo Sugihara\nPOST 314H\nsugihara@hawaii.edu",
+    "learningOutcomes": [
+      "a",
+      "b",
+      "c",
+      "f"
+    ],
+    "objectives": "* To introduce a variety of topics in discrete mathematics\n* To develop ability of modeling, reasoning, proving, analysis, and algorithmic problem solving\n* To present examples of applications of discrete mathematics to computer science\n* To have students learn mathematical writing as the basis of technical writing",
+    "policies": "10% in-class\n90% midterms and final",
+    "prerequisites": "211 and 241, or consent.",
+    "schedule": "* Week 1: Introduction\n* Week 2: Growth of functions\n* Week 3: Abstract data types\n* Week 4: Probabilistic analysis\n* Week 5: Hash tables\n* Week 6: Divide and conquer algorithms\n* Week 7: Binary search trees\n* Week 8: Heap sort\n* Week 9: Quick sort\n* Week 10: Balanced trees\n* Week 11: Dynamic programming\n* Week 12: Greedy algorithms\n* Week 13: Graphs\n* Week 14: Amortized analysis\n* Week 15: Disjoint sets\n* Week 16: Review\n* Week 17: Final exam\n\nEach week requires reading one chapter from the text, approximately 30 pages on average per week.",
+    "textbooks": "Thomas H. Cormen, Charles E. Leiserson, Ronald L. Rivest and Clifford Stein, Introduction to Algorithms, Third Edition, The MIT Press, 2009.",
+    "title": "Algorithms"
+  },
+  {
+    "alphaNumber": "ICS 312",
+    "courseLearningOutcomes": "(See objectives.)",
+    "creditHours": 3,
+    "description": "Machine organization, machine instructions, addressing modes, assembler language, subroutine linkage, linking to higher-level languages, interface to operating systems, introduction to assemblers, loaders and compilers. Pre: 212 (or concurrent), or consent.",
+    "grading": "In-class quizzes (always on Tuesdays, for each Module): 10%\nHomework and programming assignments: 55%\nMidterm: 15%\nFinal: 20%",
+    "instructor": "Henri Casanova\nhenric@hawaii.edu\nPOST 310",
+    "learningOutcomes": [
+      "a",
+      "b",
+      "c",
+      "i"
+    ],
+    "objectives": "* Students understand the underlying principle behind machine-level data representations, computing, and programming\n* Students are proficient with assembly programming for the x86 architecture, including register operations, control structures, bitwise operations, and subprograms\n* Students understand the underlying principles behind compiling, linking, loading, and debugging\n* Students gain some hands-on experience with developing a small compiler",
+    "policies": "none",
+    "prerequisites": "212 (or concurrent), or consent.",
+    "schedule": "* Week 1: Introduction and historical perspective\n* Week 2: Computer architecture principles\n* Week 3: Numbers and computers\n* Week 4: The x86 architecture\n* Weeks 5,6: The NASM assembly programming environment\n* Week 7,8,9: Essential assembly programming\n* Week 10: Bit operations\n* Week 11: Subprograms\n* Week 13: Regular expressions, lexical analysis\n* Week 14: Context-free grammars, syntactic analysis\n* Week 15: Linking, Loading, Debugging",
+    "textbooks": "PC Assembly Language, A. Carter (http://www.drpaulcarter.com/pcasm/)\nNASM User Manual (http://www.nasm.us/doc/)",
+    "title": "Machine-Level and Systems Programming"
+  },
+  {
+    "alphaNumber": "ICS 432",
+    "courseLearningOutcomes": "(See objectives)",
+    "creditHours": 3,
+    "description": "Principles of concurrent and high performance programming. Multi-threading in C and Java for shared-memory programming. Distributed memory programming with Java. Introduction to cluster computing. A-F only.",
+    "grading": "Homework and programming assignments (60%)\nMidterm (15%)\nFinal (25%)",
+    "instructor": "Henri Casanova\nhenric@hawaii.edu",
+    "learningOutcomes": [
+      "b",
+      "c"
+    ],
+    "objectives": "* Master concepts of program performance optimization, of multi-core architectures, and of concurrent programming. \n* Become proficient in performance tuning of non-concurrent C programs.\t\t\n* Become proficient in multi-threaded programming in C and in Java.\t\n* Gain hands-on experience in debugging and performance tuning of multi-threaded programs on multi-core architectures.\n* Gain exposure to advanced high-performance computing topics such as cluster computing and GPU programming.\t\t\t\t\t\t \n* Be engaged in a final project in which all the knowledge acquired in the course is applied to optimizing the performance of real-world software.",
+    "policies": "none",
+    "prerequisites": "212 or consent.",
+    "schedule": "* Week 1: Review of processes and threads\n* Week 2: Java threads and thread safety, Java Swing\n* Week 3: Thread Synchronization with Locks and Condition Variables\n* Week 4: Threads in C with Pthreads\n* Week 5: Semaphores and Monitors\n* Week 6, 7: Classic Concurrency Problems\n* Week 7: The java.util.concurrent package\n* Week 8: Measures of program performance and sequential program optimization\n* Week 9: Concurrency and Performance\n* Week 10: Multithreading with OpenMP\n* Weeks 11, 12: Shared-memory programming for Performance\n* Week 13: Identifying bottlenecks, profiling\n* Week 14: Hardware and Concurrency\n* Week 15: Distributed systems, final review",
+    "textbooks": "No textbook, only lecture notes.",
+    "title": "Concurrent and High-Performance Programming"
+  },
+  {
+    "alphaNumber": "ICS 351",
+    "creditHours": 3,
+    "description": "Overview of the internet and its capabilities; introduction to HTTP, TCP/IP, ethernet, and wireless 802.11; routers, switches, and NAT; network and wireless security; practical experience in designing and implementing networks.",
+    "grading": "Labs (60%)\nQuizzes (30%)\nFinal exam (10%)",
+    "instructor": "Edo Biagioni\nesb@hawaii.edu",
+    "learningOutcomes": [
+      "a",
+      "b",
+      "c",
+      "d",
+      "e",
+      "h",
+      "i",
+      "j",
+      "l",
+      "m",
+      "n"
+    ],
+    "objectives": "* Design and build networks using routers and switches \n* Manage, monitor, and find problems with networks \n* Learn elements of the TCP/IP protocol suite \n* Become familiar with network configuration of routers and hosts \n* Learn about routing protocols in use in the Internet \n* Learn elements of network security, including firewalls and NAT",
+    "policies": "Attendance is mandatory (but not graded). In particular, participation in the lab sessions is necessary in order to successfully do the lab reports.\n\nLab reports are due on time, with a loss of 20% of the points for every day they are late. Quizzes and exams must be taken early or on time, unless there are well-documented extenuating circumstances, in which case the same 20% per day rule will apply (and only if student makes special arrangements with the instructor to take the quiz late).\n\nNo food or drinks in the lab.",
+    "prerequisites": "141 and 211, or consent.",
+    "schedule": "* Week 1: Intro\n* Week 2: Commands, network monitoring, protocols\n* Week 3: Addressing, masks, routing\n* Week 4: Masks, networks, subnetworks\n* Week 5: Routing, OSPF, BGP\n* Week 6: Routing, multi-casting\n* Week 7: TCP\n* Week 8: NAT, network configuration\n* Week 9: DNS\n* Week 10: 802.11, IPv6, HTTP\n* Week 11: HTTPS, SNMP\n* Week 12: Wireless ad-hoc networks\n* Week 13: Security, \n* Week 14: Review\n* Week 15: Networking problems and solutions\n* Week 16: Networking problems and solutions\n* Week 17: Final exam",
+    "textbooks": "Mastering Networks -- An Internet Lab Manual 5.0\", by Jörg Liebeherr and Magda el Zarki, 2004.",
+    "title": "Network Design and Management"
+  },
+  {
+    "alphaNumber": "ICS 290",
+    "courseLearningOutcomes": "See objectives.",
+    "creditHours": 1,
+    "description": "Exploration of the specialties of computer science. Meets every two weeks for 2.5 hours to explore specific areas in computer science. CR/NC only. (Once a year)",
+    "grading": "Writings that summarize the presentations (80%)\nFinal exam (20%)",
+    "instructor": "Curtis Ikehara\ncikehara@hawaii.edu",
+    "learningOutcomes": [
+      "e",
+      "g"
+    ],
+    "objectives": "* Students are exposed to a variety of careers through presentations by local high technology professionals.",
+    "policies": "None.",
+    "schedule": "This is a seminar-style course. Students listen to presentation by a variety of local high technology professionals about careers in their discipline. \n\nReadings are assigned prior to each presentation so that students can familiarize themselves with the computing discipline to be presented. On average, about 10 pages per presentation.",
+    "textbooks": "Course notes.",
+    "title": "Computer Science Careers: An Exploration of the Specialties of Computer Science"
+  },
+  {
+    "alphaNumber": "ICS 451",
+    "creditHours": 3,
+    "description": "Network analysis, architecture, digital signal analysis and design; circuit switching, packet switching, packet broadcasting; protocols and standards; local area networks; satellite networks; ALOHA channels; examples.",
+    "grading": "assignments (45%), 2 exams and a final, each worth 15% of the grade (total 45%), 2 reviews of your colleagues' assignments (total 10%).",
+    "instructor": "Edo Biagioni\nesb@hawaii.edu",
+    "learningOutcomes": [
+      "a",
+      "b",
+      "c",
+      "e",
+      "h",
+      "i",
+      "j"
+    ],
+    "objectives": "In this course, students will:\n\n   - learn about computer networking, focusing on the fundamental design principles of computer networks and protocols.\n   - study networks of practical importance, including the Internet, TCP/IP, and wireless networks.\n   - learn to write in C computer programs to work with the network, specifically implementing clients, servers, and protocols.",
+    "prerequisites": "212 and 311, or consent",
+    "schedule": "week 1: course overview, sockets API, network application programming\nweek 2: sockets API in C, Windows, C programming reminders, layered reference models, Internet and OSI reference models\nweek 3: Application Layer, Domain Name System\nweek 4: email, HTTP\nweek 5: transport layer, Alternating Bit Protocol, sliding window, reliable transmission, connections\nweek 6: exam review and exam\nweek 7: TCP connections, TCB, Nagle Algorithm, UDP, congestion control\nweek 8: network layer protocols, packet forwarding, virtual circuits, static routing, distance-vector routing\nweek 9: link-state Routing, IP: addresses, netmasks, headers, fragmentation, \nweek 10: IPv6 socket programming, ICMP including ping and traceroute, ARP\nweek 11: summary of IP processing, DHCP, IPv6, Firewalls, NAT, IP routing: RIP, OSPF\nweek 12: exam review and exam\nweek 13: IP routing: domains, policy, BGP, data link layer, framing, error detection and correction \nweek 14: Medium Access Control, ALOHA Net, CSMA, PPP, Ethernet\nweek 15: Ethernet hubs and switches, Spanning Tree Protocol, Virtual LANs, 802.11 and ad-hoc networks, 802.11 security\nweek 16: course review",
+    "textbooks": "\"Computer Networking : Principles, Protocols and Practice\", by Olivier Bonaventure, freely available at http://inl.info.ucl.ac.be/CNP3",
+    "title": "Data Networks"
+  },
+  {
+    "alphaNumber": "ICS 210",
+    "courseLearningOutcomes": "The primary goal of this course is to help you understand how information systems and society co-evolve.  We will investigate and discuss historical and current information systems—which include technologies, institutions and people—with an eye toward understanding on a social level both how they operate and why.",
+    "creditHours": 3,
+    "description": "Lecture/discussion critically explores sociopolitical dimensions of Information and Communication Technology (ICT), and the information professions. A-F only. Pre: departmental approval. (Once a year)",
+    "grading": "Information flow assignment (10%)\nInformation seeking journal (10%)\nOpen mic session (20%)\nMidterm (20%)\nFinal project (20%)\nFinal exam (10%)\nExercises and participation (10%)",
+    "instructor": "Rich Gazan",
+    "learningOutcomes": [
+      "e",
+      "g"
+    ],
+    "objectives": "* Students understand the impact of computers on society.\n* Students have a better understanding of information technology careers.",
+    "policies": "My role in this course is to introduce you to a range of concepts related to information and its role in society, and to provide an environment where you can demonstrate your understanding and apply these concepts to situations that interest you.  The format of the course will be lecture/discussion.\n\nThe issues covered in this course draw from a diverse set of fields and traditions which go beyond computer science.  The textbook chapters provide an overall structure to the main course concepts, but we will explore additional applications of course-related issues in current events and other resources as well.  Expect to find, read and discuss additional relevant material outside the textbook, and to share what you find with the class.  Readings and lectures will not overlap completely, and may change throughout the term.  You will be responsible for demonstrating understanding of all course content.\n\nCome to class having read and understood the day’s readings—you can guarantee yourself an excellent participation grade if you come prepared with well-grounded questions.  You will be expected to complete all readings and assignments professionally and on time, and to participate actively in class discussions, both in person and online. \n\nYou must complete all assignments to pass this course.  Late assignments will be penalized five points up to 24 hours late, plus two points for every additional day past the due date, unless prior arrangements are made with the instructor.",
+    "prerequisites": "departmental approval.",
+    "schedule": "Wk 1, Introduction and overview\nWk 2, Fundamental concepts of information (Information flow assignment)\nWk 3, Information needs & seeking behavior\nWk 4, History of information systems (Open mic proposal)\nWk 5, Current information systems (Open mic session)\nWk 6, Information institutions (Open mic session)\nWk 7, Information work (Open mic session; Information seeking journal)\nWk 8, The information society\nWk 9, Economics of information\nWk 10, Information policy and power \nWk 11, no class meeting (take-home Midterm)\nWk 12, Post-midterm review and discussion\nWk 13, Copyright and privacy (Final project proposals)\nWk 14, Information ethics\nWk 15, Information in the future\nWk 16, Final project presentations\nWk 17, Final exam",
+    "textbooks": "Lester, June and Wallace C. Koehler Jr. (2007).  Fundamentals of Information Studies: Understanding Information and Its Environment (2nd edition).  New York: Neal-Schuman.",
+    "title": "Information Systems in Society"
+  },
+  {
+    "alphaNumber": "ICS 424",
+    "courseLearningOutcomes": "See objectives.",
+    "creditHours": 3,
+    "description": "Experience producing applications with at least two different applications frameworks.",
+    "grading": "7 technical papers (50%)\n7 programming assignments (50%)",
+    "instructor": "Philip Johnson\njohnson@hawaii.edu",
+    "learningOutcomes": [
+      "a",
+      "b",
+      "c",
+      "e",
+      "f",
+      "i",
+      "m"
+    ],
+    "objectives": "* Students have experience with at least two application frameworks (Microsoft Foundation Classes and OpenGL).\n* Students can write technical reports on a variety of topics related to application framework design and implementation.",
+    "prerequisites": "212, 311, and 313; or consent.",
+    "schedule": "This class is organized into 8 two week modules.  In each of the first 7 modules, students are required to write one program using an application framework (either Microsoft MFC or OpenGL) and write one technical report (from a supplied reading list).\n\nIn the final two weeks, the class works together to develop a summary of lessons learned.",
+    "textbooks": "Course notes",
+    "title": "Application Frameworks"
+  },
+  {
+    "alphaNumber": "ICS 442",
+    "courseLearningOutcomes": "See objectives",
+    "creditHours": 3,
+    "description": "Applications of mathematical methods in computer science with emphasis on discrete mathematics, numerical computation, algebraic models, operations research.",
+    "grading": "1 midterm (30%)\n1 final project (50%)\n1 final exam (20%)",
+    "instructor": "Art Lew\nartlew@hawaii.edu",
+    "learningOutcomes": [
+      "a",
+      "b",
+      "c",
+      "d",
+      "i",
+      "j"
+    ],
+    "objectives": "* Students will have an understanding of when and how to apply various analytical techniques.\n* Students will get an in-depth understanding of dynamic programming as an analytical techniques.",
+    "policies": "None",
+    "prerequisites": "311 or consent",
+    "schedule": "Week 1: Overview of analytical models and methods\t\nWeek 2: Applications of analytical models and methods\t\nWeek 3: Modeling of DP Problems\t\nWeek 4: The DP Specification Language gDPS\t\nWeek 5: DP Problem Specifications in gDPS\t\nWeeks 6-9: : Bellman Nets: A Class of Petri Nets\t\nWeeks 10-14: Design and Implementation of DP Tool\t\nWeeks 15-16: Other Solver Results\nWeek 17: Final exam",
+    "textbooks": "Dynamic Programming, A. Lew and H. Mauch",
+    "title": "Analytical Models and Methods"
+  },
+  {
+    "alphaNumber": "ICS 441",
+    "courseLearningOutcomes": "Students improve their analytical skills.\nStudents improve their technical writing skills.",
+    "creditHours": 3,
+    "description": "Grammars, sequential machines, equivalence, minimalization, analysis and synthesis, regular expressions, computability, unsolvability, Gödel's theorem, Turing machines.",
+    "grading": "A few assignments (100%) in which students have to solve given theoretical problems and write technical reports on their solutions to the given problems, where the last assignment is the take-home final exam",
+    "instructor": "Kazuo Sugihara\nsugihara@hawaii.edu",
+    "learningOutcomes": [
+      "a",
+      "b"
+    ],
+    "objectives": "Students can write rigorous proofs.\nStudents can compose analytical arguments.\nStudents can conduct theoretical research on topics in fields of their interests.\nStudents can write theoretical papers.",
+    "policies": "none",
+    "prerequisites": "311 or consent",
+    "schedule": "Weeks 1-2: Basics of Fomal Languages and Automata Theory (Review of ICS241)\nWeeks 3-5: Regular Sets, Regular Grammars and Finite Automata\nAssignment 1\nWeeks 6-8: Context-Free Languages, Regular Grammars and Pushdown Automata\nAssignment 2\nWeeks 9-10: Turing Machines\nWeeks 11-12: Computability\nWeeks 13-15: Computational Complexity Theory\nAssignment 3",
+    "textbooks": "\"Introduction to Automata Theory, Languages, and Computation,\" John E. Hopcroft and Jeffrey D. Ullman",
+    "title": "Theory of Computation"
   }
 ];
 
