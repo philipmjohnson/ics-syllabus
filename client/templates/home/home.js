@@ -1,30 +1,52 @@
-var displaySyllabusID = "displaySyllabusID";
-var selectedSyllabusID = "selectedSyllabusID";
+/* Strings used to retrieve properties from Session object. */
+var displaySyllabusKey = "displaySyllabusKey";
+var selectedSyllabusKey = "selectedSyllabusKey";
+var editStatusKey = "editStatusKey";
 
-var getSessionID = function(id) {
-  return Session.get(id);
+/**
+ * Get the value of the Session object associated with key.
+ * @param key The key string.
+ * @returns {any} The Session object.
+ */
+var getSessionID = function(key) {
+  return Session.get(key);
 };
 
-var setSessionID = function(id) {
-  Session.set(id);
-}
-
-
+/**
+ * Set the value of the Session object associated with key.
+ * @param key The key string.
+ * @param value The new value for the Session object.
+ */
+var setSessionID = function(key, value) {
+  Session.set(key, value);
+};
 
 Template.home.helpers({
 
+  /**
+   * @returns {*} A string indicating how long since this editing session started.
+   */
   editTimestamp: function() {
     return moment(this.editStart).fromNow();
   },
 
+  /**
+   * @returns {any|Mongo.Cursor} The EditStatus collection in reverse chronological order.
+   */
   editStatusList: function() {
     return EditStatus.find({}, {sort: {editStart: -1}});
   },
 
+  /**
+   * @returns {any} The Syllabus associated with the currently selected syllabus in the dropdown menu, or undefined.
+   */
   selectedSyllabusDoc: function() {
-    return Syllabuses.findOne({"_id": Session.get("displaySyllabusID")});
+    return Syllabuses.findOne({"_id": getSessionID(displaySyllabusKey)});
   },
 
+  /**
+   * @returns {any|Array} A sorted array of objects, each object containing a Syllabus label and it's Doc ID.
+   */
   syllabusSelectors: function() {
     var makeLabel = function(syllabus) {
       var alpha = syllabus.alphaNumber;
@@ -50,20 +72,24 @@ Template.home.helpers({
     });
   },
 
+  /**
+   * @returns {any} Returns the docID of the currently selected syllabus in the dropdown menu.
+   */
   displayID: function () {
-    return Session.get("displaySyllabusID");
+    return getSessionID(displaySyllabusKey);
   }
 
 });
 
 Template.home.events({
+
   /**
-   * Save the newly selected value of the syllabus drop-down in a session variable.
-   * @param evt The event indicating the syllabus drop-down has been selected.
+   * When a user changes the selected syllabus in the dropdown menu, update the associated Session variable.
+   * @param evt The event indicating the syllabus drop-down has been changed.
    */
   'change #syllabusChooser': function (evt) {
     var syllabusID = $(evt.target).val();
-    Session.set("selectedSyllabusID", syllabusID);
+    setSessionID(selectedSyllabusKey, syllabusID);
   },
 
   /**
@@ -74,27 +100,39 @@ Template.home.events({
     // stop the form from submitting
     event.preventDefault();
     // check to see if there is a previously existing editStatusId, and if so, set if to finished.
-    if (Session.get("editStatusId")) {
-      EditStatus.update(Session.get("editStatusId"), {$set: {editFinished: true}});
+    if (getSessionID(editStatusKey)) {
+      EditStatus.update(getSessionID(editStatusKey), {$set: {editFinished: true}});
     }
-    Session.set("displaySyllabusID", Session.get("selectedSyllabusID"));
+    setSessionID(displaySyllabusKey, getSessionID(selectedSyllabusKey));
     // Create an editStatus document indicating the user is now editing a syllabus.
-    var syllabusName = Syllabuses.findOne(Session.get("selectedSyllabusID")).alphaNumber;
-    var editStatusId = EditStatus.insert({editStart: moment().toDate(), editFinished: false, syllabusName: syllabusName});
-    Session.set("editStatusId", editStatusId);
+    var syllabusName = Syllabuses.findOne(getSessionID(selectedSyllabusKey)).alphaNumber;
+    var editStatusDocID = EditStatus.insert({editStart: moment().toDate(), editFinished: false, syllabusName: syllabusName});
+    setSessionID(editStatusKey, editStatusDocID);
   }
 });
 
 AutoForm.addHooks(['insertSyllabusForm'], {
+
   /**
-   * When the user submits a Syllabus document, AutoForm will automatically save it.
-   * This method just unsets the form to display so it disappears from view.
+   * When the user saves a syllabus, unset the editStatus Session variable to remove the form from view.
+   * Also note that editing has finished in the EditStatus collection.
    */
   onSuccess: function() {
     // Hide form after successful submit.
-    Session.set("displaySyllabusID", undefined);
+    setSessionID(displaySyllabusKey, undefined);
     // Indicate the syllabus is no longer being edited.
-    EditStatus.update(Session.get("editStatusId"), {$set: {editFinished: true}});
-    Session.set("editStatusId", undefined);
+    EditStatus.update(getSessionID(editStatusKey), {$set: {editFinished: true}});
+    setSessionID(editStatusKey, undefined);
   }
+});
+
+/**
+ * When the user closes the window, indicate that the editing session is finished.
+ */
+Meteor.startup(function() {
+  $(window).on("beforeunload", function() {
+    if (getSessionID(editStatusKey)) {
+      EditStatus.update(getSessionID(editStatusKey), {$set: {editFinished: true}});
+    }
+  });
 });

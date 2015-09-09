@@ -1,15 +1,15 @@
 Syllabuses = new Mongo.Collection("syllabuses");
 
 Syllabuses.allow({
-  insert: function (userId, doc) {
+  insert: function () {
     // only allow posting if you are logged in
     return true;
   },
-  update: function (userId, doc) {
+  update: function () {
     // only allow updating if you are logged in
     return true;
   },
-  remove: function (userID, doc) {
+  remove: function () {
     //only allow deleting if you are owner
     return true;
   }

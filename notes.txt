@@ -1,10 +1,9 @@
 Next steps:
 * Single page for export
-* Clean up code
-- Create vars for session strings. Too darn difficult to type correctly.
-- Delete vestigial code from boilerplate.
-- Run jshint
-- Create JSDocs.
+* Clean up code:
+  - Delete vestigial code from boilerplate.
+  - Run jshint
+  - Create JSDocs.
 
 * Nice to have
 - UH CAS authentication.
