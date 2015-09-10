@@ -49,7 +49,7 @@ var defaultSyllabuses = [
     "title": "Introduction to Bioinformatics Sequences and Genomes Analysis",
     "instructor": "Guylaine Poisson\nguylaine@hawaii.edu",
     "description": "Introduction to bioinformatics to computer sciences students by focusing on how computer sciences techniques can be used for the storage, analysis, prediction and simulation of biological sequences (DNA, RNA and proteins).",
-    "courseLearningOutcomes": "Gain knowledge of the bioinformatics field of research\nGet familiar with a selection of fundamental bioinformatics problems.\nGain knowledge of fundamental bioinformatics tools and methods.\nGain experience in implementation and analysis of a selection of common bioinformatics algorithms.\nGain experience in the study of a specific bioinformatics research subject.",
+    "courseLearningOutcomes": "See objectives.",
     "grading": "Quizzes and exercises (40%), \nScientific papers and assignment (25%) \nFinal exam (35%)",
     "learningOutcomes": [
       "a",
@@ -58,8 +58,9 @@ var defaultSyllabuses = [
       "i"
     ],
     "policies": "none",
-    "schedule": "Week 1: What is Bioinformatics?\nWeek 2: Database\nWeek 3: DNA, RNA and protein sequences\nWeek 4: Sequence alignment. \nWeek 5-6: Database search and multiple alignment\nWeek 7-8: Phylogenetics \nWeek 9-10: Annotation and Machine learning\nWeek 11: Nucleic Acid secondary structure prediction. \nWeek 12-15: Special topics\nWeek 16: Revision",
-    "textbooks": "none"
+    "schedule": "* Week 1: What is Bioinformatics?\n* Week 2: Database\n* Week 3: DNA, RNA and protein sequences\n* Week 4: Sequence alignment. \n* Week 5-6: Database search and multiple alignment\n* Week 7-8: Phylogenetics \n* Week 9-10: Annotation and Machine learning\n* Week 11: Nucleic Acid secondary structure prediction. \n* Week 12-15: Special topics\n* Week 16: Revision",
+    "textbooks": "none",
+    "objectives": "* Gain knowledge of the bioinformatics field of research\n* Get familiar with a selection of fundamental bioinformatics problems.\n* Gain knowledge of fundamental bioinformatics tools and methods.\n* Gain experience in implementation and analysis of a selection of common bioinformatics algorithms.\n* Gain experience in the study of a specific bioinformatics research subject."
   },
   {
     "alphaNumber": "ICS 476",
@@ -68,7 +69,7 @@ var defaultSyllabuses = [
     "title": "Bioinformatics Algorithms and Tool Development",
     "instructor": "Guylaine Poisson\nguylaine@hawaii.edu",
     "description": "Study of commonly used bioinformatic algorithms, with an emphasis on string, tree, and graph algorithms. Presentation of probabilistic and clustering methods. Implementation of the studied algorithms and design of applications.",
-    "courseLearningOutcomes": "Understand how popular bioinformatics algorithms work\nLearn how to design algorithms for solving biological problems\nBe able to implement and use these algorithms in tool development in a context of biological data analysis\nGain knowledge needed to understand more advanced topics and current research literature in the field of bioinformatics.",
+    "courseLearningOutcomes": "See objectives.",
     "grading": "Programming assignment: 30%\nClass participation: 10%\nMidterm exam: 30%\nFinal Exam : 30%",
     "learningOutcomes": [
       "a",
@@ -77,8 +78,9 @@ var defaultSyllabuses = [
       "i"
     ],
     "policies": "none",
-    "schedule": "Week 1: Algorithm and Complexity\nWeek 2-3: Mapping DNA and Finding Signals: Exhaustive Search\nWeek 4: Genome Rearrangement and Signals: Greedy Algorithm\nWeek 4-7: Sequence Comparison and Gene Prediction: Dynamic Programming\nWeek 8: Midterm Exam\nWeek 9: Comparing Sequences: Divide and Conquer Algorithms\nWeek 10-12: Sequencing DNA, DNA Arrays: Graph Algorithm\nWeek 13-14: Repeat Analysis and Sequence Comparison: Combinatorial Pattern Matching\nWeek 15-16 : DNA Arrays and Evolution: Clustering and Trees",
-    "textbooks": "Jones, N.C. and Pevzner P.A. An Introduction to Bioinformatics Algorithms MIT Press"
+    "schedule": "* Week 1: Algorithm and Complexity\n* Week 2-3: Mapping DNA and Finding Signals: Exhaustive Search\n* Week 4: Genome Rearrangement and Signals: Greedy Algorithm\n* Week 4-7: Sequence Comparison and Gene Prediction: Dynamic Programming\n* Week 8: Midterm Exam\n* Week 9: Comparing Sequences: Divide and Conquer Algorithms\n* Week 10-12: Sequencing DNA, DNA Arrays: Graph Algorithm\n* Week 13-14: Repeat Analysis and Sequence Comparison: Combinatorial Pattern Matching\n* Week 15-16 : DNA Arrays and Evolution: Clustering and Trees",
+    "textbooks": "Jones, N.C. and Pevzner P.A. An Introduction to Bioinformatics Algorithms MIT Press",
+    "objectives": "* Understand how popular bioinformatics algorithms work\n* Learn how to design algorithms for solving biological problems\n* Be able to implement and use these algorithms in tool development in a context of biological data analysis\n* Gain knowledge needed to understand more advanced topics and current research literature in the field of bioinformatics."
   },
   {
     "alphaNumber": "ICS 222",
@@ -90,8 +92,9 @@ var defaultSyllabuses = [
     "objectives": "* Students encounter the basic models of data processing and computation, and are capable to perform high level analyses\n\n* Students understand the meaning and the consequences of reductions and equivalences between the basic models of data processing and computation\n\n* Students are familiar with the main hierarchies of classes of languages \n\n* Students gain a clear understanding of the idea of computation, as universal and partial evaluation of programs.\n\n* Students understand computational complexity and hardness, and are capable to perform basic complexity analyses.\n\n* Students are familiar with the role of randomness in computation.\n\n* Students understand the need and the techniques for building their solutions of hard engineering problems in computation on the solid foundations of computer science\n\n* Students are able to discern and analyze local aspects of computation from the network effects. \n\n* Students can function effectively in teams to accomplish a common goal.\n\n* Students have an understanding of social issues of computation.\n\n* Students can communicate effectively with a range of audiences concerned with the basic problems of computation.\n\n* Students can analyze the local and global impact of computation on individuals, organizations, and society.\n\n* Students can recognize the need for and an ability to engage in continuing professional and career development in the diverse areas of computer science and engineering.",
     "policies": "none",
     "prerequisites": "141 or consent",
-    "schedule": "Week 1: Examples of computation\nWeek 2-3: Automata and state machines\nWeek 4: Languages\nWeek 5: Universal computers and partial evaluators \nWeek 6: The Church-Turing Thesis\nWeek 7: Computability and decidability\nWeek 8: Midterm test\nWeek 8-9: Complexity measures, hardness and completeness\nWeek 10: Complexity classes and feasible computation\nWeek 11: Randomized computation \nWeek 12: One-way and trapdoor functions\nWeek 13: Network computation and the limits of programming\nWeek 14: Computational processes in nature\nWeek 15-16: Overview of results and problems of Computer Science\nWeek 16: Final exam",
-    "textbooks": "1. Michael Sipser, Introduction to the Theory of Computation\n2. John E. Savage, Models of Computation: Exploring the Power of Computing"
+    "schedule": "* Week 1: Examples of computation\n* Week 2-3: Automata and state machines\n* Week 4: Languages\n* Week 5: Universal computers and partial evaluators \n* Week 6: The Church-Turing Thesis\n* Week 7: Computability and decidability\n* Week 8: Midterm test\n* Week 8-9: Complexity measures, hardness and completeness\n* Week 10: Complexity classes and feasible computation\n* Week 11: Randomized computation \n* Week 12: One-way and trapdoor functions\n* Week 13: Network computation and the limits of programming\n* Week 14: Computational processes in nature\n* Week 15-16: Overview of results and problems of Computer Science\n* Week 16: Final exam",
+    "textbooks": "1. Michael Sipser, Introduction to the Theory of Computation\n2. John E. Savage, Models of Computation: Exploring the Power of Computing",
+    "courseLearningOutcomes": "See objectives."
   },
   {
     "alphaNumber": "ICS 212",
@@ -126,9 +129,10 @@ var defaultSyllabuses = [
     "title": "Data Security and Cryptography I",
     "grading": "3 homework assignments (25%), midterm test (25%), project and class presentation (25%), final exam (25%)",
     "policies": "none",
-    "schedule": "Week 1. Introduction: History of secret communication and data security\nWeek 2-3. Classical ciphers and cryptanalysis\nWeek 4-7. Information theory of secret communication\n(a) Probability and information \n(b) Perfect secrecy\n(c) Redundancy and unicity distance \nWeek 8. Midterm Test\nWeek 8-11. Symmetric key cryptography\n(a) Confusion and diffusion \n(b) Feistel networks\n(c) Block ciphers \n(d) Stream ciphers\nWeek 12-15. Public key cryptography\n(a) One-way and trapdoor functions \n(b) Classic public key primitives\n(c) Semantic and adaptive security\nWeek 16. Overview and outlook \nWeek 16. Final exam",
+    "schedule": "* Week 1. Introduction: History of secret communication and data security\n* Week 2-3. Classical ciphers and cryptanalysis\n* Week 4-7. Information theory of secret communication\n    (a) Probability and information \n    (b) Perfect secrecy\n    (c) Redundancy and unicity distance \n* Week 8. Midterm Test\n* Week 8-11. Symmetric key cryptography\n    (a) Confusion and diffusion \n    (b) Feistel networks\n    (c) Block ciphers \n    (d) Stream ciphers\n* Week 12-15. Public key cryptography\n    (a) One-way and trapdoor functions \n    (b) Classic public key primitives\n    (c) Semantic and adaptive security\n* Week 16. Overview and outlook \n* Week 16. Final exam",
     "textbooks": "1. Douglas R. Stinson, Cryptography. Theory and Practice. (3rd edition) Chapman and Hall 2005 \n2. Serge Vaudenay, A Classical Introduction to Cryptography. Springer 2006\n3. Alan G. Konheim, Computer Security and Cryptography. Wiley 2007",
-    "objectives": "* Students understand the main techniques of data security and secret communication, from classical ciphers to modern crypto systems.\n\n* Students acquire a basic capability to reason about secrecy and evaluate security of simple cryptographic constructs within the main models\n\n* Students are able to analyze the need and the suitability of cryptographic primitives in standard applications.\n\n* Students are provided a solid foundation for study non-textbook cryptography and of practical cryptographic applications\n\n* Students' knowledge of data protection and cryptographic techniques is sufficient for practical applications and for research into security.\n\n* Students can function effectively in teams to accomplish a common goal.\n\n* Students have an understanding of social issues of data security and confidentiality, and of particular cryptological and cryptanalytic techniques.\n\n* Students can communicate effectively with a range of audiences concerned with the basic problems of data protections and cryptography.\n\n* Students can analyze the impact of cryptography on individuals, organizations, and society."
+    "objectives": "* Students understand the main techniques of data security and secret communication, from classical ciphers to modern crypto systems.\n* Students acquire a basic capability to reason about secrecy and evaluate security of simple cryptographic constructs within the main models\n* Students are able to analyze the need and the suitability of cryptographic primitives in standard applications.\n* Students are provided a solid foundation for study non-textbook cryptography and of practical cryptographic applications\n* Students' knowledge of data protection and cryptographic techniques is sufficient for practical applications and for research into security.\n* Students can function effectively in teams to accomplish a common goal.\n* Students have an understanding of social issues of data security and confidentiality, and of particular cryptological and cryptanalytic techniques.\n* Students can communicate effectively with a range of audiences concerned with the basic problems of data protections and cryptography.\n* Students can analyze the impact of cryptography on individuals, organizations, and society.",
+    "courseLearningOutcomes": "See objectives."
   },
   {
     "alphaNumber": "ICS 431",
@@ -164,7 +168,7 @@ var defaultSyllabuses = [
       "j"
     ],
     "courseLearningOutcomes": "* Use and implement abstract data types such as lists, stacks, queues, and trees.\n* Select the appropriate searching or sorting algorithm base on the algorithm’s behavior.\n* Develop recursive algorithms and programs.\n* Use standard libraries or packages as well as advanced object-oriented programming techniques (polymorphism, inheritance, and encapsulation).\n* Produce robust and secure programs using exception handling and extensive program testing.",
-    "schedule": "Week 1 - Java Review\nWeek 2 - Object Oriented Programming\nWeek 3 - Simple Sorting\nWeek 4 - Array Lists\nWeek 5 - Linked Lists\nWeek 6 - Iterators\nWeek 7 - Midterm 1\nWeek 8 - Stacks\nWeek 9 - Queues\nWeek 10 - Recursion\nWeek 11 - Trees\nWeek 12 - Binary Data\nWeek 13 - Midterm 2\nWeek 14 - Complex Sorting Algorithms\nWeek 15 - Hashtables\nWeek 16 - Course Review"
+    "schedule": "* Week 1 - Java Review\n* Week 2 - Object Oriented Programming\n* Week 3 - Simple Sorting\n* Week 4 - Array Lists\n* Week 5 - Linked Lists\n* Week 6 - Iterators\n* Week 7 - Midterm 1\n* Week 8 - Stacks\n* Week 9 - Queues\n* Week 10 - Recursion\n* Week 11 - Trees\n* Week 12 - Binary Data\n* Week 13 - Midterm 2\n* Week 14 - Complex Sorting Algorithms\n* Week 15 - Hashtables\n* Week 16 - Course Review"
   },
   {
     "alphaNumber": "ICS 241",
@@ -181,7 +185,8 @@ var defaultSyllabuses = [
       "b"
     ],
     "courseLearningOutcomes": "* Students can describe an idea in the language of mathematics clearly and rigorously.\n* Students can prove or disprove a given assertion by using proving techniques such as direct proof, indirect proof (proof by contradiction), proof by contrapositive, proof by induction, and proof by construction.\n* Students can solve problems on a variety of topics in discrete mathematics such as recurrence systems, relations, counting, graph theory, Boolean algebra, logic circuit design, formal language theory, automata theory, and theory of computation.\n* Students can read & write pseudocode of an algorithm in a given grammar expressed in BNF.\n* Students can describe a trace of given pseudocode's execution for a given input.",
-    "schedule": "Week 1: Boolean Algebra\nWeek 2: Logic Circuits\nWeek 3: Linear Algebra\nWeek 4: Relations\nWeek 5: Graphs, Midterm\nWeek 6: Graphs\nWeek 7: Graphs\nWeek 8: Trees\nWeek 9: Trees\nWeek 10: Recurrences\nWeek 11: Counting\nWeek 12: Formal Languages\nWeek 13: Regular expressions, Midterm\nWeek 14: Turing machines\nWeek 15: Predicate logic\nWeek 16: Review\nWeek 17: Final Exam"
+    "schedule": "* Week 1: Boolean Algebra\n* Week 2: Logic Circuits\n* Week 3: Linear Algebra\n* Week 4: Relations\n* Week 5: Graphs, Midterm\n* Week 6: Graphs\n* Week 7: Graphs\n* Week 8: Trees\n* Week 9: Trees\n* Week 10: Recurrences\n* Week 11: Counting\n* Week 12: Formal Languages\n* Week 13: Regular expressions, Midterm\n* Week 14: Turing machines\n* Week 15: Predicate logic\n* Week 16: Review\n* Week 17: Final Exam",
+    "policies": "None."
   },
   {
     "alphaNumber": "ICS 483",
@@ -199,7 +204,7 @@ var defaultSyllabuses = [
     "objectives": "See course-specific learning outcomes.",
     "policies": "Late policy: If you hand in late work without approval of the instructor you may receive zero credit.",
     "prerequisites": "212 and 311, or consent.",
-    "schedule": "Week 1. Introduction\nWeek 2. Local Shading Models\nWeek 3. Color: Physics, Color Perception, Color Spaces\nWeek 4. Linear Filters and Convolution\nWeek 5. Edge Detection\nWeek 6. Texture\nWeek 7. Basic Multi-view Geometry, Stereo\nWeek 8. Segmentation: Clustering, Midterm Exam\nWeek 9. Segmentation: Model Fitting\nWeek 10. Segmentation: Probabilistic Methods\nWeek 11. Tracking\nWeek 12. Template Matching using Classifiers\nWeek 13. Object Recognition\nWeek 14. Image Retrieval\nWeek 15. Image-based Rendering\nWeek 16. Project Presentation\nWeek 17. Final Exam",
+    "schedule": "* Week 1. Introduction\n* Week 2. Local Shading Models\n* Week 3. Color: Physics, Color Perception, Color Spaces\n* Week 4. Linear Filters and Convolution\n* Week 5. Edge Detection\n* Week 6. Texture\n* Week 7. Basic Multi-view Geometry, Stereo\n* Week 8. Segmentation: Clustering, Midterm Exam\n* Week 9. Segmentation: Model Fitting\n* Week 10. Segmentation: Probabilistic Methods\n* Week 11. Tracking\n* Week 12. Template Matching using Classifiers\n* Week 13. Object Recognition\n* Week 14. Image Retrieval\n* Week 15. Image-based Rendering\n* Week 16. Project Presentation\n* Week 17. Final Exam",
     "textbooks": "Computer Vision: A Modern Approach, Second Edition, byDavid A. Forsyth and Jean Ponce, Publisher: Pearson, ISBN-13: 978-0136085928",
     "title": "Computer Vision"
   },
@@ -238,7 +243,7 @@ var defaultSyllabuses = [
     "objectives": "See Learning Outcomes",
     "policies": "none",
     "prerequisites": "212 and 241, or consent.",
-    "schedule": "Week 1: Intro\nWeek 2: Functional languages, Prolog\nWeek 3: Syntax, Prolog\nWeek 4: Scope, Prolog\nWeek 5: Semantics, Prolog\nWeek 6: Functional languages, Lisp\nWeek 7: Control flow, Lisp\nWeek 8: Review, Lisp \nWeek 9: Midterm\nWeek 10:  Data types, Lips\nWeek 11: Scripting, Python\nWeek 12: Subroutines, Python\nWeek 13, 14, 15: Concurrency, Python\nWeek 16: Review\nWeek 17: Final exam",
+    "schedule": "* Week 1: Intro\n* Week 2: Functional languages, Prolog\n* Week 3: Syntax, Prolog\n* Week 4: Scope, Prolog\n* Week 5: Semantics, Prolog\n* Week 6: Functional languages, Lisp\n* Week 7: Control flow, Lisp\n* Week 8: Review, Lisp \n* Week 9: Midterm\n* Week 10:  Data types, Lips\n* Week 11: Scripting, Python\n* Week 12: Subroutines, Python\n* Week 13, 14, 15: Concurrency, Python\n* Week 16: Review\n* Week 17: Final exam",
     "textbooks": "Programming Language Pragmatics, Third Edition, by Michael L. Scott, publisher: Morgan Kaufmann, ISBN: 978-0123745149.",
     "title": "Programming Language Theory"
   },
@@ -268,7 +273,8 @@ var defaultSyllabuses = [
       "n"
     ],
     "courseLearningOutcomes": "(See course objectives.)",
-    "schedule": "ICS 314 consists of the following modules. The number of weeks devoted to each is indicated in parentheses:\n* Introduction to the course (1)\n* Professional persona (1)\n* Open Source Software (1)\n* Coding (1)\n* Configuration Management (1)\n* Development Environments (1)\n* Quality Assurance (2)\n* User Interface Design (2)\n* Application Design (3)\n* Data Design (2)\n* Requirements Design (1)"
+    "schedule": "ICS 314 consists of the following modules. The number of weeks devoted to each is indicated in parentheses:\n* Introduction to the course (1)\n* Professional persona (1)\n* Open Source Software (1)\n* Coding (1)\n* Configuration Management (1)\n* Development Environments (1)\n* Quality Assurance (2)\n* User Interface Design (2)\n* Application Design (3)\n* Data Design (2)\n* Requirements Design (1)",
+    "policies": "None."
   },
   {
     "alphaNumber": "ICS 332",
@@ -337,7 +343,8 @@ var defaultSyllabuses = [
       "i",
       "j"
     ],
-    "schedule": "* Week 1: Overview\n* Weeks 2, 3: IA Policy, law, and regulations\n* Week 4: IA Policies, IA Framework & Access Control Systems\n* Week 5: Security Planning \n* Week 6: Security Operations, Certification, Accreditation\n* Week 7: Incident Response and Disaster Recovery\n* Week 8: Technologies and Mechanisms\n* Week 9: Security Architecture and Network Security\n* Week 10: Cryptography\n* Week 11: Key Management and Digital Signatures\n* Week 12: Authentication: attacking passwords, challenge-response systems\n* Week 13: IA Auditing\n* Week 14: Security Awareness Training\n* Week 15: Presentations\n* Week 16: Review\n* Week 17: Final exam"
+    "schedule": "* Week 1: Overview\n* Weeks 2, 3: IA Policy, law, and regulations\n* Week 4: IA Policies, IA Framework & Access Control Systems\n* Week 5: Security Planning \n* Week 6: Security Operations, Certification, Accreditation\n* Week 7: Incident Response and Disaster Recovery\n* Week 8: Technologies and Mechanisms\n* Week 9: Security Architecture and Network Security\n* Week 10: Cryptography\n* Week 11: Key Management and Digital Signatures\n* Week 12: Authentication: attacking passwords, challenge-response systems\n* Week 13: IA Auditing\n* Week 14: Security Awareness Training\n* Week 15: Presentations\n* Week 16: Review\n* Week 17: Final exam",
+    "courseLearningOutcomes": "See objectives."
   },
   {
     "alphaNumber": "ICS 426",
@@ -355,7 +362,9 @@ var defaultSyllabuses = [
       "d",
       "e"
     ],
-    "schedule": "* Weeks 1, 2: Overview\n* Weeks 3, 4: Insider Threat\n* Weeks 5, 6: Data breach\n* Week 7: Midterm\n* Weeks 8, 9: Implementation Sins: Security Flaws\n* Weeks 10, 11: Cryptographic Sins\n* Weeks 12, 13: Networking Sins\n* Weeks 14, 15, 16: Final project\n* Week 17: Final exam"
+    "schedule": "* Weeks 1, 2: Overview\n* Weeks 3, 4: Insider Threat\n* Weeks 5, 6: Data breach\n* Week 7: Midterm\n* Weeks 8, 9: Implementation Sins: Security Flaws\n* Weeks 10, 11: Cryptographic Sins\n* Weeks 12, 13: Networking Sins\n* Weeks 14, 15, 16: Final project\n* Week 17: Final exam",
+    "courseLearningOutcomes": "See objectives.",
+    "policies": "None"
   },
   {
     "alphaNumber": "ICS 455",
@@ -372,7 +381,9 @@ var defaultSyllabuses = [
       "e",
       "g"
     ],
-    "schedule": "1. Introduction: Private communication in a public world\n2. Information, channel and noninterference\n3. Encryption and cryptanalysis\n4. Modes of operation and stream cipher\n5. Key establishment\n6. Authentication\n7. Challenge-Response and Matching Conversation\n8. Protocol Derivations\n9. Man-in-the-Middle and Impersonation\n10. Pervasive security and multi-channel authentication\n11. Review"
+    "schedule": "1. Introduction: Private communication in a public world\n2. Information, channel and noninterference\n3. Encryption and cryptanalysis\n4. Modes of operation and stream cipher\n5. Key establishment\n6. Authentication\n7. Challenge-Response and Matching Conversation\n8. Protocol Derivations\n9. Man-in-the-Middle and Impersonation\n10. Pervasive security and multi-channel authentication\n11. Review",
+    "courseLearningOutcomes": "See objectives.",
+    "policies": "None"
   },
   {
     "alphaNumber": "ICS 414",
@@ -487,7 +498,7 @@ var defaultSyllabuses = [
     "objectives": "Internet-enabled mobile devices, such as cell phones, e-readers and tablet computers, are increasingly common. This course helps students understand the relevant issues in designing for such devices, and teaches them about current and future standards, practices, programming languages and operating systems for mobile devices. It also encourages students to think about how non-technical issues – business models, cultural attitudes, and so on – can affect mobile design. The course is organized around a term project, in which students design, implement and test a mobile-oriented service or site. Students are encouraged to adopt an entrepreneurial attitude towards their projects, and should consider target markets, revenue streams etc., as well as technical and design issues.",
     "policies": "Students must adequately complete all writing and oral assignments to pass the course with a D grade or better. Students who do not complete all writing and oral assignments will get a D- or an F and will not earn W or O Focus credit.\n\nLate project documents/videos lose 10%/day, starting at 5pm on due date. Documents/videos over 5 days late will be graded out of 50%. All documents/videos must be handed in by May 8. Weekly Laulima postings will not be graded if posted after the due date. \n\nFor all evaluated work, students may hand in a draft at least one week before the due date, for detailed feedback.\n\nAn occurrence of academic dishonesty will result in a grade of 0 for the assignment or exam and a memo in your ICS department file describing the incident.  Should there already be a memo of this type in your file, you will receive an F for the course, and the incident will be referred to the Dean of Students.",
     "prerequisites": "314 or consent.",
-    "schedule": "Part 1\t20-Feb\nPart 2\t20-Mar\nPart 3\t24-Apr\nResubmit\t8-May",
+    "schedule": "* Part 1\t20-Feb\n* Part 2\t20-Mar\n* Part 3\t24-Apr\n* Resubmit\t8-May",
     "textbooks": "none",
     "title": "Design for Mobile Devices"
   },
@@ -536,9 +547,9 @@ var defaultSyllabuses = [
       "m",
       "n"
     ],
-    "objectives": "Program Learning Objective:\n\nThe objective is to introduce students about the broad field of data visualization, and relevant software tools, so that they are able to obtain basic mastery of the skills needed to: 1. turn raw data into effective visualizations of the data, 2. evaluate the efficacy of visualizations.\n\nInstitutional Learning Objective:\n\n1. Know- Breadth and Depth of Knowledge\n\nStudents will develop their understanding of the world with emphasis on Hawai’i by the use of geospatial data sets in the class, producing visualizations and therefore potentially hidden insights into regions of the world in relation to each other. Data may be about the economy, energy use, climate, for example.\n\n2. Do - Intellectual and Practical Skills\n\nStudents improve their abilities to think critically and creatively through designing, questioning and critiquing the visualizations produced by experts as well as their peers. Students conduct research by examining visualizations approaches used frequently online and described in conference and journal articles. Students improve their communication and reporting skills by having to give an oral presentation and demonstration of their visualization.\n\n3. Value - Personal and Social Responsibility\n\nStudents demonstrate excellence, integrity, and engagement through team-based collaborative projects that require them to learn how to work with differences in cultures and personal identities. Students will gain a better understanding of issues relating to the stewardship of he natural environment and civic participation in their communities through the data sets they will attempt to interpret and visualize.!",
+    "objectives": "Program Learning Objective:\nThe objective is to introduce students about the broad field of data visualization, and relevant software tools, so that they are able to obtain basic mastery of the skills needed to: 1. turn raw data into effective visualizations of the data, 2. evaluate the efficacy of visualizations.\n\nInstitutional Learning Objective:\n\n1. Know- Breadth and Depth of Knowledge\n\nStudents will develop their understanding of the world with emphasis on Hawai’i by the use of geospatial data sets in the class, producing visualizations and therefore potentially hidden insights into regions of the world in relation to each other. Data may be about the economy, energy use, climate, for example.\n\n2. Do - Intellectual and Practical Skills\n\nStudents improve their abilities to think critically and creatively through designing, questioning and critiquing the visualizations produced by experts as well as their peers. Students conduct research by examining visualizations approaches used frequently online and described in conference and journal articles. Students improve their communication and reporting skills by having to give an oral presentation and demonstration of their visualization.\n\n3. Value - Personal and Social Responsibility\n\nStudents demonstrate excellence, integrity, and engagement through team-based collaborative projects that require them to learn how to work with differences in cultures and personal identities. Students will gain a better understanding of issues relating to the stewardship of he natural environment and civic participation in their communities through the data sets they will attempt to interpret and visualize.!",
     "prerequisites": "two ICS 300-level courses.",
-    "schedule": "Week 1\nIntroduction to Data Visualization, History of Visualization, Examples of Visualizations\n\nWeek 2\nIntroduction to tools for interactive data visualization on the Web such as Javascript, D3.js, Kinetic.js, Xmdv\n\nWeek 3\nFundamentals for creating effective tables and charts.\n\nWeek 4\nIntroduction to Information Visualization & Human Perception with Examples\n\nweek 5\nProject 1 presentations\n\nWeek 6\nProject 1 presentations\n\nWeek 7\nIntroduction to Geospatial Visualization\n\nWeek 8\nIntroduction to Privacy Issues in Data Visualization\n\nWeek 9\nIntroduction to Social Network Visualization\nProject 2 presentations\n\nWeek 10\nProject 2 presentations\n\nWeek 11\nSPRING BREAK\n\nWeek 12\nIntroduction to Scientific and Medical Visualization\n\nWeek 13\nIntroduction to Dynamic Data Visualization\n\nWeek 14\nVisual Analytics\n\nWeek 15\nIntroduction to Big Data Visualization!\n\nWeek 16!\nProject 3 presentations",
+    "schedule": "* Week 1: Introduction to Data Visualization, History of Visualization, Examples of Visualizations\n* Week 2: Introduction to tools for interactive data visualization on the Web such as Javascript, D3.js, Kinetic.js, Xmdv\n* Week 3: Fundamentals for creating effective tables and charts.\n* Week 4: Introduction to Information Visualization & Human Perception with Examples\n* Week 5: Project 1 presentations\n* Week 6: Project 1 presentations\n* Week 7: Introduction to Geospatial Visualization\n* Week 8: Introduction to Privacy Issues in Data Visualization\n* Week 9: Introduction to Social Network Visualization, Project 2 presentations\n* Week 10: Project 2 presentations\n* Week 11: SPRING BREAK\n* Week 12: Introduction to Scientific and Medical Visualization\n* Week 13: Introduction to Dynamic Data Visualization\n* Week 14: Visual Analytics\n* Week 15: Introduction to Big Data Visualization!\n* Week 16: Project 3 presentations",
     "textbooks": "Matthew O. Ward, Interactive Data Visualization: Foundations, Techniques, and Applications, A K Peters/CRC Press.\n\nSelected Papers from IEEE Visualization Conference Proceedings",
     "title": "Data Visualization"
   },
@@ -563,7 +574,7 @@ var defaultSyllabuses = [
     "objectives": "To teach students:\n1. to conceptualize effective game play.\n2. to develop storyboards exemplifying game play.\n3. how to apply techniques to implement game play. These include: Artificial Intelligence,\nComputer Graphics, User Interface Design, Psycho Acoustics, Human Perception.\n4. how to manage a multi-disciplinary game development team.\n5. how to evaluate game play.",
     "policies": "none",
     "prerequisites": "two ICS 300-level courses.",
-    "schedule": "Week 1\no History and Taxonomy of video games\n• Week2\no Brainstorming and Designing the gameplay o Project planning\n• Week3\no Presentation of game play designs\n• Week4\no Introduction to game development tools\n• Week5\no Introduction to 3D computer graphics and stereoscopic computer graphics o Presentation of project planning timelines\n• Week6\no Software structure of a video game / real-time game loop design o In class review of project progress\n• Week7\no Deconstructing a game\no In class review of project progress • Week8\no Sound and psychoacoustics\no In class review of project progress • Week9\no Physical and perceptual limits of game players o User interfaces for gaming\no In class review of project progress\n• Week 10\no Mid-Semester Project Presentation\n• Week 11\no SPRING BREAK\n• Week 12\no Artificial Intelligence for games\no In class review of project progress\n• Week 13\no Game physics\no Techniques for special visual effects in gaming (e.g. motion blur, lens flare, real time shadows, reflections)\no In class review of project progress\n• Week 15\no Issues in multiplayer and networked game development o Hardware architectures of video game platforms\no In class review of project progress\n• Week 16\no Final Project Presentation\no Final project document due",
+    "schedule": "* Week 1: History and Taxonomy of video games\n* Week 2: Brainstorming and Designing the gameplay o Project planning\n* Week 3: Presentation of game play designs\n* Week 4: Introduction to game development tools\n* Week 5: Introduction to 3D computer graphics and stereoscopic computer graphics o Presentation of project planning timelines\n* Week 6: Software structure of a video game / real-time game loop design o In class review of project progress\n* Week 7: Deconstructing a game, In class review of project progress\n* Week 8: Sound and psychoacoustics, In class review of project progress\n* Week 9: Physical and perceptual limits of game players o User interfaces for gaming, In class review of project progress\n* Week 10: Mid-Semester Project Presentation\n* Week 11: SPRING BREAK\n* Week 12: Artificial Intelligence for games, In class review of project progress\n* Week 13: Game physics, Techniques for special visual effects in gaming (e.g. motion blur, lens flare, real time shadows, reflections), \n* Week 14: In class review of project progress\n* Week 15: Issues in multiplayer and networked game development o Hardware architectures of video game platforms, In class review of project progress\n* Week 16: Final Project Presentation, Final project document due",
     "textbooks": "Course notes",
     "title": "Video Game Design and Development"
   },
@@ -584,13 +595,13 @@ var defaultSyllabuses = [
     "objectives": "See learning outcomes.",
     "policies": "Plagiarism and cheating are not tolerated in this course. If a student is caught cheating or plagiarizing, s/he will fail the course, and further disciplinary action may be taken.",
     "prerequisites": "311 or consent.",
-    "schedule": "Week 1: History and philosophy of AI \nWeek 2: Intelligent agents\nWeek 3 & 4: Search and heuristics\nWeek 5 & 6: Logic and planning \nWeek 7 & 8: Machine learning\nWeek 9: Evolutionary computation\nWeek 10 & 11: Natural language processing \nWeek 12: Perception\nWeek 13: Robotics\nWeek 14: Review",
+    "schedule": "* Week 1: History and philosophy of AI \n* Week 2: Intelligent agents\n* Week 3 & 4: Search and heuristics\n* Week 5 & 6: Logic and planning \n* Week 7 & 8: Machine learning\n* Week 9: Evolutionary computation\n* Week 10 & 11: Natural language processing \n* Week 12: Perception\n* Week 13: Robotics\n* Week 14: Review",
     "textbooks": "Artificial Intelligence: A Modern Approach, by Stuart Russell and Peter Norvig",
     "title": "Artificial Intelligence"
   },
   {
     "alphaNumber": "ICS 215",
-    "courseLearningOutcomes": "1. Use regular expressions to solve different problems.\n\n2. Produce robust client and server side scripts in a variety of scripting languages using software engineering techniques such as review and extensive program testing.\n\n3. Handle user and system generated events using various scripting languages.\n\n4. Validate user input using various scripting languages for security purposes.",
+    "courseLearningOutcomes": "See objectives.",
     "creditHours": 3,
     "description": "Introduction to scripting languages for the integration of applications and systems. Scripting in operating systems, web pages, server-side application integration, regular expressions, event handling, input validation, selection, repetition, parameter passing, Perl, JavaScript, and PHP. A-F only. Pre: 211 (or concurrent), or consent. (Once a year)",
     "grading": "In class quizzes (100%)",
@@ -602,15 +613,16 @@ var defaultSyllabuses = [
       "f",
       "i"
     ],
-    "objectives": "1. Use regular expressions to solve different problems.\n2. Produce robust client and server side scripts in a variety of scripting languages using software engineering techniques such as review and extensive program testing.\n3. Handle user and system generated events using various scripting languages.\n4. Validate user input using various scripting languages for security purposes.",
+    "objectives": "* Use regular expressions to solve different problems.\n* Produce robust client and server side scripts in a variety of scripting languages using software engineering techniques such as review and extensive program testing.\n* Handle user and system generated events using various scripting languages.\n* Validate user input using various scripting languages for security purposes.",
     "prerequisites": "211 (or concurrent), or consent.",
-    "schedule": "Week 1: Introduction, course description and rules\nWeeks 2 - 4: Regular Expressions\nWeeks 5 - 7: JavaScript\nWeeks 8 - 10: PHP\nWeeks 11 - 13: Perl\nWeeks 14 - 16: Python",
+    "schedule": "* Week 1: Introduction, course description and rules\n* Weeks 2 - 4: Regular Expressions\n* Weeks 5 - 7: JavaScript\n* Weeks 8 - 10: PHP\n* Weeks 11 - 13: Perl\n* Weeks 14 - 16: Python",
     "textbooks": "none, Class Notes.",
-    "title": "Introduction to Scripting"
+    "title": "Introduction to Scripting",
+    "policies": "None"
   },
   {
     "alphaNumber": "ICS 415",
-    "courseLearningOutcomes": "The student will:\nCreate valid Web pages using HTML(5).\nStyle HTML pages using CSS.\nBe able to develop their own style sheets.\nCreate web sites that work across many different display devices.\nUnderstand the basics of the JavaScript language.\nCreate and use JavaScript programs.\nLearn about a modern web technology.\nCreate an 8 to 10 minute presentation about the technology.\nDevelop a responsive web site.",
+    "courseLearningOutcomes": "See objectives",
     "creditHours": 3,
     "description": "Introduction to emerging technologies for construction of World Wide Web (WWW)-based software. Covers programming and scripting languages used for the creation of WWW sites and client-server programming. Students will complete a medium-sized software project that uses languages and concepts discussed in class.",
     "grading": "10 Assignments, 30%\nIn class quizzes, 30%\nTechnology presentation 15%\nFinal Project 25%",
@@ -624,16 +636,16 @@ var defaultSyllabuses = [
       "f",
       "i"
     ],
-    "objectives": "The student will:\nCreate valid Web pages using HTML(5).\nStyle HTML pages using CSS.\nBe able to develop their own style sheets.\nCreate web sites that work across many different display devices.\nUnderstand the basics of the JavaScript language.\nCreate and use JavaScript programs.\nLearn about a modern web technology.\nCreate an 8 to 10 minute presentation about the technology.\nDevelop a responsive web site.",
+    "objectives": "The student will:\n* Create valid Web pages using HTML(5).\n* Style HTML pages using CSS.\n* Be able to develop their own style sheets.\n* Create web sites that work across many different display devices.\n* Understand the basics of the JavaScript language.\n* Create and use JavaScript programs.\n* Learn about a modern web technology.\n* Create an 8 to 10 minute presentation about the technology.\n* Develop a responsive web site.",
     "policies": "Watch screen casts out side of class. In class work on exercises, practicing web development skills.",
     "prerequisites": "311 or consent",
-    "schedule": "Week 1: Introduction to the course\nWeek 2: HTML(5) and CSS\nWeek 3: Responsive Web Design and Bootstrap\nWeeks 4, 5: JavaScript and jQuery\nWeeks 6, 7: Meteor\nWeeks 8 - 11: Technology Presentations\nWeeks 12 - 16: Final Project",
+    "schedule": "* Week 1: Introduction to the course\n* Week 2: HTML(5) and CSS\n* Week 3: Responsive Web Design and Bootstrap\n* Weeks 4, 5: JavaScript and jQuery\n* Weeks 6, 7: Meteor\n* Weeks 8 - 11: Technology Presentations\n* Weeks 12 - 16: Final Project",
     "textbooks": "Course Notes",
     "title": "Introduction to Programming for the Web"
   },
   {
     "alphaNumber": "ICS 390",
-    "courseLearningOutcomes": "Students can explain different ethical schools of thought.\nStudents can apply ethical reasoning skills to situations.\nStudents can plan, develop, and implement lesson plans.\nStudents can effectively communicate with others in instructional, public presentation, and group facilitation sessions. \nStudents can explain current technology concepts to those enrolled in courses they assist. \nStudents can explain legal, moral, and ethical issues concerning technology both orally and in writing. \nStudents can explain the impact of computers in society, locally, and globally both orally and in writing.",
+    "courseLearningOutcomes": "See objectives.",
     "creditHours": 3,
     "description": "The course concentrates on the theory and practice of computer and information ethics. It covers the basics of ethical decision‐making, and emphasizes group work and presentations. Topics studied in the course include risk and reliability, privacy, info‐war, crime, access, business ethics, copyright, patents, and other relevant, timely issues. The class uses writing (term papers, weekly on-line written discussions and reviews, and critiques) to promote the learning of course materials. The class uses oral presentations and activities (presentations, class discussions, critiques, lab sessions, contact hours, and teaching) to promote learning courses materials.",
     "grading": "2 essays (8% each), on-line discussion (27%), in-class discussion and facilitation (15%), presentation (8%), lab and open lab support (14%), teaching (18%), instructional critique (2%).",
@@ -648,10 +660,10 @@ var defaultSyllabuses = [
       "j",
       "n"
     ],
-    "objectives": "Students can explain different ethical schools of thought.\nStudents can apply ethical reasoning skills to situations.\nStudents can develop and implement lesson plans.\nStudents can effectively communicate in various situations.\nStudents can explain legal, moral, and ethical issues concerning technology.\nStudents can explain the impact of computers in society, locally, and globally.",
+    "objectives": "* Students can explain different ethical schools of thought.\n* Students can apply ethical reasoning skills to situations.\n* Students can develop and implement lesson plans.\n* Students can effectively communicate in various situations.\n* Students can explain legal, moral, and ethical issues concerning technology.\n* Students can explain the impact of computers in society, locally, and globally.",
     "policies": "-\tPlagiarism will not be tolerated. All sources must be cited. Instruction on how to correctly cite a source will be given before the first paper is due. An assignment including plagiarized material will receive an F. \n-\tLate assignments will lose 10% for each day late (starting immediately after the time the assignment is due). The final essay and on-line discussions will not be accepted for credit if they are submitted late.  All assignments are required, even if they are too late to be worth anything.  \n-\tAttendance is required at all course sessions. If a student would like to make-up missed work due to a valid excused absence, the student must contact the instructor and provide documentation for the excused absence on the day the student returns to class.",
     "prerequisites": "101 (Alpha) and consent.",
-    "schedule": "Week 1: Class Orientation, Week 2: Discussion leader and mediation techniques, academic honesty, and time management, Week 3: Catalysts for Change, Week 4: Intro to Ethics, Week 5: Networking, Week 6: Intellectual Property, Week 7: Information Privacy, Week 8: Privacy and the Government, Week 9: Computer and Network Security, Week 10: Computer Reliability, Week 11: Professional Ethics, Week 12: Work and Wealth, Week 13-Week16: Final Presentations",
+    "schedule": "* Week 1: Class Orientation, \n* Week 2: Discussion leader and mediation techniques, academic honesty, and time management, \n* Week 3: Catalysts for Change, \n* Week 4: Intro to Ethics, \n* Week 5: Networking, \n* Week 6: Intellectual Property, \n* Week 7: Information Privacy, \n* Week 8: Privacy and the Government, \n* Week 9: Computer and Network Security, \n* Week 10: Computer Reliability, \n* Week 11: Professional Ethics, \n* Week 12: Work and Wealth, \n* Week 13-Week16: Final Presentations",
     "textbooks": "Ethics for the Information Age, 6th Edition, Michael J. Quinn",
     "title": "Computing Ethics for Lab Assistants"
   },
@@ -762,7 +774,8 @@ var defaultSyllabuses = [
     "prerequisites": "141 and 211, or consent.",
     "schedule": "* Week 1: Intro\n* Week 2: Commands, network monitoring, protocols\n* Week 3: Addressing, masks, routing\n* Week 4: Masks, networks, subnetworks\n* Week 5: Routing, OSPF, BGP\n* Week 6: Routing, multi-casting\n* Week 7: TCP\n* Week 8: NAT, network configuration\n* Week 9: DNS\n* Week 10: 802.11, IPv6, HTTP\n* Week 11: HTTPS, SNMP\n* Week 12: Wireless ad-hoc networks\n* Week 13: Security, \n* Week 14: Review\n* Week 15: Networking problems and solutions\n* Week 16: Networking problems and solutions\n* Week 17: Final exam",
     "textbooks": "Mastering Networks -- An Internet Lab Manual 5.0\", by Jörg Liebeherr and Magda el Zarki, 2004.",
-    "title": "Network Design and Management"
+    "title": "Network Design and Management",
+    "courseLearningOutcomes": "See objectives."
   },
   {
     "alphaNumber": "ICS 290",
@@ -796,11 +809,13 @@ var defaultSyllabuses = [
       "i",
       "j"
     ],
-    "objectives": "In this course, students will:\n\n   - learn about computer networking, focusing on the fundamental design principles of computer networks and protocols.\n   - study networks of practical importance, including the Internet, TCP/IP, and wireless networks.\n   - learn to write in C computer programs to work with the network, specifically implementing clients, servers, and protocols.",
+    "objectives": "In this course, students will:\n* learn about computer networking, focusing on the fundamental design principles of computer networks and protocols.\n*  study networks of practical importance, including the Internet, TCP/IP, and wireless networks.\n*  learn to write in C computer programs to work with the network, specifically implementing clients, servers, and protocols.",
     "prerequisites": "212 and 311, or consent",
-    "schedule": "week 1: course overview, sockets API, network application programming\nweek 2: sockets API in C, Windows, C programming reminders, layered reference models, Internet and OSI reference models\nweek 3: Application Layer, Domain Name System\nweek 4: email, HTTP\nweek 5: transport layer, Alternating Bit Protocol, sliding window, reliable transmission, connections\nweek 6: exam review and exam\nweek 7: TCP connections, TCB, Nagle Algorithm, UDP, congestion control\nweek 8: network layer protocols, packet forwarding, virtual circuits, static routing, distance-vector routing\nweek 9: link-state Routing, IP: addresses, netmasks, headers, fragmentation, \nweek 10: IPv6 socket programming, ICMP including ping and traceroute, ARP\nweek 11: summary of IP processing, DHCP, IPv6, Firewalls, NAT, IP routing: RIP, OSPF\nweek 12: exam review and exam\nweek 13: IP routing: domains, policy, BGP, data link layer, framing, error detection and correction \nweek 14: Medium Access Control, ALOHA Net, CSMA, PPP, Ethernet\nweek 15: Ethernet hubs and switches, Spanning Tree Protocol, Virtual LANs, 802.11 and ad-hoc networks, 802.11 security\nweek 16: course review",
+    "schedule": "* week 1: course overview, sockets API, network application programming\n* week 2: sockets API in C, Windows, C programming reminders, layered reference models, Internet and OSI reference models\n* week 3: Application Layer, Domain Name System\n* week 4: email, HTTP\n* week 5: transport layer, Alternating Bit Protocol, sliding window, reliable transmission, connections\n* week 6: exam review and exam\n* week 7: TCP connections, TCB, Nagle Algorithm, UDP, congestion control\n* week 8: network layer protocols, packet forwarding, virtual circuits, static routing, distance-vector routing\n* week 9: link-state Routing, IP: addresses, netmasks, headers, fragmentation, \n* week 10: IPv6 socket programming, ICMP including ping and traceroute, ARP\n* week 11: summary of IP processing, DHCP, IPv6, Firewalls, NAT, IP routing: RIP, OSPF\n* week 12: exam review and exam\n* week 13: IP routing: domains, policy, BGP, data link layer, framing, error detection and correction \n* week 14: Medium Access Control, ALOHA Net, CSMA, PPP, Ethernet\n* week 15: Ethernet hubs and switches, Spanning Tree Protocol, Virtual LANs, 802.11 and ad-hoc networks, 802.11 security\n* week 16: course review",
     "textbooks": "\"Computer Networking : Principles, Protocols and Practice\", by Olivier Bonaventure, freely available at http://inl.info.ucl.ac.be/CNP3",
-    "title": "Data Networks"
+    "title": "Data Networks",
+    "courseLearningOutcomes": "See objectives.",
+    "policies": "None"
   },
   {
     "alphaNumber": "ICS 210",
@@ -816,7 +831,7 @@ var defaultSyllabuses = [
     "objectives": "* Students understand the impact of computers on society.\n* Students have a better understanding of information technology careers.",
     "policies": "My role in this course is to introduce you to a range of concepts related to information and its role in society, and to provide an environment where you can demonstrate your understanding and apply these concepts to situations that interest you.  The format of the course will be lecture/discussion.\n\nThe issues covered in this course draw from a diverse set of fields and traditions which go beyond computer science.  The textbook chapters provide an overall structure to the main course concepts, but we will explore additional applications of course-related issues in current events and other resources as well.  Expect to find, read and discuss additional relevant material outside the textbook, and to share what you find with the class.  Readings and lectures will not overlap completely, and may change throughout the term.  You will be responsible for demonstrating understanding of all course content.\n\nCome to class having read and understood the day’s readings—you can guarantee yourself an excellent participation grade if you come prepared with well-grounded questions.  You will be expected to complete all readings and assignments professionally and on time, and to participate actively in class discussions, both in person and online. \n\nYou must complete all assignments to pass this course.  Late assignments will be penalized five points up to 24 hours late, plus two points for every additional day past the due date, unless prior arrangements are made with the instructor.",
     "prerequisites": "departmental approval.",
-    "schedule": "Wk 1, Introduction and overview\nWk 2, Fundamental concepts of information (Information flow assignment)\nWk 3, Information needs & seeking behavior\nWk 4, History of information systems (Open mic proposal)\nWk 5, Current information systems (Open mic session)\nWk 6, Information institutions (Open mic session)\nWk 7, Information work (Open mic session; Information seeking journal)\nWk 8, The information society\nWk 9, Economics of information\nWk 10, Information policy and power \nWk 11, no class meeting (take-home Midterm)\nWk 12, Post-midterm review and discussion\nWk 13, Copyright and privacy (Final project proposals)\nWk 14, Information ethics\nWk 15, Information in the future\nWk 16, Final project presentations\nWk 17, Final exam",
+    "schedule": "* Wk 1, Introduction and overview\n* Wk 2, Fundamental concepts of information (Information flow assignment)\n* Wk 3, Information needs & seeking behavior\n* Wk 4, History of information systems (Open mic proposal)\n* Wk 5, Current information systems (Open mic session)\n* Wk 6, Information institutions (Open mic session)\n* Wk 7, Information work (Open mic session; Information seeking journal)\n* Wk 8, The information society\n* Wk 9, Economics of information\n* Wk 10, Information policy and power \n* Wk 11, no class meeting (take-home Midterm)\n* Wk 12, Post-midterm review and discussion\n* Wk 13, Copyright and privacy (Final project proposals)\n* Wk 14, Information ethics\n* Wk 15, Information in the future\n* Wk 16, Final project presentations\n* Wk 17, Final exam",
     "textbooks": "Lester, June and Wallace C. Koehler Jr. (2007).  Fundamentals of Information Studies: Understanding Information and Its Environment (2nd edition).  New York: Neal-Schuman.",
     "title": "Information Systems in Society"
   },
@@ -866,7 +881,7 @@ var defaultSyllabuses = [
   },
   {
     "alphaNumber": "ICS 441",
-    "courseLearningOutcomes": "Students improve their analytical skills.\nStudents improve their technical writing skills.",
+    "courseLearningOutcomes": "See objectives.",
     "creditHours": 3,
     "description": "Grammars, sequential machines, equivalence, minimalization, analysis and synthesis, regular expressions, computability, unsolvability, Gödel's theorem, Turing machines.",
     "grading": "A few assignments (100%) in which students have to solve given theoretical problems and write technical reports on their solutions to the given problems, where the last assignment is the take-home final exam",
@@ -875,10 +890,10 @@ var defaultSyllabuses = [
       "a",
       "b"
     ],
-    "objectives": "Students can write rigorous proofs.\nStudents can compose analytical arguments.\nStudents can conduct theoretical research on topics in fields of their interests.\nStudents can write theoretical papers.",
+    "objectives": "* Students can write rigorous proofs.\n* Students can compose analytical arguments.\n* Students can conduct theoretical research on topics in fields of their interests.\n* Students can write theoretical papers.",
     "policies": "none",
     "prerequisites": "311 or consent",
-    "schedule": "Weeks 1-2: Basics of Fomal Languages and Automata Theory (Review of ICS241)\nWeeks 3-5: Regular Sets, Regular Grammars and Finite Automata\nAssignment 1\nWeeks 6-8: Context-Free Languages, Regular Grammars and Pushdown Automata\nAssignment 2\nWeeks 9-10: Turing Machines\nWeeks 11-12: Computability\nWeeks 13-15: Computational Complexity Theory\nAssignment 3",
+    "schedule": "* Weeks 1-2: Basics of Formal Languages and Automata Theory (Review of ICS241)\n* Weeks 3-5: Regular Sets, Regular Grammars and Finite Automata. Assignment 1\n* Weeks 6-8: Context-Free Languages, Regular Grammars and Pushdown Automata, Assignment 2\n* Weeks 9-10: Turing Machines\n* Weeks 11-12: Computability\n* Weeks 13-15: Computational Complexity Theory Assignment 3\n* Week 16 Review\n* Week 17: Final exam",
     "textbooks": "\"Introduction to Automata Theory, Languages, and Computation,\" John E. Hopcroft and Jeffrey D. Ullman",
     "title": "Theory of Computation"
   },
@@ -947,7 +962,7 @@ var defaultSyllabuses = [
   },
   {
     "alphaNumber": "ICS 462",
-    "courseLearningOutcomes": "Students will be able to extend an existing game program by adding AI code\nStudents will be able to program goal-oriented movement of non-player characters\nStudents will be able to write code to find near-optimal paths using A* search and other techniques\nStudents will be able to write decision making code utilizing decision trees, state machines, fuzzy logic, production systems, and/or scripts\nStudents will understand and apply machine learning algorithms to games\nStudents will experience AI program competitions\nStudents will be able to successfully present ideas, code, and techniques both individually and as part of a group (Oral focus)\nStudents will be able to write descriptive, comparative, and critiquing papers on game AI (Writing Intensive)",
+    "courseLearningOutcomes": "* Students will be able to extend an existing game program by adding AI code\n* Students will be able to program goal-oriented movement of non-player characters\n* Students will be able to write code to find near-optimal paths using A* search and other techniques\n* Students will be able to write decision making code utilizing decision trees, state machines, fuzzy logic, production systems, and/or scripts\n* Students will understand and apply machine learning algorithms to games\n* Students will experience AI program competitions\n* Students will be able to successfully present ideas, code, and techniques both individually and as part of a group (Oral focus)\n* Students will be able to write descriptive, comparative, and critiquing papers on game AI (Writing Intensive)",
     "creditHours": 3,
     "description": "Techniques to stimulate intelligence in video games: movement, pathfinding with A* search, decision/behavior trees, state machines, machine learning, tactics. Extend games with your own AI implementations; experience \"shootout\" contests for the best AI algorithm/implementation.",
     "grading": "15% on assignments, 5% on quizzes, 10% on the Midterm exam, 20% on the Final exam, 40% on oral presentations",
@@ -963,7 +978,7 @@ var defaultSyllabuses = [
     "objectives": "See Learning Outcomes",
     "policies": "none",
     "prerequisites": "212 and (314 or 361) and (PHYS 151 or PHYS 170)",
-    "schedule": "Week 1: Introduction: AI vs. Game AI; Introduction to BZFlag, the target game for this class\nWeek 2: Presenting to Win\nWeek 3: Movement, Basic 2D & Physics; Movement in BZFlag\nWeek 4: Jumping, Coordinated Movement, Motor Control & 3D; Individual Presentation: My Game Feature Proposal\nWeek 5: Pathfinding, Basic; Pathfinding in BZFlag\nWeek 6: Pathfinding, Advanced; more on Pathfinding in BZFlag\nWeek 7: Decision Trees, State Machines & Behavior Trees; Applying Decision Making to BZFlag \nWeek 8: Fuzzy Logic, Markov Systems & Goal-Oriented Behavior; Individual Presentation: Code Review\nWeek 9: Rule-Based Systems,Blackboard Architectures,Scripting and Action Execution; Review for Midterm\nWeek 10: Midterm Exam; Final Project Description\nWeek 11: Waypoint Tactics and Tactical Analyses; Tactics in BZFlag\nWeek 12: Tactical Pathfinding and Coordinated Action\nWeek 13: more on Tactics in BZFlag; Machine Learning \nWeek 14: Decision Learning with Naive Bayes Classifiers and ID3; Reinforcement Learning and Artificial Neural Networks \nWeek 15: Group Presentation: AI Techniques Used for AI Shootout; Final Project AI Shootout \nWeek 16: Review for Final Exam; Group Presentation: Post-Mortem Analysis of AI Shootout",
+    "schedule": "* Week 1: Introduction: AI vs. Game AI; Introduction to BZFlag, the target game for this class\n* Week 2: Presenting to Win\n* Week 3: Movement, Basic 2D & Physics; Movement in BZFlag\n* Week 4: Jumping, Coordinated Movement, Motor Control & 3D; Individual Presentation: My Game Feature Proposal\n* Week 5: Pathfinding, Basic; Pathfinding in BZFlag\n* Week 6: Pathfinding, Advanced; more on Pathfinding in BZFlag\n* Week 7: Decision Trees, State Machines & Behavior Trees; Applying Decision Making to BZFlag \n* Week 8: Fuzzy Logic, Markov Systems & Goal-Oriented Behavior; Individual Presentation: Code Review\n* Week 9: Rule-Based Systems,Blackboard Architectures,Scripting and Action Execution; Review for Midterm\n* Week 10: Midterm Exam; Final Project Description\n* Week 11: Waypoint Tactics and Tactical Analyses; Tactics in BZFlag\n* Week 12: Tactical Pathfinding and Coordinated Action\n* Week 13: more on Tactics in BZFlag; Machine Learning \n* Week 14: Decision Learning with Naive Bayes Classifiers and ID3; Reinforcement Learning and Artificial Neural Networks \n* Week 15: Group Presentation: AI Techniques Used for AI Shootout; Final Project AI Shootout \n* Week 16: Review for Final Exam; Group Presentation: Post-Mortem Analysis of AI Shootout",
     "textbooks": "Artificial Intelligence for Games, Second Edition by Ian Millington and John Funge; Presenting to Win: The Art of Telling Your Story, Updated and Expanded Edition by Jerry Weissman",
     "title": "Artificial Intelligence for Games"
   },
@@ -983,7 +998,7 @@ var defaultSyllabuses = [
     "objectives": "The objective of the course is to expose students to the concepts in artificial intelligence and the functional and logic programming paradigms. This is fundamental knowledge for all computer science students as described in the current ACM (Association for Computing Machinery) curriculum recommendations. Artificial intelligence has only been available to seniors (400 level) and infrequently offered at UH. The addition of this course will bring the fundamentals of artificial intelligence along with alternative programming paradigms to more students. This course integrates with the new curriculum and provides an alternative to ICS313, programming language theory, which is a requirement for ICS majors.",
     "policies": "none",
     "prerequisites": "241 and (212 or 215), or consent.",
-    "schedule": "Week 1: Course introduction and goals, why study AI Programming? An overview of past and present artificial intelligence programming\nWeek 2: Functional programming, the Lisp top-level loop, basic syntax and semantics.\nWeek 3: Creating functions and programs in Lisp for solving problems, basic search techniques in state spaces\nWeek 4: Built-in operations, variables and data types in Lisp, list processing\nWeek 5: Static and dynamic scoping, depth-first, breadth-first and iterative deepening searches\nWeek 6: Lisp macros, destructive operations, complex data structures\nWeek 7: Informed search algorithms, best-first and A*. Knowledge representation for search problems \nWeek 8: Expert Systems, forward and backward chaining, applications in specialized areas such as medicine\nWeek 9: Intelligent agents, agent environments, agent architectures, and reasoning methods\nWeeks 10-11: Midterm exam, Logic Programming\nWeek 12: Predicate logic, deduction, introduction to programming in Prolog Week 13: Resolution, Prolog databases, theorem proving\nWeek 14: Backtracking, Prolog control structures\nWeek 15: Building expert systems in Prolog, knowledge engineering\nWeek 16: Design and implementation of large AI programs, knowledge acquisition",
+    "schedule": "* Week 1: Course introduction and goals, why study AI Programming? An overview of past and present artificial intelligence programming\n* Week 2: Functional programming, the Lisp top-level loop, basic syntax and semantics.\n* Week 3: Creating functions and programs in Lisp for solving problems, basic search techniques in state spaces\n* Week 4: Built-in operations, variables and data types in Lisp, list processing\n* Week 5: Static and dynamic scoping, depth-first, breadth-first and iterative deepening searches\n* Week 6: Lisp macros, destructive operations, complex data structures\n* Week 7: Informed search algorithms, best-first and A*. Knowledge representation for search problems \n* Week 8: Expert Systems, forward and backward chaining, applications in specialized areas such as medicine\n* Week 9: Intelligent agents, agent environments, agent architectures, and reasoning methods\n* Weeks 10-11: Midterm exam, Logic Programming\n* Week 12: Predicate logic, deduction, introduction to programming in Prolog * * Week 13: Resolution, Prolog databases, theorem proving\n* Week 14: Backtracking, Prolog control structures\n* Week 15: Building expert systems in Prolog, knowledge engineering\n* Week 16: Design and implementation of large AI programs, knowledge acquisition",
     "textbooks": "AI Algorithms, Data Structures, and Idioms in Prolog, Lisp, and Java, 6th edition by George F. Luger and William A Stubblefield, Addison Wesley. \nArtificial Intelligence: Structures and Strategies for Complex Problem Solving, 6th edition by George F. Luger, Addison Wesley.",
     "title": "Introduction to Artificial Intelligence Programming"
   }
