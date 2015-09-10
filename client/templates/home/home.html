@@ -1,5 +1,5 @@
 <template name="home">
-{{#if currentUser}}
+  {{#if currentUser}}
   <div class="template-home">
     <div class="well">
       <form class="form-inline syllabus-chooser">
@@ -15,56 +15,56 @@
       </form>
     </div>
 
-  {{#if displayID}}
-      <div class="well">
-        {{#autoForm collection="Syllabuses" doc=selectedSyllabusDoc id="insertSyllabusForm" type="update"}}
-          <fieldset>
-            <div class="row">
-              <div class="col-sm-2">{{> afQuickField name='alphaNumber' placeholder="ICS 101"}}</div>
-              <div class="col-sm-2">{{> afQuickField name='creditHours' placeholder="3"}}</div>
-              <div class="col-sm-2">{{> afQuickField name='prerequisites' placeholder="311 or consent"}}</div>
-              <div class="col-sm-6">{{> afQuickField name='title' placeholder="Course title"}}</div>
-            </div>
-            <div class="row">
-              <div
-                  class="col-sm-6">{{> afQuickField name='instructor' rows=2 placeholder="Name\noffice address, email"}}</div>
-              <div
-                  class="col-sm-6">{{> afQuickField name='textbooks' rows=2 placeholder= "Textbook title and author, or 'none'"}}</div>
-            </div>
-            <div class="row">
-              <div
-                  class="col-sm-6">{{> afQuickField name='objectives' rows=4 placeholder='* Students have ...\n* Students can ...\n* Students can ....'}}</div>
-              <div class="col-sm-6">{{> afQuickField name='policies' rows=4 placeholder="Can be 'none'."}}</div>
-            </div>
-            <div class="row">
-              <div
-                  class="col-sm-6">{{> afQuickField name='description' rows=4 placeholder='Insert course catalog description: http://www.catalog.hawaii.edu/courses/departments/ics.htm'}}</div>
-              <div
-                  class="col-sm-6">{{> afQuickField name='grading' rows=4 placeholder="5 homework assignments (10% each)\n1 midterm (15%)\n1 final exam (15%)\n1 final project (20%)"}}</div>
-            </div>
-            <div class="row">
-              <div class="col-sm-6">{{> afFormGroup name='learningOutcomes' type="select-checkbox"}}</div>
-              <div class="col-sm-6">
-                {{> afQuickField name='courseLearningOutcomes' rows=12 placeholder="* Learning Outcome 1\n* Learning outcome 2"}}
+    {{#if displayID}}
+    <div class="well">
+      {{#autoForm collection="Syllabuses" doc=selectedSyllabusDoc id="insertSyllabusForm" type="update"}}
+      <fieldset>
+        <div class="row">
+          <div class="col-sm-2">{{> afQuickField name='alphaNumber' placeholder="ICS 101"}}</div>
+          <div class="col-sm-2">{{> afQuickField name='creditHours' placeholder="3"}}</div>
+          <div class="col-sm-2">{{> afQuickField name='prerequisites' placeholder="311 or consent"}}</div>
+          <div class="col-sm-6">{{> afQuickField name='title' placeholder="Course title"}}</div>
+        </div>
+        <div class="row">
+          <div
+              class="col-sm-6">{{> afQuickField name='instructor' rows=2 placeholder="Name\noffice address, email"}}</div>
+          <div
+              class="col-sm-6">{{> afQuickField name='textbooks' rows=2 placeholder= "Textbook title and author, or 'none'"}}</div>
+        </div>
+        <div class="row">
+          <div
+              class="col-sm-6">{{> afQuickField name='objectives' rows=4 placeholder='* Students have ...\n* Students can ...\n* Students can ....'}}</div>
+          <div class="col-sm-6">{{> afQuickField name='policies' rows=4 placeholder="Can be 'none'."}}</div>
+        </div>
+        <div class="row">
+          <div
+              class="col-sm-6">{{> afQuickField name='description' rows=4 placeholder='Insert course catalog description: http://www.catalog.hawaii.edu/courses/departments/ics.htm'}}</div>
+          <div
+              class="col-sm-6">{{> afQuickField name='grading' rows=4 placeholder="5 homework assignments (10% each)\n1 midterm (15%)\n1 final exam (15%)\n1 final project (20%)"}}</div>
+        </div>
+        <div class="row">
+          <div class="col-sm-6">{{> afFormGroup name='learningOutcomes' type="select-checkbox"}}</div>
+          <div class="col-sm-6">
+            {{> afQuickField name='courseLearningOutcomes' rows=12 placeholder="* Learning Outcome 1\n* Learning outcome 2"}}
                 {{> afQuickField name='schedule' rows=12 placeholder="Week 1: ...\nWeek 2: ...\nWeek 3: ..."}}
-              </div>
-            </div>
+          </div>
+        </div>
 
-          </fieldset>
-          <button type="submit" class="btn btn-default btn-success btn-block">Save</button>
+      </fieldset>
+      <button type="submit" class="btn btn-default btn-success btn-block">Save</button>
 
-        {{/autoForm}}
-      </div>
-    {{ /if }}
+      {{/autoForm}}
     </div>
+    {{ /if }}
+  </div>
 
-    <div class="well" style="padding: 0; max-height: 100px; overflow-y: auto">
-      <ul>
+  <div class="well" style="padding: 0; max-height: 100px; overflow-y: auto">
+    <ul>
       {{ #each editStatusList }}
-          <li>Started editing {{ syllabusName }} {{ editTimestamp }}  {{ #if editFinished}} ... finished. {{ /if }} </li>
-        {{ /each }}
-      </ul>
-    </div>
+      <li>Started editing {{ syllabusName }} {{ editTimestamp }}  {{ #if editFinished}} ... finished. {{ /if }} </li>
+      {{ /each }}
+    </ul>
+  </div>
 
-    {{ /if }}
-    </template>
+  {{ /if }}
+</template>
