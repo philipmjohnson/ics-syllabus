@@ -19,14 +19,6 @@ var defaultSyllabuses = [
     "prerequisites": "215 or consent."
   },
   {
-    "alphaNumber": "ICS 462",
-    "creditHours": 3,
-    "prerequisites": "212 and (314 or 361) and (PHYS 151 or PHYS 170)",
-    "title": "Artificial Intelligence for Games",
-    "instructor": "David Chin\nchin@hawaii.edu",
-    "description": "Techniques to stimulate intelligence in video games: movement, pathfinding with A* search, decision/behavior trees, state machines, machine learning, tactics. Extend games with your own AI implementations; experience \"shootout\" contests for the best AI algorithm/implementation."
-  },
-  {
     "alphaNumber": "ICS 464",
     "creditHours": 3,
     "prerequisites": "two ICS 300-level courses or consent.",
@@ -56,7 +48,18 @@ var defaultSyllabuses = [
     "prerequisites": "one ICS 300-level course or consent.",
     "title": "Introduction to Bioinformatics Sequences and Genomes Analysis",
     "instructor": "Guylaine Poisson\nguylaine@hawaii.edu",
-    "description": "Introduction to bioinformatics to computer sciences students by focusing on how computer sciences techniques can be used for the storage, analysis, prediction and simulation of biological sequences (DNA, RNA and proteins)."
+    "description": "Introduction to bioinformatics to computer sciences students by focusing on how computer sciences techniques can be used for the storage, analysis, prediction and simulation of biological sequences (DNA, RNA and proteins).",
+    "courseLearningOutcomes": "Gain knowledge of the bioinformatics field of research\nGet familiar with a selection of fundamental bioinformatics problems.\nGain knowledge of fundamental bioinformatics tools and methods.\nGain experience in implementation and analysis of a selection of common bioinformatics algorithms.\nGain experience in the study of a specific bioinformatics research subject.",
+    "grading": "Quizzes and exercises (40%), \nScientific papers and assignment (25%) \nFinal exam (35%)",
+    "learningOutcomes": [
+      "a",
+      "b",
+      "d",
+      "i"
+    ],
+    "policies": "none",
+    "schedule": "Week 1: What is Bioinformatics?\nWeek 2: Database\nWeek 3: DNA, RNA and protein sequences\nWeek 4: Sequence alignment. \nWeek 5-6: Database search and multiple alignment\nWeek 7-8: Phylogenetics \nWeek 9-10: Annotation and Machine learning\nWeek 11: Nucleic Acid secondary structure prediction. \nWeek 12-15: Special topics\nWeek 16: Revision",
+    "textbooks": "none"
   },
   {
     "alphaNumber": "ICS 476",
@@ -64,33 +67,31 @@ var defaultSyllabuses = [
     "prerequisites": "475 or consent.",
     "title": "Bioinformatics Algorithms and Tool Development",
     "instructor": "Guylaine Poisson\nguylaine@hawaii.edu",
-    "description": "Study of commonly used bioinformatic algorithms, with an emphasis on string, tree, and graph algorithms. Presentation of probabilistic and clustering methods. Implementation of the studied algorithms and design of applications."
-  },
-  {
-    "alphaNumber": "ICS 481",
-    "creditHours": 3,
-    "prerequisites": "311 and either MATH 216, MATH 242, or MATH 252A; or consent.",
-    "title": "Introduction to Computer Graphics",
-    "instructor": "Stephen Itoga\nitoga@hawaii.edu",
-    "description": "Fundamentals of computer graphics including graphics hardware, representation, manipulation, and display of two- and three-dimensional objects, use of commercial software.",
-    "courseLearningOutcomes": "See objectives.",
-    "grading": "* Required projects (4 ): 40% \n* Term project: 30%\n* Midterm 15%\n* Final (15%)",
+    "description": "Study of commonly used bioinformatic algorithms, with an emphasis on string, tree, and graph algorithms. Presentation of probabilistic and clustering methods. Implementation of the studied algorithms and design of applications.",
+    "courseLearningOutcomes": "Understand how popular bioinformatics algorithms work\nLearn how to design algorithms for solving biological problems\nBe able to implement and use these algorithms in tool development in a context of biological data analysis\nGain knowledge needed to understand more advanced topics and current research literature in the field of bioinformatics.",
+    "grading": "Programming assignment: 30%\nClass participation: 10%\nMidterm exam: 30%\nFinal Exam : 30%",
     "learningOutcomes": [
       "a",
       "b",
       "c",
       "i"
     ],
-    "objectives": "* Introduce students to all aspects of computer graphics: hardware, software, applications \n* Understand the basic concepts underlying computer graphics \n* Gain experience with at least one graphical application programming interface (OpenGL) \n* Carry out a large programming project of your choice \n* Become well versed in the basic procedures for developing graphical software",
-    "policies": "None.",
-    "schedule": "Weeks 1, 2: Introduction\nWeeks 3, 4: Drawing geometric objects\nWeeks 5, 6, 7, 8: Viewing objects\nWeek 9: Color\nWeek 10: Lighting\nWeek 11: Display lists\nWeek 12: Frame buffers\nWeeks 13, 14: Advanced topics\nWeeks 15, 16: Presentations\nWeek 17: Final exam",
-    "textbooks": "OpenGL Programming Guide, Addison-Wesley."
+    "policies": "none",
+    "schedule": "Week 1: Algorithm and Complexity\nWeek 2-3: Mapping DNA and Finding Signals: Exhaustive Search\nWeek 4: Genome Rearrangement and Signals: Greedy Algorithm\nWeek 4-7: Sequence Comparison and Gene Prediction: Dynamic Programming\nWeek 8: Midterm Exam\nWeek 9: Comparing Sequences: Divide and Conquer Algorithms\nWeek 10-12: Sequencing DNA, DNA Arrays: Graph Algorithm\nWeek 13-14: Repeat Analysis and Sequence Comparison: Combinatorial Pattern Matching\nWeek 15-16 : DNA Arrays and Evolution: Clustering and Trees",
+    "textbooks": "Jones, N.C. and Pevzner P.A. An Introduction to Bioinformatics Algorithms MIT Press"
   },
   {
     "alphaNumber": "ICS 222",
     "creditHours": 3,
-    "title": "Introduction to computation",
-    "instructor": "Dusko Pavlovic"
+    "title": "Basic Concepts of Computer Science",
+    "instructor": "Dusko Pavlovic",
+    "description": "What is computer science about? What is the difference between computers and other machines? What are the limits of computation? Are there computers that are not machines? Understand the basic issues of computability, complexity, and network effects, and learn to apply them in the practice of computation.",
+    "grading": "3 homework assignments (25%), midterm test (25%), project and class presentation (25%), final exam (25%)",
+    "objectives": "* Students encounter the basic models of data processing and computation, and are capable to perform high level analyses\n\n* Students understand the meaning and the consequences of reductions and equivalences between the basic models of data processing and computation\n\n* Students are familiar with the main hierarchies of classes of languages \n\n* Students gain a clear understanding of the idea of computation, as universal and partial evaluation of programs.\n\n* Students understand computational complexity and hardness, and are capable to perform basic complexity analyses.\n\n* Students are familiar with the role of randomness in computation.\n\n* Students understand the need and the techniques for building their solutions of hard engineering problems in computation on the solid foundations of computer science\n\n* Students are able to discern and analyze local aspects of computation from the network effects. \n\n* Students can function effectively in teams to accomplish a common goal.\n\n* Students have an understanding of social issues of computation.\n\n* Students can communicate effectively with a range of audiences concerned with the basic problems of computation.\n\n* Students can analyze the local and global impact of computation on individuals, organizations, and society.\n\n* Students can recognize the need for and an ability to engage in continuing professional and career development in the diverse areas of computer science and engineering.",
+    "policies": "none",
+    "prerequisites": "141 or consent",
+    "schedule": "Week 1: Examples of computation\nWeek 2-3: Automata and state machines\nWeek 4: Languages\nWeek 5: Universal computers and partial evaluators \nWeek 6: The Church-Turing Thesis\nWeek 7: Computability and decidability\nWeek 8: Midterm test\nWeek 8-9: Complexity measures, hardness and completeness\nWeek 10: Complexity classes and feasible computation\nWeek 11: Randomized computation \nWeek 12: One-way and trapdoor functions\nWeek 13: Network computation and the limits of programming\nWeek 14: Computational processes in nature\nWeek 15-16: Overview of results and problems of Computer Science\nWeek 16: Final exam",
+    "textbooks": "1. Michael Sipser, Introduction to the Theory of Computation\n2. John E. Savage, Models of Computation: Exploring the Power of Computing"
   },
   {
     "alphaNumber": "ICS 212",
@@ -109,14 +110,6 @@ var defaultSyllabuses = [
     "prerequisites": "212 and 241, or consent."
   },
   {
-    "alphaNumber": "ICS 419",
-    "creditHours": 3,
-    "title": "The Science, Psychology and Philosophy of Systems Design",
-    "description": "Scientific, psychological and philosophical bases of systems design, including a survey of human-factors and ergonomic standards; the nature of innovation and creativity as it relates to systems design. Web-enhanced course.",
-    "instructor": "Dennis Streveler\nstrev@hawaii.edu",
-    "prerequisites": "two ICS 300-level courses with grade of B or better, or consent."
-  },
-  {
     "alphaNumber": "ICS 422",
     "creditHours": 3,
     "title": "Data Processing",
@@ -127,10 +120,15 @@ var defaultSyllabuses = [
   {
     "alphaNumber": "ICS 423",
     "creditHours": 3,
-    "description": "Legal, ethical and technology issues in computer access, confidentiality, authentication, privacy and intellectual property.",
+    "description": "History of secret communication and confidential data storage. Elements of cryptography and cryptanalysis.  Classical ciphers. Symmetric key cryptography. Public key cryptography. Data security in cyber space.",
     "instructor": "Dusko Pavlovic\ndusko@hawaii.edu",
-    "prerequisites": "both 311 and 312, or consent.",
-    "title": "Computer Security"
+    "prerequisites": "222 or consent",
+    "title": "Data Security and Cryptography I",
+    "grading": "3 homework assignments (25%), midterm test (25%), project and class presentation (25%), final exam (25%)",
+    "policies": "none",
+    "schedule": "Week 1. Introduction: History of secret communication and data security\nWeek 2-3. Classical ciphers and cryptanalysis\nWeek 4-7. Information theory of secret communication\n(a) Probability and information \n(b) Perfect secrecy\n(c) Redundancy and unicity distance \nWeek 8. Midterm Test\nWeek 8-11. Symmetric key cryptography\n(a) Confusion and diffusion \n(b) Feistel networks\n(c) Block ciphers \n(d) Stream ciphers\nWeek 12-15. Public key cryptography\n(a) One-way and trapdoor functions \n(b) Classic public key primitives\n(c) Semantic and adaptive security\nWeek 16. Overview and outlook \nWeek 16. Final exam",
+    "textbooks": "1. Douglas R. Stinson, Cryptography. Theory and Practice. (3rd edition) Chapman and Hall 2005 \n2. Serge Vaudenay, A Classical Introduction to Cryptography. Springer 2006\n3. Alan G. Konheim, Computer Security and Cryptography. Wiley 2007",
+    "objectives": "* Students understand the main techniques of data security and secret communication, from classical ciphers to modern crypto systems.\n\n* Students acquire a basic capability to reason about secrecy and evaluate security of simple cryptographic constructs within the main models\n\n* Students are able to analyze the need and the suitability of cryptographic primitives in standard applications.\n\n* Students are provided a solid foundation for study non-textbook cryptography and of practical cryptographic applications\n\n* Students' knowledge of data protection and cryptographic techniques is sufficient for practical applications and for research into security.\n\n* Students can function effectively in teams to accomplish a common goal.\n\n* Students have an understanding of social issues of data security and confidentiality, and of particular cryptological and cryptanalytic techniques.\n\n* Students can communicate effectively with a range of audiences concerned with the basic problems of data protections and cryptography.\n\n* Students can analyze the impact of cryptography on individuals, organizations, and society."
   },
   {
     "alphaNumber": "ICS 431",
@@ -147,27 +145,6 @@ var defaultSyllabuses = [
     "instructor": "Susanne Still\nsstill@hawaii.edu",
     "description": "Introduction to machine learning concepts with a focus on relevant ideas from computational neuroscience. Information processing and learning in the nervous system. Neural networks. Supervised and unsupervised learning. Basics of statistical learning theory.",
     "prerequisites": "311 or consent. Recommended: MATH 307."
-  },
-  {
-    "alphaNumber": "ICS 452",
-    "creditHours": 3,
-    "prerequisites": "Two ICS 300-level courses or consent. Recommended: 312 and 313.",
-    "title": "Software Design for Robotics",
-    "description": "Sensors, actuators, signal processing, paradigms of robotic software design, introduction to machine learning, introduction to computer vision, and robot-to-human interaction.",
-    "courseLearningOutcomes": "See objectives.",
-    "instructor": "Curtis Ikehara\ncikehara@hawaii.edu",
-    "learningOutcomes": [
-      "a",
-      "b",
-      "c",
-      "g",
-      "i"
-    ],
-    "objectives": "* Students will have completed several programming assignments and will also\nhave implemented a project so that they can acquire experience in software\ndesign for robotics.\n* Students will understand basic hardware aspects of robotics and how\nprogramming is influences by robotic hardware issues.\n* Students will understand the design principles and implement dataflow\nprogramming for robotics.\n* Students will understand the programming issues of robotic programming for\nindividual robots as well as multiple cooperating robots.\n* Students will be proficient at programming both semi-autonomous and\nautonomous robotic systems.\n* Students will learn to add robustness to their software to compensate for sensor and actuator problems.",
-    "policies": "None.",
-    "schedule": "Week 1: Introduction\nWeeks 2, 3 Robotics hardware\nWeek 4, 5: Movement planning\nWeek 6: Robust software\nWeek 7: Signal processing algorithms\nWeeks 8, 9: Computer vision\nWeeks 10, 11: Machine learning\nWeeks 12-15: Advance robotics topics\nWeek 16: Project presentations\nWeek 17: Final exam",
-    "textbooks": "Computational Principles of Mobile Robotics, 2nd Edition, Gregory\nDudek & Michael Jenkin, Paperback, ISBN:9780521692120, July 2010",
-    "grading": "3 homework assignments (30%)\nFinal project (40%)\nFinal exam (20%)\nInclass participation (10%)"
   },
   {
     "alphaNumber": "ICS 211",
@@ -246,7 +223,7 @@ var defaultSyllabuses = [
   },
   {
     "alphaNumber": "ICS 313",
-    "courseLearningOutcomes": "* Understand the differences among programming languages and paradigms as well as how these differences impact the development and maintenance of programs, such as development ease (time and effort), program correctness (including errors), code maintenance (understandability and extensibility), code execution (speed and image size), and code portability (hardware and compilers/interpreters).\n* Have the ability to program in different programming paradigms/styles, including functional and logic languages like Common Lisp or Scheme and Prolog.\n* Understand scripting languages such as Pearl or JavaScript and their use.\n* Have the ability to represent and solve problems at an abstract level before coding them in a particular language.\n* Have the ability to understand new programming language concepts, and assess the ease with which these features may be implemented in a programming language.\n* Be able to choose the best programming language(s) for a project. Justify the choice with well-reasoned arguments based on language characteristics and the development environment such as the expertise of the programmer(s), resources and workplace politics.",
+    "courseLearningOutcomes": "* Understand the differences among programming languages and paradigms as well as how these differences impact the development and maintenance of programs, such as development ease (time and effort), program correctness (including errors), code maintenance (understandability and extensibility), code execution (speed and image size), and code portability (hardware and compilers/interpreters).\n* Have the ability to program in different programming paradigms/styles, including functional and logic languages like Common Lisp or Scheme and Prolog.\n* Understand scripting languages such as Perl or JavaScript and their use.\n* Have the ability to represent and solve problems at an abstract level before coding them in a particular language.\n* Have the ability to understand new programming language concepts, and assess the ease with which these features may be implemented in a programming language.\n* Be able to choose the best programming language(s) for a project. Justify the choice with well-reasoned arguments based on language characteristics and the development environment such as the expertise of the programmer(s), resources and workplace politics.",
     "creditHours": 3,
     "description": "Syntax, semantics, control structures, variable binding and scopes, data and control abstractions. Programming in functional (LISP) and logic (Prolog) programming styles. Pre: 212 and 241, or consent.",
     "grading": "40% on assignments, 10% on quizzes, 20% on the Midterm exam, 30% on the Final exam.",
@@ -258,6 +235,8 @@ var defaultSyllabuses = [
       "h",
       "i"
     ],
+    "objectives": "See Learning Outcomes",
+    "policies": "none",
     "prerequisites": "212 and 241, or consent.",
     "schedule": "Week 1: Intro\nWeek 2: Functional languages, Prolog\nWeek 3: Syntax, Prolog\nWeek 4: Scope, Prolog\nWeek 5: Semantics, Prolog\nWeek 6: Functional languages, Lisp\nWeek 7: Control flow, Lisp\nWeek 8: Review, Lisp \nWeek 9: Midterm\nWeek 10:  Data types, Lips\nWeek 11: Scripting, Python\nWeek 12: Subroutines, Python\nWeek 13, 14, 15: Concurrency, Python\nWeek 16: Review\nWeek 17: Final exam",
     "textbooks": "Programming Language Pragmatics, Third Edition, by Michael L. Scott, publisher: Morgan Kaufmann, ISBN: 978-0123745149.",
@@ -336,24 +315,6 @@ var defaultSyllabuses = [
       "j"
     ],
     "schedule": "1. Assets and attacks. Prevention, detection and deterrence.\n2. Physical security, computer security, system security, data security.\n3. Perimeter and defense in depth.\n4. Trust process. Trust transformation and relocation. Web of trust.\n5. Reputation and feedback\n6. Access control and authorization\n7. Security models and multi-level security\n8. Availability and Denial-of-Service\n9. Malware and fraud\n10. Privacy and anonymity"
-  },
-  {
-    "alphaNumber": "ICS 361",
-    "creditHours": 3,
-    "title": "Introduction to Artificial Intelligence Programming",
-    "instructor": "David N. Chin\nchin@hawaii.edu\nPOST 317",
-    "description": "Introduction to the theory of Artificial Intelligence and the practical application of AI techniques in Functional (Common LISP and/or Scheme) and Logic (Prolog) programming languages. Students gain practical experience through programming assignments and projects. A-F only.",
-    "prerequisites": "241 and (212 or 215), or consent.",
-    "textbooks": "AI Algorithms, Data Structures, and Idioms in Prolog, Lisp, and Java, 6th edition by George F. Luger and William A Stubblefield, Addison Wesley. \nArtificial Intelligence: Structures and Strategies for Complex Problem Solving, 6th edition by George F. Luger, Addison Wesley.",
-    "grading": "40% on assignments\n20% on in-class quizzes\n15% on the midterm exam\n25% on the final exam.",
-    "learningOutcomes": [
-      "a",
-      "b",
-      "c",
-      "d",
-      "i"
-    ],
-    "schedule": "* Week 1: Intro\n* Week 2: Predicate calculus\n* Week 3, 4, 5: Common Lisp, search\n* Week 6: Knowledge representation\n* Week 7: Semantic networks\n* Week 8: Reasoning under uncertainty\n* Week 9: Midterm\n* Week 10, 11, 12, 13:  Machine learning, Prolog\n* Week 14, 15: Natural languages processing\n* Week 16: Review\n* Week 17: Final exam"
   },
   {
     "alphaNumber": "ICS 425",
@@ -865,7 +826,7 @@ var defaultSyllabuses = [
     "creditHours": 3,
     "description": "Experience producing applications with at least two different applications frameworks.",
     "grading": "7 technical papers (50%)\n7 programming assignments (50%)",
-    "instructor": "Philip Johnson\njohnson@hawaii.edu",
+    "instructor": "Wes Peterson\nwes@hawaii.edu",
     "learningOutcomes": [
       "a",
       "b",
@@ -920,6 +881,111 @@ var defaultSyllabuses = [
     "schedule": "Weeks 1-2: Basics of Fomal Languages and Automata Theory (Review of ICS241)\nWeeks 3-5: Regular Sets, Regular Grammars and Finite Automata\nAssignment 1\nWeeks 6-8: Context-Free Languages, Regular Grammars and Pushdown Automata\nAssignment 2\nWeeks 9-10: Turing Machines\nWeeks 11-12: Computability\nWeeks 13-15: Computational Complexity Theory\nAssignment 3",
     "textbooks": "\"Introduction to Automata Theory, Languages, and Computation,\" John E. Hopcroft and Jeffrey D. Ullman",
     "title": "Theory of Computation"
+  },
+  {
+    "alphaNumber": "ICS 452",
+    "courseLearningOutcomes": "See objectives.",
+    "creditHours": 3,
+    "description": "Sensors, actuators, signal processing, paradigms of robotic software design, introduction to machine learning, introduction to computer vision, and robot-to-human interaction.",
+    "grading": "3 homework assignments (30%)\nFinal project (40%)\nFinal exam (20%)\nInclass participation (10%)",
+    "instructor": "Curtis Ikehara\ncikehara@hawaii.edu",
+    "learningOutcomes": [
+      "a",
+      "b",
+      "c",
+      "g",
+      "i"
+    ],
+    "objectives": "* Students will have completed several programming assignments and will also\nhave implemented a project so that they can acquire experience in software\ndesign for robotics.\n* Students will understand basic hardware aspects of robotics and how\nprogramming is influences by robotic hardware issues.\n* Students will understand the design principles and implement dataflow\nprogramming for robotics.\n* Students will understand the programming issues of robotic programming for\nindividual robots as well as multiple cooperating robots.\n* Students will be proficient at programming both semi-autonomous and\nautonomous robotic systems.\n* Students will learn to add robustness to their software to compensate for sensor and actuator problems.",
+    "policies": "None.",
+    "prerequisites": "Two ICS 300-level courses or consent. Recommended: 312 and 313.",
+    "schedule": "Week 1: Introduction\nWeeks 2, 3 Robotics hardware\nWeek 4, 5: Movement planning\nWeek 6: Robust software\nWeek 7: Signal processing algorithms\nWeeks 8, 9: Computer vision\nWeeks 10, 11: Machine learning\nWeeks 12-15: Advance robotics topics\nWeek 16: Project presentations\nWeek 17: Final exam",
+    "textbooks": "Computational Principles of Mobile Robotics, 2nd Edition, Gregory\nDudek & Michael Jenkin, Paperback, ISBN:9780521692120, July 2010",
+    "title": "Software Design for Robotics"
+  },
+  {
+    "alphaNumber": "ICS 481",
+    "courseLearningOutcomes": "See objectives.",
+    "creditHours": 3,
+    "description": "Fundamentals of computer graphics including graphics hardware, representation, manipulation, and display of two- and three-dimensional objects, use of commercial software.",
+    "grading": "* Required projects (4 ): 40% \n* Term project: 30%\n* Midterm 15%\n* Final (15%)",
+    "instructor": "Stephen Itoga\nitoga@hawaii.edu",
+    "learningOutcomes": [
+      "a",
+      "b",
+      "c",
+      "i"
+    ],
+    "objectives": "* Introduce students to all aspects of computer graphics: hardware, software, applications \n* Understand the basic concepts underlying computer graphics \n* Gain experience with at least one graphical application programming interface (OpenGL) \n* Carry out a large programming project of your choice \n* Become well versed in the basic procedures for developing graphical software",
+    "policies": "None.",
+    "prerequisites": "311 and either MATH 216, MATH 242, or MATH 252A; or consent.",
+    "schedule": "Weeks 1, 2: Introduction\nWeeks 3, 4: Drawing geometric objects\nWeeks 5, 6, 7, 8: Viewing objects\nWeek 9: Color\nWeek 10: Lighting\nWeek 11: Display lists\nWeek 12: Frame buffers\nWeeks 13, 14: Advanced topics\nWeeks 15, 16: Presentations\nWeek 17: Final exam",
+    "textbooks": "OpenGL Programming Guide, Addison-Wesley.",
+    "title": "Introduction to Computer Graphics"
+  },
+  {
+    "alphaNumber": "ICS 419",
+    "courseLearningOutcomes": "See objectives.",
+    "creditHours": 3,
+    "description": "Scientific, psychological and philosophical bases of systems design, including a survey of human-factors and ergonomic standards; the nature of innovation and creativity as it relates to systems design. Web-enhanced course.",
+    "grading": "Final exam (10%)\nHomework (60%)\nFinal project (30%)",
+    "instructor": "Dennis Streveler\nstrev@hawaii.edu",
+    "learningOutcomes": [
+      "a",
+      "b",
+      "e",
+      "f",
+      "g",
+      "i"
+    ],
+    "objectives": "* Students can apply top-down and bottom-up design principles.\n* Students can evaluate the quality of designed artifacts.\n* Students can apply human-computer interaction principles to design.",
+    "policies": "None.",
+    "prerequisites": "two ICS 300-level courses with grade of B or better, or consent.",
+    "schedule": "Topics are blended throughout the course. Here is the rough amount of time spent on each topic:\n\n* Introduction to system design (2 weeks)\n* Top-down design thinking (3 weeks)\n* Principles of industrial design (2 weeks)\n* Bottom up design (2 weeks)\n* Human-computer interaction (3 weeks)\n* Ergonomics (2 weeks)\n* Review and project presentations (2 weeks)",
+    "textbooks": "Norman, The Design of Everyday Things, 1988-2002",
+    "title": "The Science, Psychology and Philosophy of Systems Design"
+  },
+  {
+    "alphaNumber": "ICS 462",
+    "courseLearningOutcomes": "Students will be able to extend an existing game program by adding AI code\nStudents will be able to program goal-oriented movement of non-player characters\nStudents will be able to write code to find near-optimal paths using A* search and other techniques\nStudents will be able to write decision making code utilizing decision trees, state machines, fuzzy logic, production systems, and/or scripts\nStudents will understand and apply machine learning algorithms to games\nStudents will experience AI program competitions\nStudents will be able to successfully present ideas, code, and techniques both individually and as part of a group (Oral focus)\nStudents will be able to write descriptive, comparative, and critiquing papers on game AI (Writing Intensive)",
+    "creditHours": 3,
+    "description": "Techniques to stimulate intelligence in video games: movement, pathfinding with A* search, decision/behavior trees, state machines, machine learning, tactics. Extend games with your own AI implementations; experience \"shootout\" contests for the best AI algorithm/implementation.",
+    "grading": "15% on assignments, 5% on quizzes, 10% on the Midterm exam, 20% on the Final exam, 40% on oral presentations",
+    "instructor": "David Chin\nchin@hawaii.edu",
+    "learningOutcomes": [
+      "a",
+      "b",
+      "c",
+      "d",
+      "f",
+      "i"
+    ],
+    "objectives": "See Learning Outcomes",
+    "policies": "none",
+    "prerequisites": "212 and (314 or 361) and (PHYS 151 or PHYS 170)",
+    "schedule": "Week 1: Introduction: AI vs. Game AI; Introduction to BZFlag, the target game for this class\nWeek 2: Presenting to Win\nWeek 3: Movement, Basic 2D & Physics; Movement in BZFlag\nWeek 4: Jumping, Coordinated Movement, Motor Control & 3D; Individual Presentation: My Game Feature Proposal\nWeek 5: Pathfinding, Basic; Pathfinding in BZFlag\nWeek 6: Pathfinding, Advanced; more on Pathfinding in BZFlag\nWeek 7: Decision Trees, State Machines & Behavior Trees; Applying Decision Making to BZFlag \nWeek 8: Fuzzy Logic, Markov Systems & Goal-Oriented Behavior; Individual Presentation: Code Review\nWeek 9: Rule-Based Systems,Blackboard Architectures,Scripting and Action Execution; Review for Midterm\nWeek 10: Midterm Exam; Final Project Description\nWeek 11: Waypoint Tactics and Tactical Analyses; Tactics in BZFlag\nWeek 12: Tactical Pathfinding and Coordinated Action\nWeek 13: more on Tactics in BZFlag; Machine Learning \nWeek 14: Decision Learning with Naive Bayes Classifiers and ID3; Reinforcement Learning and Artificial Neural Networks \nWeek 15: Group Presentation: AI Techniques Used for AI Shootout; Final Project AI Shootout \nWeek 16: Review for Final Exam; Group Presentation: Post-Mortem Analysis of AI Shootout",
+    "textbooks": "Artificial Intelligence for Games, Second Edition by Ian Millington and John Funge; Presenting to Win: The Art of Telling Your Story, Updated and Expanded Edition by Jerry Weissman",
+    "title": "Artificial Intelligence for Games"
+  },
+  {
+    "alphaNumber": "ICS 361",
+    "courseLearningOutcomes": "• Students are familiar with the fundamental concepts and algorithms of Artificial\nIntelligence including searching, planning, problem solving, logic and knowledge\nrepresentation.\n• Students are able to implement AI algorithms in a functional (e.g., Scheme or Lisp) or logic (e.g., Prolog) programming language.\n• Students appreciate the problems, current limitations and future potential of AI\n• Students are able to recognize when AI techniques might be successfully applied to problem and when the problem is beyond the current state-of-the-art in AI\n• Students have successfully implemented several small AI programs.",
+    "creditHours": 3,
+    "description": "Introduction to the theory of Artificial Intelligence and the practical application of AI techniques in Functional (Common LISP and/or Scheme) and Logic (Prolog) programming languages. Students gain practical experience through programming assignments and projects. A-F only.",
+    "grading": "40% on assignments\n20% on in-class quizzes\n15% on the midterm exam\n25% on the final exam.",
+    "instructor": "David N. Chin\nchin@hawaii.edu\nPOST 317",
+    "learningOutcomes": [
+      "a",
+      "b",
+      "c",
+      "i"
+    ],
+    "objectives": "The objective of the course is to expose students to the concepts in artificial intelligence and the functional and logic programming paradigms. This is fundamental knowledge for all computer science students as described in the current ACM (Association for Computing Machinery) curriculum recommendations. Artificial intelligence has only been available to seniors (400 level) and infrequently offered at UH. The addition of this course will bring the fundamentals of artificial intelligence along with alternative programming paradigms to more students. This course integrates with the new curriculum and provides an alternative to ICS313, programming language theory, which is a requirement for ICS majors.",
+    "policies": "none",
+    "prerequisites": "241 and (212 or 215), or consent.",
+    "schedule": "Week 1: Course introduction and goals, why study AI Programming? An overview of past and present artificial intelligence programming\nWeek 2: Functional programming, the Lisp top-level loop, basic syntax and semantics.\nWeek 3: Creating functions and programs in Lisp for solving problems, basic search techniques in state spaces\nWeek 4: Built-in operations, variables and data types in Lisp, list processing\nWeek 5: Static and dynamic scoping, depth-first, breadth-first and iterative deepening searches\nWeek 6: Lisp macros, destructive operations, complex data structures\nWeek 7: Informed search algorithms, best-first and A*. Knowledge representation for search problems \nWeek 8: Expert Systems, forward and backward chaining, applications in specialized areas such as medicine\nWeek 9: Intelligent agents, agent environments, agent architectures, and reasoning methods\nWeeks 10-11: Midterm exam, Logic Programming\nWeek 12: Predicate logic, deduction, introduction to programming in Prolog Week 13: Resolution, Prolog databases, theorem proving\nWeek 14: Backtracking, Prolog control structures\nWeek 15: Building expert systems in Prolog, knowledge engineering\nWeek 16: Design and implementation of large AI programs, knowledge acquisition",
+    "textbooks": "AI Algorithms, Data Structures, and Idioms in Prolog, Lisp, and Java, 6th edition by George F. Luger and William A Stubblefield, Addison Wesley. \nArtificial Intelligence: Structures and Strategies for Complex Problem Solving, 6th edition by George F. Luger, Addison Wesley.",
+    "title": "Introduction to Artificial Intelligence Programming"
   }
 ];
 
