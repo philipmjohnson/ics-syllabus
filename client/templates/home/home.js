@@ -101,13 +101,15 @@ Template.home.events({
     event.preventDefault();
     // check to see if there is a previously existing editStatusId, and if so, set if to finished.
     if (getSessionID(editStatusKey)) {
-      EditStatus.update(getSessionID(editStatusKey), {$set: {editFinished: true}});
+      Meteor.call("editStatusFinished", getSessionID(editStatusKey));
     }
     setSessionID(displaySyllabusKey, getSessionID(selectedSyllabusKey));
     // Create an editStatus document indicating the user is now editing a syllabus.
+    // Save the newly created EditStatus DocID in a Session variable.
     var syllabusName = Syllabuses.findOne(getSessionID(selectedSyllabusKey)).alphaNumber;
-    var editStatusDocID = EditStatus.insert({editStart: moment().toDate(), editFinished: false, syllabusName: syllabusName});
-    setSessionID(editStatusKey, editStatusDocID);
+    Meteor.call("addEditStatus", syllabusName, function(error, result) {
+      setSessionID(editStatusKey, result);
+    });
   }
 });
 
@@ -121,7 +123,7 @@ AutoForm.addHooks(['insertSyllabusForm'], {
     // Hide form after successful submit.
     setSessionID(displaySyllabusKey, undefined);
     // Indicate the syllabus is no longer being edited.
-    EditStatus.update(getSessionID(editStatusKey), {$set: {editFinished: true}});
+    Meteor.call("editStatusFinished", getSessionID(editStatusKey));
     setSessionID(editStatusKey, undefined);
   }
 });
@@ -132,7 +134,7 @@ AutoForm.addHooks(['insertSyllabusForm'], {
 Meteor.startup(function() {
   $(window).on("beforeunload", function() {
     if (getSessionID(editStatusKey)) {
-      EditStatus.update(getSessionID(editStatusKey), {$set: {editFinished: true}});
+      Meteor.call("editStatusFinished", getSessionID(editStatusKey));
     }
   });
 });

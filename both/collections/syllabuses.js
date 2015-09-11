@@ -7,21 +7,6 @@ Meteor.methods({
   }
 });
 
-Syllabuses.allow({
-  insert: function () {
-    // only allow posting if you are logged in
-    return true;
-  },
-  update: function () {
-    // only allow updating if you are logged in
-    return true;
-  },
-  remove: function () {
-    //only allow deleting if you are owner
-    return true;
-  }
-});
-
 if (Meteor.isServer) {
   // This code only runs on the server
   Meteor.publish("syllabuses", function () {

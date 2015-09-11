@@ -17,7 +17,7 @@
 
     {{#if displayID}}
     <div class="well">
-      {{#autoForm collection="Syllabuses" doc=selectedSyllabusDoc id="insertSyllabusForm" type="update"}}
+      {{#autoForm collection="Syllabuses" doc=selectedSyllabusDoc id="insertSyllabusForm" type="method-update" meteormethod="updateSyllabus"}}
       <fieldset>
         <div class="row">
           <div class="col-sm-2">{{> afQuickField name='alphaNumber' placeholder="ICS 101"}}</div>

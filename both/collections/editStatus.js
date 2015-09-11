@@ -1,19 +1,26 @@
 EditStatus = new Mongo.Collection("editStatus");
 
-EditStatus.allow({
-  insert: function () {
-    // only allow posting if you are logged in
-    return true;
+Meteor.methods({
+  /**
+   * Create a new timestamped EditStatus document.
+   * @param syllabusName The Syllabus being edited.
+   * @returns {*|any} The docID of the new document.
+   */
+  addEditStatus: function(syllabusName){
+    var docID = EditStatus.insert({editStart: moment().toDate(), editFinished: false, syllabusName: syllabusName});
+    console.log("docID", docID);
+    return docID;
   },
-  update: function () {
-    // only allow updating if you are logged in
-    return true;
-  },
-  remove: function () {
-    //only allow deleting if you are owner
-    return true;
+
+  /**
+   * Set this EditStatus document to indicate that editing is finished.
+   * @param editStatusID The docID for the EditStatus document.
+   */
+  editStatusFinished: function(editStatusID) {
+    EditStatus.update(editStatusID, {$set: {editFinished: true}});
   }
 });
+
 
 if (Meteor.isServer) {
   // This code only runs on the server
