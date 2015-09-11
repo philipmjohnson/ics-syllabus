@@ -8,7 +8,6 @@ Meteor.methods({
    */
   addEditStatus: function(syllabusName){
     var docID = EditStatus.insert({editStart: moment().toDate(), editFinished: false, syllabusName: syllabusName});
-    console.log("docID", docID);
     return docID;
   },
 

@@ -74,6 +74,11 @@ var defaultSyllabuses = [
     "prerequisites": "321 or consent."
   },
   {
+    "alphaNumber": "ICS 469",
+    "title": "Cognitive Science",
+    "instructor": "Martha Crosby"
+  },
+  {
     "alphaNumber": "ICS 431",
     "creditHours": 3,
     "prerequisites": "331 or EE 361/361L.",
@@ -1066,6 +1071,12 @@ if (Syllabuses.find().count() === 0) {
     Syllabuses.insert(syllabus);
   });
 }
+
+if (Syllabuses.find({alphaNumber: "ICS 469"}).count() === 0) {
+  console.log("inserting ICS 469");
+  Syllabuses.insert({alphaNumber: "ICS 469", title: "Cognitive Science", instructor: "Martha Crosby"});
+};
+
 
 var users=[
   {email: "icsinfo@hawaii.edu", username: "ics", name: "ICS", roles:['admin']}
