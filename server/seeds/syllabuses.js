@@ -19,14 +19,6 @@ var defaultSyllabuses = [
     "prerequisites": "215 or consent."
   },
   {
-    "alphaNumber": "ICS 464",
-    "creditHours": 3,
-    "prerequisites": "two ICS 300-level courses or consent.",
-    "title": "Human Computer Interaction I",
-    "instructor": "Dan Suthers\nsuthers@hawaii.edu",
-    "description": "Application of concepts and methodologies of human factors, psychology and software engineering to address ergonomic, cognitive, and social factors in the design and evaluation of human-computer systems."
-  },
-  {
     "alphaNumber": "ICS 465",
     "creditHours": 3,
     "prerequisites": "311",
@@ -56,7 +48,22 @@ var defaultSyllabuses = [
     "title": "Logic Design and Microprocessors",
     "instructor": "Peter-Michael Seidel",
     "description": "Basic machine architecture, microprocessors, bus organization, circuit elements, logic circuit analysis and design, microcomputer system design. Pre: 212 and 241, or consent.",
-    "prerequisites": "212 and 241, or consent."
+    "prerequisites": "212 and 241, or consent.",
+    "grading": "11 Lab Assignments (20%)\n6 Homeworks (40%)\n3 Exams (40%)",
+    "learningOutcomes": [
+      "a",
+      "b",
+      "c",
+      "d",
+      "e",
+      "f",
+      "h",
+      "i"
+    ],
+    "objectives": "-\tStudents have sufficient knowledge of digital logic to take part in joint teams with electronic engineers in the design, configuration and application of digital hardware.\n-\tStudents can relate their understanding of computer architecture to the following items: electronics, digital logic, data representation, system architecture, micro operations, instruction set architecture, machine and assembly language, memory and data storage.\n-\tStudents can construct and debug combinational and sequential circuits.\n-\tStudents can construct, program and debug microprocessor circuits.",
+    "policies": "Grading for ICS 331 Lab Assignments:\nLab assignments must be demonstrated in the lab to the TA and the TA determines the grading in each lab assignment. Most lab assignments just have to be passed, but there will also be some lab assignments where a more detailed grade than pass/fail is given that depends on the quality of the presented solution.\n\nTurning in assignments:\nFor general questions, turn in a detailed write-up of your solutions that include the solution and explanations how you got to your solutions. For assignments involving programming also submit the program listing (source code) and program test runs that demonstrate your program’s behavior. NOTE: Keep backup copies of your work. These could be important if there are questions about the completion of your work.\n\nThere is no contingency for late work.\n\nAcademic Dishonesty:\nThe occurrence of academic dishonesty will result in a grade of 0 for the assignment or exam and a memo in your ICS department file describing the incident. This will be done for each student involved. Should there be more than one memo of this type in your file, the incident will be referred to the Dean of Students.\nDisciplinary Sanctions - http://www.hawaii.edu/student/conduct/discipline.html\nSanctions include: Warning, Probation, Rescission of Grades or Degree, Suspension & Expulsion.\nFor more information on Academic Dishonesty see:\nhttp://www.hawaii.edu/student/conduct/imper.html",
+    "textbooks": "Digital Logic Design:  A Rigorous Approach\nGuy Even & Moti Medina, ISBN-10 1107027535, Cambridge University Press, 368 pages, 2012.\nOnline copy available at: http://hyde.eng.tau.ac.il/Even-Medina/master.pdf",
+    "schedule": "Discrete Math Background\nComputer system organization\nDigital logic elements\nCombinational logic design \nMachine level representation of data\nFunctional circuit modules\nSequential logic design and FSMs\nMachine level processor organization\nand microarchitecture.\nAssembly language and assembly level machine organization.\nImplementation of simple processor in logic simulation tool.\nImplementation of computer game on simple processor."
   },
   {
     "alphaNumber": "ICS 422",
@@ -72,15 +79,22 @@ var defaultSyllabuses = [
     "prerequisites": "331 or EE 361/361L.",
     "title": "Computer Architecture",
     "instructor": "Peter-Michael Seidel",
-    "description": "Memory management, control flow, interrupt mechanisms, multiprocessor systems, special-purpose devices."
-  },
-  {
-    "alphaNumber": "ICS 435",
-    "creditHours": 3,
-    "title": "Machine Learning Fundamentals",
-    "instructor": "Susanne Still\nsstill@hawaii.edu",
-    "description": "Introduction to machine learning concepts with a focus on relevant ideas from computational neuroscience. Information processing and learning in the nervous system. Neural networks. Supervised and unsupervised learning. Basics of statistical learning theory.",
-    "prerequisites": "311 or consent. Recommended: MATH 307."
+    "description": "Memory management, control flow, interrupt mechanisms, multiprocessor systems, special-purpose devices.",
+    "grading": "Projects (40%), Homeworks (35%), Exams (25%)",
+    "learningOutcomes": [
+      "a",
+      "b",
+      "c",
+      "d",
+      "e",
+      "f",
+      "g",
+      "h",
+      "i"
+    ],
+    "objectives": "-\tStudents have a solid understanding of the fundamentals in computer architectures.\n-\tStudents can implement simple computer architectures and their submodules.\n-\tStudents can simulate simple computer architectures.\n-\tStudents can quantitatively evaluate simple computer designs and their sub-modules.\n-\tStudents can relate computer architecture to system software and the performance of application programs.",
+    "schedule": "Computer Performance, Quantitative Evaluation, Instruction Set Architectures, Pipelining, Interrupts, Memory Hierarchies, Speculative Execution, Simulation and Verification.",
+    "textbooks": "S. M. Mueller & W. J. Paul, Computer Architecture - Complexity&Correctness, ISBN 3-540-67481-0, Springer Verlag, 2000.\n\nJohn P. Shen & Mikko H. Lipasti, Modern Processor Design, ISBN 0-07-057064-7, McGraw Hill, 2005."
   },
   {
     "alphaNumber": "ICS 211",
@@ -238,8 +252,8 @@ var defaultSyllabuses = [
     "description": "Security and trust in computers, networks, and society. Security models. Access and authorization. Availability and Denial-of-Service. Trust processes and network interactions.",
     "prerequisites": "241 or (MATH 301 and 371).",
     "textbooks": "1. Lecture Notes\n2. Dieter Gollman, Computer Security (Wiley 2011, 3rd ed)\n3. Ross Anderson, Security Engineering (Wiley 2008, 2nd ed)",
-    "objectives": "Explain and structure the basic concepts and techniques needed by every security professional.",
-    "grading": "4 Homework assignments (40%)\nFinal (60%)",
+    "objectives": "Students can explain and structure the basic concepts and techniques needed by every security professional.",
+    "grading": "Homework assignments (30%)\nIn-Class assignments (30%)\nExams (40%)",
     "learningOutcomes": [
       "a",
       "b",
@@ -1001,6 +1015,44 @@ var defaultSyllabuses = [
     "schedule": "* Week 1. Introduction: History of secret communication and data security\n* Week 2-3. Classical ciphers and cryptanalysis\n* Week 4-7. Information theory of secret communication\n    (a) Probability and information \n    (b) Perfect secrecy\n    (c) Redundancy and unicity distance \n* Week 8. Midterm Test\n* Week 8-11. Symmetric key cryptography\n    (a) Confusion and diffusion \n    (b) Feistel networks\n    (c) Block ciphers \n    (d) Stream ciphers\n* Week 12-15. Public key cryptography\n    (a) One-way and trapdoor functions \n    (b) Classic public key primitives\n    (c) Semantic and adaptive security\n* Week 16. Overview and outlook \n* Week 16. Final exam",
     "textbooks": "1. Douglas R. Stinson, Cryptography. Theory and Practice. (3rd edition) Chapman and Hall 2005 \n2. Serge Vaudenay, A Classical Introduction to Cryptography. Springer 2006\n3. Alan G. Konheim, Computer Security and Cryptography. Wiley 2007",
     "title": "Data Security and Cryptography I"
+  },
+  {
+    "alphaNumber": "ICS 435",
+    "creditHours": 3,
+    "description": "Introduction to machine learning concepts with a focus on relevant ideas from computational neuroscience. Information processing and learning in the nervous system. Neural networks. Supervised and unsupervised learning. Basics of statistical learning theory.",
+    "instructor": "Susanne Still\nsstill@hawaii.edu",
+    "policies": "none",
+    "prerequisites": "311 or consent. Recommended: MATH 307.",
+    "schedule": "15 week syllabus, two lectures per week = 30 Lectures.\n\nLecture 1: Introductory Lecture: Introduction to machine learning and computational neuroscience.\n\nLecture 2-3: Basic maths skills: review of important mathematical methods, such as differential equations, linear algebra, calculus of variations, probability theory - specifics depend on student needs.\n\nLecture 4-5: Basic neuroscience:\n– Neurons, Synapses.\n– Information processing and adaptation in the nervous system. \n\nLecture 6-8: From real neurons to artificial neurons:\n– Realistic biophysical model: Hodgkin-Huxley model. \n– Simplifications:\n∗ Morris-Leccar model.\n∗ Integrate-and-fire model \n∗ Threshold units.\n\nLecture 9-10: Mathematical models of learning: \n– Hebbian learning.\n– Spike-timing dependent plasticity.\n\nLecture 11: From biophysics to machine learning algorithms: the Perceptron algorithm - theory and implementation.\n\nLecture 12-15: Feed-forward artificial neural networks:\n– Theory and implementation.\n– Selected applications to contemporary problems. Subject areas are listed below - specifics are adjusted to student interests.\n\nLecture 16-20: Support Vector Machines (SVMs):\n– Introduction to support vector learning.\n– Selected applications of SVMs. Subject areas are listed below - specifics are adjusted to student interests.\n\nLecture 21-25: Recurrent Neural networks:\n– Hopfield network.\n– Simple recurrent networks.\n– Selected applications of recurrent networks, including associative memory and content-addressable memory (CAM).\n\nLecture 26-30: Unsupervised learning:\n– Undergraduate level introduction to cluster analysis: concepts and different types of clustering algorithms.\n– K-means and vector quantization.\n– Applications: image segmentation, data mining, and other areas (see below) - specifics are adjusted to student interests.\n\nApplication subject areas include: robotics, computer vision, speech recognition, time series analysis, renewable energies, mathematical finance, geophysics, medical imaging, and bioinformatics. Students are allowed to add subjects.",
+    "textbooks": "none",
+    "title": "Machine Learning Fundamentals"
+  },
+  {
+    "alphaNumber": "ICS 464",
+    "courseLearningOutcomes": "- Understand the basic principles of human-computer interaction.\n- Be knowledgeable about the basic human information processing systems of perception, cognition, and action.\n- Be knowledgeable about how attention, affect, and environment influence human behavior.\n- Understand how to discover and describe the characteristics of diverse users of information systems.\n- Understand and have experience applying several interaction design principles.\n- Understand and have experience using several user evaluation techniques. \n- Understand how interaction design fits into the iterative development process.\n- Be familiar with interaction designers’ tools and work practices, including needs and requirements gathering, iterative prototyping, user testing, field studies, and both oral and written design presentation.",
+    "creditHours": 3,
+    "description": "Application of concepts and methodologies of human factors, psychology and software engineering to address ergonomic, cognitive, and social factors in the design and evaluation of human-computer systems.",
+    "grading": "Participation: 15%\n2 exams: 15% each\nProject: 55%\n\t\nGrade Calculation: \n >89=A, 80-89=B, 70-79=C, 60-69=D, <60=F \nPlus and minus are part of the final grade.\nAll work must be completed to receive a grade in the course.",
+    "instructor": "Scott Robertson\nscottpr@hawaii.edu",
+    "learningOutcomes": [
+      "c",
+      "d",
+      "e",
+      "f",
+      "g",
+      "h",
+      "i",
+      "k",
+      "l",
+      "m",
+      "n"
+    ],
+    "objectives": "- Understand the basic principles of human-computer interaction.\n- Be knowledgeable about the basic human information processing systems of perception, cognition, and action.\n- Be knowledgeable about how attention, affect, and environment influence human behavior.\n- Understand how to discover and describe the characteristics of diverse users of information systems.\n- Understand and have experience applying several interaction design principles.\n- Understand and have experience using several user evaluation techniques. \n- Understand how interaction design fits into the iterative development process.\n- Be familiar with interaction designers’ tools and work practices, including needs and requirements gathering, iterative prototyping, user testing, field studies, and both oral and written design presentation.",
+    "policies": "Activities\nEach week we will have a lecture on Monday and an interactive seminar session on Wednesday. In the seminar session we will discuss:\n•\tChapter readings for the week\n•\tAny articles assigned for the week\n•\tProject ideas and progress\nThe Wednesday interactive seminar is your opportunity to participate in discussion and earn points for the participation requirement.\n\nProject\nThe course project will involve designing an interactive application based on user requirements. In the first couple of weeks we will form groups (3-4 people each) and pick interesting and challenging topics. In the next couple of weeks the groups will plan goals and a schedule for: A user study? Fieldwork observations? A survey? A prototype with iterations? A requirements document? Etc. This will all make sense as the course evolves.\nThe final output of the group projects will be:\n•\tPeriodic progress reports on seminar days throughout the semester.\n•\tA presentation in the second-to-last week\n•\tA poster at a design showcase\n•\tA final report summarizing what the group did (due during finals week).",
+    "prerequisites": "two ICS 300-level courses or consent.",
+    "schedule": "Week 1: What is Interaction Design?\nWeek 2: Understanding and Conceptualizing Interaction\nWeek 3: Understanding Users\nWeek 4: Collaboration and Communication\nWeek 5: Affect\nWeek 6: Exam 1 (RSP 1-5, DOET 1-3, ED 1-3)\nWeek 6: Interfaces and Interactions\nWeek 7: Project ideas\nWeek 8: Data Gathering\nWeek 9: Data Analysis and Presentation\nWeek 10: Process of Interaction Design\nWeek 11: Exam 2 (RSP 6-8, DOET 4-6, ED 5)\nWeek 11: Project progress\nWeek 12: Identifying Needs and Requirements\nWeek 13: Design, Prototyping\nWeek 14: Evaluation\nWeek 15: Usability Testing and Fieldwork\nWeek 16: Analytical Evaluation\nPresentations\nPresentations",
+    "textbooks": "Sharp, H., Rogers, Y, & Preece, J. (2011). Interaction Design: Beyond Human-Computer Interaction. Second Edition. John Wiley & Sons. \n\nNorman, D. (2013). The design of everyday things. Revised and expanded edition. Basic Books.\n\nNorman, D. (2004). Emotional design. Basic Books.",
+    "title": "Human Computer Interaction I"
   }
 ];
 
