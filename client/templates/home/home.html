@@ -6,9 +6,9 @@
         <div class="form-group">
           <select name="syllabusChooser" id="syllabusChooser" class="form-control">
             <option value="0">(Select a syllabus to edit)</option>
-            {{ #each syllabusSelectors }}
+            {{#each syllabusSelectors }}
             <option value="{{ value }}">{{ label }}</option>
-            {{ /each }}
+            {{/each }}
           </select>
         </div>
         <button type="submit" id="syllabusChooserButton" class="btn btn-default">Edit</button>
@@ -55,16 +55,16 @@
 
       {{/autoForm}}
     </div>
-    {{ /if }}
+    {{/if }}
   </div>
 
   <div class="well" style="padding: 0; max-height: 100px; overflow-y: auto">
     <ul>
-      {{ #each editStatusList }}
+      {{#each editStatusList }}
       <li>Started editing {{ syllabusName }} {{ editTimestamp }}  {{ #if editFinished}} ... finished. {{ /if }} </li>
-      {{ /each }}
+      {{/each }}
     </ul>
   </div>
 
-  {{ /if }}
+  {{/if }}
 </template>
