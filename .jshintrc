@@ -143,7 +143,12 @@
     "EditStatus"  : true,
     "Syllabuses"  : true,
     "ICSLearningOutcomes": true,
-    "AppController" : true
+    "AppController" : true,
+    "ExportJsonController" : true,
+    "ExportMarkdownController" : true,
+    "ZipZap" : true,
+    "JsonZip" : true,
+    "SyllabusZip" : true
 
   }
 }

@@ -1075,7 +1075,7 @@ if (Syllabuses.find().count() === 0) {
 if (Syllabuses.find({alphaNumber: "ICS 469"}).count() === 0) {
   console.log("inserting ICS 469");
   Syllabuses.insert({alphaNumber: "ICS 469", title: "Cognitive Science", instructor: "Martha Crosby"});
-};
+}
 
 
 var users=[

@@ -1,8 +1,5 @@
 Next steps:
-* Use methods, not allow/deny
-* Backup
-* Add 469
-* Redeploy
+* Zip file of md files.
 
 
 * Nice to have
@@ -16,6 +13,8 @@ To redeploy:
   meteor deploy test.meteor.com --delete
   meteor deploy test.meteor.com
 
-
+Zip files:
+https://github.com/udondan/meteor-jszip
+https://github.com/udondan/meteor-zipzap/
 
 
