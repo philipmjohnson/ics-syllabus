@@ -7,15 +7,14 @@ Meteor.methods({
   }
 });
 
+// Publish/subscribe to the entire Collection
 if (Meteor.isServer) {
-  // This code only runs on the server
   Meteor.publish("syllabuses", function () {
     return Syllabuses.find();
   });
 }
 
 if (Meteor.isClient) {
-  // This code only runs on the client
   Meteor.subscribe("syllabuses");
 }
 

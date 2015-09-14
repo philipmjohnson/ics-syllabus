@@ -20,15 +20,13 @@ Meteor.methods({
   }
 });
 
-
+// Publish/subscribe to the entire Collection
 if (Meteor.isServer) {
-  // This code only runs on the server
   Meteor.publish("editStatus", function () {
     return EditStatus.find();
   });
 }
 
 if (Meteor.isClient) {
-  // This code only runs on the client
   Meteor.subscribe("editStatus");
 }
