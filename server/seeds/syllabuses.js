@@ -457,7 +457,7 @@ var defaultSyllabuses = [
     "alphaNumber": "ICS 111",
     "courseLearningOutcomes": "* Be able to deconstruct problems to develop algorithms and eventually program code.\n* Be able to develop simple data structures in object oriented form.\n* Be able to develop running software that involves the reading of data, storage of data, and depiction of data using graphics, sound and interactivity.\n* Be able to present their work to an audience.",
     "creditHours": 4,
-    "description": "An overview of the fundamentals of computer science emphasizing problem solving, algorithm development, implementation, and debugging/testing using an object­-oriented programming language.",
+    "description": "An overview of the fundamentals of computer science emphasizing problem solving, algorithm development, implementation, and debugging/testing using an object-oriented programming language.",
     "grading": "Competency Quizzes: (38% of grade)\nFinal: (5% of grade)\nProjects: (30% of grade)\nLab Assignments: (27% of grade)",
     "instructor": "Jason Leigh",
     "learningOutcomes": [
@@ -1079,7 +1079,7 @@ if (Syllabuses.find({alphaNumber: "ICS 469"}).count() === 0) {
 
 
 var users=[
-  {email: "icsinfo@hawaii.edu", username: "ics", name: "ICS", roles:['admin']}
+  {email: Meteor.settings.email, username: Meteor.settings.username, password: Meteor.settings.password, roles:['admin']}
 ];
 
 if (Meteor.users.find().count() === 0) {
@@ -1087,8 +1087,8 @@ if (Meteor.users.find().count() === 0) {
     Accounts.createUser({
       email: user.email,
       username: user.username,
-      password: "knuth",
-      profile: {name: user.name},
+      password: user.password,
+      profile: {name: user.username},
       roles: user.roles
     });
   });
