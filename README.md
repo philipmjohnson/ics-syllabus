@@ -2,15 +2,15 @@
 
 To use, retrieve the following page from http://icssyllabusmanager.meteor.com/
 
-![](https://raw.githubusercontent.com/philipmjohnson/ics-syllabus/master/public/documentation/home-page.png)
+![](https://raw.githubusercontent.com/uhm-ics/ics-syllabus/master/public/documentation/home-page.png)
 
 Click the "Sign in" button to obtain the login screen:
 
-![](https://raw.githubusercontent.com/philipmjohnson/ics-syllabus/master/public/documentation/login-screen.png)
+![](https://raw.githubusercontent.com/uhm-ics/ics-syllabus/master/public/documentation/login-screen.png)
 
 Login with the credentials that you have been supplied with, which will bring you to this screen:
 
-![](https://raw.githubusercontent.com/philipmjohnson/ics-syllabus/master/public/documentation/after-login.png)
+![](https://raw.githubusercontent.com/uhm-ics/ics-syllabus/master/public/documentation/after-login.png)
 
 This screen has the following features:
 
@@ -26,13 +26,13 @@ This screen has the following features:
 
 Clicking on the pull-down menu displays a list of all syllabuses available for editing:
 
-![](https://raw.githubusercontent.com/philipmjohnson/ics-syllabus/master/public/documentation/pulldown-menu.png)
+![](https://raw.githubusercontent.com/uhm-ics/ics-syllabus/master/public/documentation/pulldown-menu.png)
 
 At this time, only undergraduate courses are available.  If an undergrad course is missing, contact Philip and he will add it.
 
 If you select ICS 313 and press the "Edit" button, the following page will appear:
 
-![](https://raw.githubusercontent.com/philipmjohnson/ics-syllabus/master/public/documentation/edit-syllabus.png)
+![](https://raw.githubusercontent.com/uhm-ics/ics-syllabus/master/public/documentation/edit-syllabus.png)
 
 Some things to note:
 
@@ -44,7 +44,7 @@ Some things to note:
 
 After finishing your edits, you must press the "Save" button to save them to the database.  When you do that, the form disappears and the page displays something like this:
 
-![](https://raw.githubusercontent.com/philipmjohnson/ics-syllabus/master/public/documentation/finished-editing.png)
+![](https://raw.githubusercontent.com/uhm-ics/ics-syllabus/master/public/documentation/finished-editing.png)
 
 As you can see, the footer window now shows that you have finished editing the ICS 313 syllabus.
 
@@ -54,7 +54,7 @@ The ICS Syllabus Manager currently allows syllabus data to be exported in two fo
 
 Pulling down the "Export" menu from the navbar and selecting JSON retrieves a page containing the current database contents in JSON format:
 
-![](https://raw.githubusercontent.com/philipmjohnson/ics-syllabus/master/public/documentation/export-json.png)
+![](https://raw.githubusercontent.com/uhm-ics/ics-syllabus/master/public/documentation/export-json.png)
 
 You can click inside the textarea, press control-a to select the entire contents, control-c to copy, and then paste this data into another file using an editor of your choice.
 
@@ -64,7 +64,7 @@ JSON format is convenient if you wish to perform post-processing on the Syllabus
 
 The second supported export format is markdown.  Select the markdown item in the Export navbar menu to retrieve this page:
 
-![](https://raw.githubusercontent.com/philipmjohnson/ics-syllabus/master/public/documentation/export-markdown.png)
+![](https://raw.githubusercontent.com/uhm-ics/ics-syllabus/master/public/documentation/export-markdown.png)
 
 ## About concurrent access
 
