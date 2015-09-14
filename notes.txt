@@ -1,20 +1,9 @@
 Next steps:
-* Zip file of md files.
-
-
-* Nice to have
 - UH CAS authentication.
-
-User account options:
-https://github.com/meteor-useraccounts/core/blob/master/Guide.md#options
 
 Deploy:
 To redeploy:
   meteor deploy test.meteor.com --delete
   meteor deploy test.meteor.com
-
-Zip files:
-https://github.com/udondan/meteor-jszip
-https://github.com/udondan/meteor-zipzap/
 
 
