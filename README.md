@@ -149,6 +149,12 @@ This is a project-based course. Students split into teams to design, implement, 
 Readings are primarily technical reference documentation and depend upon the project chosen by the group and its technology stack.  In general, students will need to read 20-30 pages of technical documentation per week on average.
 </blockquote>
 
+## Code walkthrough
+
+I've created a 10 minute screencast with a quick overview of the code: click below to watch it:
+
+[![](https://raw.githubusercontent.com/uhm-ics/ics-syllabus/master/public/documentation/ics-syllabus-youtube.png)](https://www.youtube.com/watch?v=f-jkGhX8g98)
+
 
 
 
