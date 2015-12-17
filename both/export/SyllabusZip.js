@@ -2,7 +2,7 @@
 
 SyllabusZip = function() {
 
-  var dir = "syllabus";
+  var dir = "syllabuses";
   var zip = new ZipZap();
 
   /**
@@ -42,6 +42,8 @@ SyllabusZip = function() {
   /** Create the index.md file with links to all syllabus files. */
   var makeIndex = function () {
     var contents = "---\nlayout: default\ntitle: Syllabuses\ntopdiv: container\n---\n\n# ICS Syllabuses\n";
+
+    contents += "\nThe following links provide a high-level outline of our undergraduate courses in conformance with the [UHM College of Natural Sciences syllabus format](http://www.hawaii.edu/natsci/pcc/justification2.pdf). Instructors of our courses, while conforming to this high-level syllabus, may further tailor the material according to the needs and/or interests of the students enrolled in a given semester.\n\n";
 
     _.each(allSyllabuses, function(syllabus) {
       contents += "\n  * [" + syllabus.alphaNumber + ": " + syllabus.title + "](" + syllabus.alphaNumber.replace(/\s+/g, '') + ".html)";
